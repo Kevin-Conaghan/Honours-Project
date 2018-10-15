@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ProcGenCity.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{63E32B0D-7DDD-4803-AB4F-95C230AF6002}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProcGenCity.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProcGenCityEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{341C839C-2358-4D58-961C-E79169044ED1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProcGenCity">
+			<UniqueIdentifier>{1A49EC48-203A-46BE-81B3-E204608F9617}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProcGenCity\ProcGenCity.Build.cs">
+			<Filter>Source\ProcGenCity</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProcGenCity\ProcGenCity.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\ProcGenCity.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\SplineNetwork.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\SplineNetwork.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
