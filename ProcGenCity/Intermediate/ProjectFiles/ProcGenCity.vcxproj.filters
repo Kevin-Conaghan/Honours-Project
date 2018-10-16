@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ProcGenCity.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{63E32B0D-7DDD-4803-AB4F-95C230AF6002}</UniqueIdentifier>
+			<UniqueIdentifier>{6AA1C419-D385-4EE6-82D6-0AB89514A53A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ProcGenCity.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{341C839C-2358-4D58-961C-E79169044ED1}</UniqueIdentifier>
+			<UniqueIdentifier>{07DD06FA-7CF4-4222-8B8B-3E4C1D4FEA7A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ProcGenCity">
-			<UniqueIdentifier>{1A49EC48-203A-46BE-81B3-E204608F9617}</UniqueIdentifier>
+			<UniqueIdentifier>{C0360AB1-4890-4D29-A9D0-5ED0BCB49AF0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ProcGenCity\ProcGenCity.Build.cs">
 			<Filter>Source\ProcGenCity</Filter>
