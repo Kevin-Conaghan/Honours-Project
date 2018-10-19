@@ -22,24 +22,28 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual void OnConstruction(const FTransform& Transform) override;
 
 
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	virtual void OnConstruction(const FTransform& Transform) override;
+	void CreateSplineMesh();
+	void AddSpline(FVector locStart, FVector locEnd, FVector tanStart, FVector tanEnd, float numSplinePoints);
 
 
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spline")
+	UPROPERTY()
 		USplineComponent* mySplineComponent;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Scene")
+	UPROPERTY()
 		USceneComponent* mySceneComponent;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Scene")
-		USplineMeshComponent* mySplineMeshComponent;
+	UPROPERTY(EditAnywhere,  Category = "Mesh")
+		UStaticMesh* myMeshComponent;
+
+
+
 
 	float numSplinePoints;
 	float splineCount;
