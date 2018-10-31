@@ -403,6 +403,10 @@
 /I C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Inc\ProcGenCity
 /I C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Source
 /I C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"

@@ -1,13 +1,96 @@
 ﻿  Cleaning ProcGenCityEditor Binaries...
-UnrealBuildTool : error : Unable to clean target while hot-reloading. Close the editor and try again.
-                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-  Performing full C++ include scan (hot reloading a new target)
   Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading ProcGenCityEditor (no existing makefile)
-  Compiling game modules for hot reload
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for ProcGenCityEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for ProcGenCityEditor
     Running UnrealHeaderTool "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-C:/Users/Grizz/Documents/GitHub/Honours-Project/ProcGenCity/Source/ProcGenCity/SplineNetwork.h(8): error : #include found after .generated.h file - the .generated.h file should always be the last #include in a header
-EXEC : error : UnrealHeaderTool failed for target 'ProcGenCityEditor' (platform: Win64, module info: C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" ProcGenCityEditor Win64 Development "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+  Reflection code generated for ProcGenCityEditor in 10.4661604 seconds
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-1045.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-1045.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-1751.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-1751.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-1930.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-1930.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-219.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-219.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2597.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2597.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2846.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2846.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2949.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2949.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-313.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-313.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-3424.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-3424.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-343.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-343.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-3535.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-3535.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-363.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-363.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4030.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4030.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-405.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-405.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4119.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4119.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4120.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4120.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4454.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4454.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4572.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4572.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4935.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4935.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-612.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-612.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-6532.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-6532.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-6757.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-6757.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-6849.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-6849.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-7113.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-7113.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-7549.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-7549.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8044.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8044.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8130.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8130.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8468.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8468.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8483.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8483.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-851.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-851.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8889.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8889.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8964.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-8964.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9139.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9139.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9204.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9204.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9916.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9916.pdb".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9995.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-9995.pdb".
+  Building 10 actions with 8 processes...
+    [1/10] PCLaunch.rc
+    [2/10] SharedPCH.Engine.cpp
+    [3/10] ProcGenCity.cpp
+    [4/10] ProcGenCity.init.gen.cpp
+    [5/10] SplineNetwork.cpp
+    [6/10] MyProcMesh.cpp
+    [7/10] SplineNetwork.gen.cpp
+    [8/10] MyProcMesh.gen.cpp
+    [9/10] UE4Editor-ProcGenCity.lib
+       Creating library C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.lib and object C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.exp
+    [10/10] UE4Editor-ProcGenCity.dll
+       Creating library C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.lib and object C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.exp
+  Deploying ProcGenCityEditor Win64 Development...
+  Total build time: 165.97 seconds (Parallel executor: 64.66 seconds)

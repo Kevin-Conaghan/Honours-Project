@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ProcGenCity.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{6AA1C419-D385-4EE6-82D6-0AB89514A53A}</UniqueIdentifier>
+			<UniqueIdentifier>{5FF48208-B772-4632-AB76-8233EFFD0899}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ProcGenCity.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{07DD06FA-7CF4-4222-8B8B-3E4C1D4FEA7A}</UniqueIdentifier>
+			<UniqueIdentifier>{E64642F7-204F-4E5F-9E63-5AE8D0E606AB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,8 +25,20 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ProcGenCity">
-			<UniqueIdentifier>{C0360AB1-4890-4D29-A9D0-5ED0BCB49AF0}</UniqueIdentifier>
+			<UniqueIdentifier>{801678C0-66C5-4419-825B-6EBED83BDD63}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\ProcGenCity\LotDesigner.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\LotDesigner.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\MyProcMesh.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\MyProcMesh.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\ProcGenCity\ProcGenCity.Build.cs">
 			<Filter>Source\ProcGenCity</Filter>
 		</None >

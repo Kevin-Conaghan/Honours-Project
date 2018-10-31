@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeProcGenCity_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ProcGenCity",
 				PKG_CompiledIn | 0x00000000,
-				0x62FE1EB5,
-				0x6BFF5BA8,
+				0xCF97EFEF,
+				0x49DA914B,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
