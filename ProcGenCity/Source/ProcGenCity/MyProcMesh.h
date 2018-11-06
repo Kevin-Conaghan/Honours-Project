@@ -19,6 +19,9 @@ public:
 	// Sets default values for this actor's properties
 	AMyProcMesh();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vertices")
+		TArray<FVector> vertEdit;
+
 	UPROPERTY()
 		TArray<FVector> vertices;
 	UPROPERTY()
@@ -33,6 +36,7 @@ public:
 		TArray<FProcMeshTangent> tangents;
 
 	virtual void OnConstruction(const FTransform& Transform) override;
+	virtual void Tick(float DeltaTime) override;
 
 	void AddTriangles(int32 V1, int32 V2, int32 V3);
 

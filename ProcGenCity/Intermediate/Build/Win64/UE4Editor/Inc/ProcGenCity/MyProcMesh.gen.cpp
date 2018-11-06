@@ -67,6 +67,11 @@ void EmptyLinkFunctionForGeneratedCodeMyProcMesh() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_vertices;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_vertices_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_vertEdit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_vertEdit;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_vertEdit_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_myProcMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_myProcMesh;
@@ -127,6 +132,14 @@ void EmptyLinkFunctionForGeneratedCodeMyProcMesh() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertices = { UE4CodeGen_Private::EPropertyClass::Array, "vertices", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000000, 1, nullptr, STRUCT_OFFSET(AMyProcMesh, vertices), METADATA_PARAMS(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertices_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertices_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertices_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "vertices", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit_MetaData[] = {
+		{ "Category", "Vertices" },
+		{ "ModuleRelativePath", "MyProcMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit = { UE4CodeGen_Private::EPropertyClass::Array, "vertEdit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AMyProcMesh, vertEdit), METADATA_PARAMS(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "vertEdit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProcMesh_Statics::NewProp_myProcMesh_MetaData[] = {
 		{ "Category", "MyProcMesh" },
 		{ "EditInline", "true" },
@@ -147,6 +160,8 @@ void EmptyLinkFunctionForGeneratedCodeMyProcMesh() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProcMesh_Statics::NewProp_normals_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertices,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertices_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProcMesh_Statics::NewProp_myProcMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyProcMesh_Statics::StaticCppClassTypeInfo = {
@@ -172,7 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProcMesh() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyProcMesh, 3482206177);
+	IMPLEMENT_CLASS(AMyProcMesh, 3502428380);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyProcMesh(Z_Construct_UClass_AMyProcMesh, &AMyProcMesh::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("AMyProcMesh"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyProcMesh);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -10,7 +10,6 @@ ALotDesigner::ALotDesigner()
 	PrimaryActorTick.bCanEverTick = true;
 	myMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
 
-
 	pointCount = 0;
 	plotpoints.Add(this);
 }
@@ -19,25 +18,21 @@ ALotDesigner::ALotDesigner()
 void ALotDesigner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-
-
 }
 
 void ALotDesigner::OnConstruction(const FTransform & Transform)
 {
-
 	for (TActorIterator<ALotDesigner> ObstIterator(GetWorld()); ObstIterator; ++ObstIterator)
 	{
 		class ALotDesigner* foundPoint = *ObstIterator;
 
 		if (foundPoint != nullptr)
 		{
-			plotpoints.Add(foundPoint);
 			FColor red = FColor::Red;
 
 			if (plotpoints.Num() == 2)
 			{
+				plotpoints.Add(foundPoint);
 				FVector start = this->GetActorLocation();
 				FVector end = foundPoint->GetActorLocation();
 				distances[pointCount] = start - end;
