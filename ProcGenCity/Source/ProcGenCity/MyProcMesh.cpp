@@ -87,8 +87,9 @@ void AMyProcMesh::DrawMesh()
 	//if there is more than one distance in the array add the rest of the vertices to create mesh
 	if (distances.Max() >= 2)
 	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("hey"));
 		//get the length and breadth from the distances 
-		xVert = -distances[0].X;
+		xVert = distances[0].X;
 		yVert = -distances[1].Y;
 
 		//set vertices
@@ -135,7 +136,7 @@ void AMyProcMesh::DrawMesh()
 	{
 		if (plots.Max() != 0)
 		{
-			this->SetActorLocation(FVector(plots[0]->GetActorLocation().X , plots[0]->GetActorLocation().Y, 141.0f));
+			this->SetActorLocation(FVector(plots[1]->GetActorLocation().X , plots[1]->GetActorLocation().Y, 141.0f));
 		}
 	}
 }
