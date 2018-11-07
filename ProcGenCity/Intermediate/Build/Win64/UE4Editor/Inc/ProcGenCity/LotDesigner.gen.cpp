@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 	PROCGENCITY_API UClass* Z_Construct_UClass_ALotDesigner();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ALotDesigner::StaticRegisterNativesALotDesigner()
@@ -34,14 +33,14 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_distances_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_distances;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_distances_Inner;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_myMeshComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_myMeshComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isSearching_MetaData[];
+#endif
+		static void NewProp_isSearching_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isSearching;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -57,14 +56,6 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALotDesigner_Statics::NewProp_distances_MetaData[] = {
-		{ "Category", "Distances" },
-		{ "ModuleRelativePath", "LotDesigner.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ALotDesigner_Statics::NewProp_distances = { UE4CodeGen_Private::EPropertyClass::Array, "distances", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ALotDesigner, distances), METADATA_PARAMS(Z_Construct_UClass_ALotDesigner_Statics::NewProp_distances_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALotDesigner_Statics::NewProp_distances_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ALotDesigner_Statics::NewProp_distances_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "distances", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALotDesigner_Statics::NewProp_myMeshComponent_MetaData[] = {
 		{ "Category", "LotDesigner" },
 		{ "EditInline", "true" },
@@ -72,10 +63,20 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALotDesigner_Statics::NewProp_myMeshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "myMeshComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(ALotDesigner, myMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALotDesigner_Statics::NewProp_myMeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALotDesigner_Statics::NewProp_myMeshComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_MetaData[] = {
+		{ "Category", "Find Landmarks" },
+		{ "ModuleRelativePath", "LotDesigner.h" },
+	};
+#endif
+	void Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_SetBit(void* Obj)
+	{
+		((ALotDesigner*)Obj)->isSearching = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching = { UE4CodeGen_Private::EPropertyClass::Bool, "isSearching", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ALotDesigner), &Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_SetBit, METADATA_PARAMS(Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALotDesigner_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALotDesigner_Statics::NewProp_distances,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALotDesigner_Statics::NewProp_distances_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALotDesigner_Statics::NewProp_myMeshComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALotDesigner_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALotDesigner>::IsAbstract,
@@ -100,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALotDesigner, 4267207174);
+	IMPLEMENT_CLASS(ALotDesigner, 165483850);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALotDesigner(Z_Construct_UClass_ALotDesigner, &ALotDesigner::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ALotDesigner"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALotDesigner);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

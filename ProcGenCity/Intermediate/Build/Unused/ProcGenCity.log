@@ -1,27 +1,27 @@
 ﻿  Cleaning ProcGenCityEditor Binaries...
   Using 'git status' to determine working set for adaptive non-unity build.
   Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for ProcGenCityEditor (no existing makefile)
+  Creating makefile for hot reloading ProcGenCityEditor (no existing makefile)
+  Compiling game modules for hot reload
   Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for ProcGenCityEditor
     Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProcGenCityEditor in 14.2458469 seconds
-  Deleting old hot reload file: "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2548.dll".
+  Reflection code generated for ProcGenCityEditor in 14.6315324 seconds
   Building 12 actions with 8 processes...
     [1/12] PCLaunch.rc
     [2/12] SharedPCH.Engine.cpp
     [3/12] ProcGenCity.cpp
     [4/12] ProcGenCity.init.gen.cpp
     [5/12] SplineNetwork.cpp
-    [6/12] MyProcMesh.cpp
-    [7/12] SplineNetwork.gen.cpp
-    [8/12] MyProcMesh.gen.cpp
-    [9/12] LotDesigner.gen.cpp
-    [10/12] LotDesigner.cpp
-    [11/12] UE4Editor-ProcGenCity.lib
-       Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.exp
-    [12/12] UE4Editor-ProcGenCity.dll
-       Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.exp
+    [6/12] SplineNetwork.gen.cpp
+    [7/12] LotDesigner.gen.cpp
+    [8/12] LotDesigner.cpp
+    [9/12] MyProcMesh.gen.cpp
+    [10/12] MyProcMesh.cpp
+    [11/12] UE4Editor-ProcGenCity-3185.lib
+       Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3185.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3185.exp
+    [12/12] UE4Editor-ProcGenCity-3185.dll
+       Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3185.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3185.suppressed.exp
   Deploying ProcGenCityEditor Win64 Development...
-  Total build time: 61.95 seconds (Parallel executor: 32.08 seconds)
+  Total build time: 62.34 seconds (Parallel executor: 35.45 seconds)

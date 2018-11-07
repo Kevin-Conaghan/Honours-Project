@@ -12,6 +12,8 @@ ALotDesigner::ALotDesigner()
 
 	pointCount = 0;
 	plotpoints.Add(this);
+	plotLocations.Add(this->GetActorLocation());
+	isSearching = false;
 }
 
 // Called every frame
@@ -20,45 +22,25 @@ void ALotDesigner::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
+TArray<FVector> ALotDesigner::GetPlotLocations()
+{
+	return plotLocations;
+}
+
 void ALotDesigner::OnConstruction(const FTransform & Transform)
 {
-	for (TActorIterator<ALotDesigner> ObstIterator(GetWorld()); ObstIterator; ++ObstIterator)
+	if (isSearching)
 	{
-		class ALotDesigner* foundPoint = *ObstIterator;
-
-		if (foundPoint != nullptr)
+		for (TActorIterator<ALotDesigner> ObstIterator(GetWorld()); ObstIterator; ++ObstIterator)
 		{
-			FColor red = FColor::Red;
+			class ALotDesigner* foundPoint = *ObstIterator;
 
-			if (plotpoints.Num() == 2)
+			if (foundPoint != nullptr)
 			{
-				plotpoints.Add(foundPoint);
-				FVector start = this->GetActorLocation();
-				FVector end = foundPoint->GetActorLocation();
-				distances[pointCount] = start - end;
-			}
-			else if (plotpoints.Num() > 2)
-			{
-				class ALotDesigner* pointOne = plotpoints[pointCount];
-
-				FVector start = pointOne->GetActorLocation();
-				FVector end = foundPoint->GetActorLocation();
-				plotpoints.Add(foundPoint);
-
-				distances[pointCount] = start - end;
+				plotLocations.Add(foundPoint->GetActorLocation());
+				DrawDebugLine(GetWorld(), this->GetActorLocation(), foundPoint->GetActorLocation(), FColor::Red, true, 100.0f, (uint8)'\100', 5.0f);
 			}
 		}
-		pointCount++;
-	}
-
-	if (distances.Num() == 2)
-	{
-		FVector length = distances[0] / 2;
-		FVector breadth = distances[1] / 2;
-		FVector centrePoint = length + breadth;
-
-		DrawDebugBox(GetWorld(), centrePoint, FVector(200, 200, 200), FColor::Red, true, 10.0f);
-		pointCount = 0;
 	}
 }
 

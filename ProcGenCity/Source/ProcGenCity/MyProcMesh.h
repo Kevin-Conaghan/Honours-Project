@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "ProceduralMeshComponent.h"
+#include "LotDesigner.h"
 #include "MyProcMesh.generated.h"
 
 UCLASS()
@@ -15,12 +16,23 @@ class PROCGENCITY_API AMyProcMesh : public AActor
 	UPROPERTY(VisibleAnywhere, Category = "MyProcMesh")
 		UProceduralMeshComponent* myProcMesh;
 
+	void CallTriangles();
+	void DefaultMesh();
+	void CalculateDistances();
+	void DrawMesh();
+
 public:	
 	// Sets default values for this actor's properties
 	AMyProcMesh();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vertices")
 		TArray<FVector> vertEdit;
+
+	UPROPERTY()
+		TArray<FVector> distances;
+
+	UPROPERTY()
+		TArray<FVector> plotVerts;
 
 	UPROPERTY()
 		TArray<FVector> vertices;
@@ -35,13 +47,19 @@ public:
 	UPROPERTY()
 		TArray<FProcMeshTangent> tangents;
 
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		float xVert;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		float yVert;
+	UPROPERTY(EditAnywhere, Category = "Values")
+		float height;
+
+	TArray<ALotDesigner*> plots;
+
+	ALotDesigner* foundPointEnd;
+
 	virtual void OnConstruction(const FTransform& Transform) override;
-	virtual void Tick(float DeltaTime) override;
 
 	void AddTriangles(int32 V1, int32 V2, int32 V3);
-
-
-
 	void ClearMeshData();
-
 };

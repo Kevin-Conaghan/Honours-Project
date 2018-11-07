@@ -8,6 +8,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "DrawDebugHelpers.h"
 #include "EngineUtils.h"
+#include "EngineGlobals.h"
+#include "Engine/Engine.h"
 #include "LotDesigner.generated.h"
 
 UCLASS()
@@ -26,15 +28,17 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, Category = "Find Landmarks")
+		bool isSearching;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* myMeshComponent;
-
-	UPROPERTY(VisibleAnywhere, Category = "Distances")
-	TArray<FVector>distances;
-
 	
 	TArray<ALotDesigner*> plotpoints;
+	TArray<FVector>plotLocations;
+	
+	TArray<FVector> GetPlotLocations();
 
 	bool pointCount;
 	virtual void OnConstruction(const FTransform& Transform) override;

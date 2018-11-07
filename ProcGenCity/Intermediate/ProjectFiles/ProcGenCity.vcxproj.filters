@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ProcGenCity.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{554B20B2-5445-4281-A96A-B8F99EC8691C}</UniqueIdentifier>
+			<UniqueIdentifier>{6B57D0B4-158C-40CA-BAE9-5088FB2D0C38}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ProcGenCity.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8B7DB387-3367-4208-82CC-56D61CFD7AFC}</UniqueIdentifier>
+			<UniqueIdentifier>{6582CC2C-2422-4F5D-9E0D-C7734E0742DB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ProcGenCity">
-			<UniqueIdentifier>{8056267B-C642-43E4-8921-435D0BD9BE78}</UniqueIdentifier>
+			<UniqueIdentifier>{AA3CB153-EB90-4459-881A-070753DD22B8}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\ProcGenCity\LotDesigner.cpp">
 			<Filter>Source\ProcGenCity</Filter>
