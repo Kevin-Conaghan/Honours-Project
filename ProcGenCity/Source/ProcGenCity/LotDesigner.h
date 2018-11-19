@@ -42,4 +42,5 @@ public:
 
 	bool pointCount;
 	virtual void OnConstruction(const FTransform& Transform) override;
+
 };

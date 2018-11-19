@@ -183,11 +183,12 @@ void EmptyLinkFunctionForGeneratedCodeMyProcMesh() {}
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_plotVerts_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "plotVerts", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances_MetaData[] = {
+		{ "Category", "Values" },
 		{ "ModuleRelativePath", "MyProcMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances = { UE4CodeGen_Private::EPropertyClass::Array, "distances", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000000, 1, nullptr, STRUCT_OFFSET(AMyProcMesh, distances), METADATA_PARAMS(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "distances", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances = { UE4CodeGen_Private::EPropertyClass::Array, "distances", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AMyProcMesh, distances), METADATA_PARAMS(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProcMesh_Statics::NewProp_distances_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "distances", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProcMesh_Statics::NewProp_vertEdit_MetaData[] = {
 		{ "Category", "Vertices" },
@@ -251,7 +252,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProcMesh() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyProcMesh, 3569448059);
+	IMPLEMENT_CLASS(AMyProcMesh, 1391366522);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyProcMesh(Z_Construct_UClass_AMyProcMesh, &AMyProcMesh::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("AMyProcMesh"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyProcMesh);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

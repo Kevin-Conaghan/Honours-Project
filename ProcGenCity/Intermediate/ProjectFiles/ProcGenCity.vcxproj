@@ -419,6 +419,8 @@
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<ClCompile Include="..\..\Source\ProcGenCity\LotDesigner.cpp" />
 		<ClInclude Include="..\..\Source\ProcGenCity\LotDesigner.h" />
+		<ClCompile Include="..\..\Source\ProcGenCity\LotPlacement.cpp" />
+		<ClInclude Include="..\..\Source\ProcGenCity\LotPlacement.h" />
 		<ClCompile Include="..\..\Source\ProcGenCity\MyProcMesh.cpp" />
 		<ClInclude Include="..\..\Source\ProcGenCity\MyProcMesh.h" />
 		<None Include="..\..\Source\ProcGenCity\ProcGenCity.Build.cs" />

@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "LotDesigner.h"
+#include "Components/StaticMeshComponent.h"
+#include "ConstructorHelpers.h"
 
 
 // Sets default values
@@ -9,6 +11,9 @@ ALotDesigner::ALotDesigner()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	myMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
+
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> meshObj(TEXT("/Game/StarterContent/Shapes/Shape_Cone"));
+	myMeshComponent->SetStaticMesh(meshObj.Object);
 
 	pointCount = 0;
 	plotpoints.Add(this);
@@ -38,9 +43,8 @@ void ALotDesigner::OnConstruction(const FTransform & Transform)
 			if (foundPoint != nullptr)
 			{
 				plotLocations.Add(foundPoint->GetActorLocation());
-				DrawDebugLine(GetWorld(), this->GetActorLocation(), foundPoint->GetActorLocation(), FColor::Red, true, 100.0f, (uint8)'\100', 5.0f);
+				DrawDebugLine(GetWorld(), this->GetActorLocation(), foundPoint->GetActorLocation(), FColor::Red, true, 5.0f, (uint8)'\100', 5.0f);
 			}
 		}
 	}
 }
-

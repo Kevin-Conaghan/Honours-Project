@@ -57,28 +57,23 @@ void AMyProcMesh::DefaultMesh()
 
 void AMyProcMesh::CalculateDistances()
 {
-	//iterate through all of the plot points in the world
-	for (TActorIterator<ALotDesigner> ObstIterator(GetWorld()); ObstIterator; ++ObstIterator)
+	//calculate the distance for the 4 points
+	for (int i = 0; i < 4; i++)
 	{
-		class ALotDesigner* foundPointStart = *ObstIterator;
-		plots.Add(*ObstIterator);
-	
-		//check for null 
+		ALotDesigner* foundPointStart = plots[i];
+
 		if (foundPointStart != nullptr)
 		{
 			if (foundPointEnd != nullptr)
 			{
-				//calulate distance between two plots and add it into the array
-				if (foundPointEnd != foundPointStart)
-				{
-					FVector start = foundPointStart->GetActorLocation();
-					FVector end = foundPointEnd->GetActorLocation();
-
-					distances.Add(end - start);
-				}
+				FVector end = foundPointEnd->GetActorLocation();
+				FVector start = foundPointStart->GetActorLocation();
+			
+				distances.Add(end - start);				
 			}
-			foundPointEnd = foundPointStart;
 		}
+
+		foundPointEnd = foundPointStart;
 	}
 }
 
@@ -87,39 +82,51 @@ void AMyProcMesh::DrawMesh()
 	//if there is more than one distance in the array add the rest of the vertices to create mesh
 	if (distances.Max() >= 2)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("hey"));
 		//get the length and breadth from the distances 
-		xVert = distances[0].X;
-		yVert = -distances[1].Y;
+		xVert = -distances[1].X;
+		yVert = -distances[0].Y;
+
 
 		//set vertices
 		plotVerts.Add(FVector(0.0f, 0.0f, 0.0f)); // lower left - 0
+		normals.Add(FVector(1.0f, -1.0f, 0.0f));
 		plotVerts.Add(FVector(0.0f, 0.0f, height)); // upper left - 1
+		normals.Add(FVector(1.0f, -1.0f, 0.0f));
 		plotVerts.Add(FVector(0.0f, yVert, 0.0f)); // lower right - 2
+		normals.Add(FVector(-1.0f, -1.0f, 0.0f));
 		plotVerts.Add(FVector(0.0f, yVert, height)); // upper right - 3
+		normals.Add(FVector(-1.0f, -1.0f, 0.0f));
 
 		plotVerts.Add(FVector(xVert, 0.0f, 0.0f)); // lower front left - 4
+		normals.Add(FVector(1.0f, 1.0f, 0.0f));
 		plotVerts.Add(FVector(xVert, 0.0f, height)); // upper front left - 5
+		normals.Add(FVector(1.0f, 1.0f, 0.0f));
 
 		plotVerts.Add(FVector(xVert, yVert, height)); // upper front right - 6
+		normals.Add(FVector(-1.0f, 1.0f, 0.0f));
 		plotVerts.Add(FVector(xVert, yVert, 0.0f)); // lower front right -7 
+		normals.Add(FVector(-1.0f, 1.0f, 0.0f));
 
 		//create triangles 
 		CallTriangles();
 
-		normals.Init(FVector(0.0f, 0.0f, 1.0f), 3);
-		vertexColors.Init(FLinearColor(0.0f, 0.0f, 0.0f, 1.0f), 3);
-		tangents.Init(FProcMeshTangent(1.0f, 0.0f, 0.0f), 3);
 
-		CallTriangles();
+		uvs.Add(FVector2D(0.0f, 0.0f));
+		uvs.Add(FVector2D(1, 0));
+		uvs.Add(FVector2D(0, 0));
+
+		vertexColors.Init(FLinearColor(0.0f, 0.0f, 0.0f, 1.0f), 8);
+		tangents.Init(FProcMeshTangent(0.0f, 1.0f, 0.0f), 8);
 
 		myProcMesh->CreateMeshSection_LinearColor(0, plotVerts, triangles, normals, uvs, vertexColors, tangents, false);
+
+		ClearMeshData();
 	}
 	else if (vertEdit.Max() >= 8)
 	{
-		normals.Init(FVector(0.0f, 0.0f, 1.0f), 8);
-		vertexColors.Init(FLinearColor(0.0f, 0.0f, 0.0f, 1.0f), 8);
-		tangents.Init(FProcMeshTangent(1.0f, 0.0f, 0.0f), 8);
+		normals.Init(FVector(0.0f, 0.0f, 1.0f), 7);
+		vertexColors.Init(FLinearColor(0.0f, 0.0f, 0.0f, 1.0f), 7);
+		tangents.Init(FProcMeshTangent(1.0f, 0.0f, 0.0f), 7);
 
 		CallTriangles();
 		//Function that creates mesh section
@@ -136,7 +143,7 @@ void AMyProcMesh::DrawMesh()
 	{
 		if (plots.Max() != 0)
 		{
-			this->SetActorLocation(FVector(plots[1]->GetActorLocation().X , plots[1]->GetActorLocation().Y, 141.0f));
+			this->SetActorLocation(plots[0]->GetActorLocation());
 		}
 	}
 }
@@ -148,12 +155,17 @@ AMyProcMesh::AMyProcMesh()
 	PrimaryActorTick.bCanEverTick = false;
 	myProcMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("ProceduralMesh"));
 	myProcMesh->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
+
 }
 
 void AMyProcMesh::OnConstruction(const FTransform & Transform)
 {
-	CalculateDistances();
-	DrawMesh();
+	
+}
+
+void AMyProcMesh::SetPlots(ALotDesigner* plotPoints)
+{
+	plots.Add(plotPoints);
 }
 
 void AMyProcMesh::AddTriangles(int32 V1, int32 V2, int32 V3)

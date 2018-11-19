@@ -18,17 +18,17 @@ class PROCGENCITY_API AMyProcMesh : public AActor
 
 	void CallTriangles();
 	void DefaultMesh();
-	void CalculateDistances();
-	void DrawMesh();
 
 public:	
 	// Sets default values for this actor's properties
 	AMyProcMesh();
+	void CalculateDistances();
+	void DrawMesh();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vertices")
 		TArray<FVector> vertEdit;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, Category = "Values")
 		TArray<FVector> distances;
 
 	UPROPERTY()
@@ -56,9 +56,12 @@ public:
 
 	TArray<ALotDesigner*> plots;
 
+	ALotDesigner* foundPointStart;
 	ALotDesigner* foundPointEnd;
 
 	virtual void OnConstruction(const FTransform& Transform) override;
+
+	void SetPlots(ALotDesigner* plots);
 
 	void AddTriangles(int32 V1, int32 V2, int32 V3);
 	void ClearMeshData();
