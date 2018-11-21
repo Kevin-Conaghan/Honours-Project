@@ -53,15 +53,22 @@ public:
 		float yVert;
 	UPROPERTY(EditAnywhere, Category = "Values")
 		float height;
+	UPROPERTY(EditAnywhere, Category = "Values")
+		float randHeightMax;
 
 	TArray<ALotDesigner*> plots;
 
-	ALotDesigner* foundPointStart;
 	ALotDesigner* foundPointEnd;
+
+	bool hasCalculated;
 
 	virtual void OnConstruction(const FTransform& Transform) override;
 
 	void SetPlots(ALotDesigner* plots);
+	void SetXYVert(float xVertice, float yVertice);
+	void SetCalc(bool isCalc);
+
+	void EmptyPlots();
 
 	void AddTriangles(int32 V1, int32 V2, int32 V3);
 	void ClearMeshData();

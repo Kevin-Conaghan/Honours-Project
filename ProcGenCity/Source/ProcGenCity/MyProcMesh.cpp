@@ -72,20 +72,59 @@ void AMyProcMesh::CalculateDistances()
 				distances.Add(end - start);				
 			}
 		}
-
 		foundPointEnd = foundPointStart;
 	}
 }
 
 void AMyProcMesh::DrawMesh()
 {
+	if (hasCalculated)
+	{
+		//set vertices
+		plotVerts.Add(FVector(0.0f, 0.0f, 0.0f)); // lower left - 0
+		normals.Add(FVector(1.0f, -1.0f, 0.0f));
+		plotVerts.Add(FVector(0.0f, 0.0f, height)); // upper left - 1
+		normals.Add(FVector(1.0f, -1.0f, 0.0f));
+		plotVerts.Add(FVector(0.0f, yVert, 0.0f)); // lower right - 2
+		normals.Add(FVector(-1.0f, -1.0f, 0.0f));
+		plotVerts.Add(FVector(0.0f, yVert, height)); // upper right - 3
+		normals.Add(FVector(-1.0f, -1.0f, 0.0f));
+
+		plotVerts.Add(FVector(xVert, 0.0f, 0.0f)); // lower front left - 4
+		normals.Add(FVector(1.0f, 1.0f, 0.0f));
+		plotVerts.Add(FVector(xVert, 0.0f, height)); // upper front left - 5
+		normals.Add(FVector(1.0f, 1.0f, 0.0f));
+
+		plotVerts.Add(FVector(xVert, yVert, height)); // upper front right - 6
+		normals.Add(FVector(-1.0f, 1.0f, 0.0f));
+		plotVerts.Add(FVector(xVert, yVert, 0.0f)); // lower front right -7 
+		normals.Add(FVector(-1.0f, 1.0f, 0.0f));
+
+		//create triangles 
+		CallTriangles();
+
+		uvs.Add(FVector2D(0.0f, 0.0f));
+		uvs.Add(FVector2D(1, 0));
+		uvs.Add(FVector2D(1, 1));
+
+		vertexColors.Init(FLinearColor(0.0f, 0.0f, 0.0f, 1.0f), 8);
+		tangents.Init(FProcMeshTangent(0.0f, 1.0f, 0.0f), 8);
+
+		myProcMesh->CreateMeshSection_LinearColor(0, plotVerts, triangles, normals, uvs, vertexColors, tangents, false);
+
+		ClearMeshData();
+		//hasCalculated = false;
+	}
+
 	//if there is more than one distance in the array add the rest of the vertices to create mesh
-	if (distances.Max() >= 2)
+	if (distances.Max() >= 2 && !hasCalculated)
 	{
 		//get the length and breadth from the distances 
 		xVert = -distances[1].X;
 		yVert = -distances[0].Y;
 
+		height += FMath::RandRange(0.0f, randHeightMax);
+		 
 
 		//set vertices
 		plotVerts.Add(FVector(0.0f, 0.0f, 0.0f)); // lower left - 0
@@ -113,7 +152,7 @@ void AMyProcMesh::DrawMesh()
 
 		uvs.Add(FVector2D(0.0f, 0.0f));
 		uvs.Add(FVector2D(1, 0));
-		uvs.Add(FVector2D(0, 0));
+		uvs.Add(FVector2D(1, 1));
 
 		vertexColors.Init(FLinearColor(0.0f, 0.0f, 0.0f, 1.0f), 8);
 		tangents.Init(FProcMeshTangent(0.0f, 1.0f, 0.0f), 8);
@@ -122,7 +161,7 @@ void AMyProcMesh::DrawMesh()
 
 		ClearMeshData();
 	}
-	else if (vertEdit.Max() >= 8)
+	else if (vertEdit.Max() >= 8 && !hasCalculated)
 	{
 		normals.Init(FVector(0.0f, 0.0f, 1.0f), 7);
 		vertexColors.Init(FLinearColor(0.0f, 0.0f, 0.0f, 1.0f), 7);
@@ -137,14 +176,6 @@ void AMyProcMesh::DrawMesh()
 	else
 	{
 		DefaultMesh();
-	}
-
-	if (distances.Max() >= 2)
-	{
-		if (plots.Max() != 0)
-		{
-			this->SetActorLocation(plots[0]->GetActorLocation());
-		}
 	}
 }
 
@@ -166,6 +197,22 @@ void AMyProcMesh::OnConstruction(const FTransform & Transform)
 void AMyProcMesh::SetPlots(ALotDesigner* plotPoints)
 {
 	plots.Add(plotPoints);
+}
+
+void AMyProcMesh::SetXYVert(float xVertice, float yVertice)
+{
+	xVert = xVertice;
+	yVert = yVertice;
+}
+
+void AMyProcMesh::SetCalc(bool isCalc)
+{
+	hasCalculated = isCalc;
+}
+
+void AMyProcMesh::EmptyPlots()
+{
+	plots.Empty();
 }
 
 void AMyProcMesh::AddTriangles(int32 V1, int32 V2, int32 V3)

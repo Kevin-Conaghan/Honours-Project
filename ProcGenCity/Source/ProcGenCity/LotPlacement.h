@@ -18,6 +18,15 @@ public:
 	ALotPlacement();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool hasGenerated;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool hasDivided;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool isGenerating;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* myMeshComponent;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
@@ -38,11 +47,17 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		AMyProcMesh* procMesh;
 
+	UPROPERTY(VisibleAnywhere)
+		TArray<FVector> distances;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Plot Designer")
 		TSubclassOf<class ALotDesigner> bpLotDesigner;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Procedural Mesh")
 		TSubclassOf<class AMyProcMesh> bpProcMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Lot Placement")
+		TSubclassOf<class ALotPlacement> bpLotPlacement;
 
 protected:
 	// Called when the game starts or when spawned
@@ -53,12 +68,23 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void OnConstruction(const FTransform& Transform) override;
 
-
+	TArray<FVector> centrePoints;
+	TArray<ALotPlacement*> roads;
 	ALotDesigner* foundPointEnd;
 
+	ALotDesigner* centrePointOne;
+	ALotDesigner* centrePointTwo;
+
+
 	bool isPlotted;
+	bool isCentre;
 
 	void PlacePoints();
 	void PlaceBuilding();
+	void SubDivide();
+	void GenerateRoad();
+	void GenerateBuilding();
+
+	void SetHasGenerated(bool generated);
 	
 };

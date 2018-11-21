@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 	PROCGENCITY_API UClass* Z_Construct_UClass_ALotDesigner();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ALotDesigner::StaticRegisterNativesALotDesigner()
@@ -32,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_proxBox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_proxBox;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_myMeshComponent_MetaData[];
 #endif
@@ -56,6 +61,14 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALotDesigner_Statics::NewProp_proxBox_MetaData[] = {
+		{ "Category", "Prox box" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "LotDesigner.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALotDesigner_Statics::NewProp_proxBox = { UE4CodeGen_Private::EPropertyClass::Object, "proxBox", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b001d, 1, nullptr, STRUCT_OFFSET(ALotDesigner, proxBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALotDesigner_Statics::NewProp_proxBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALotDesigner_Statics::NewProp_proxBox_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALotDesigner_Statics::NewProp_myMeshComponent_MetaData[] = {
 		{ "Category", "LotDesigner" },
 		{ "EditInline", "true" },
@@ -75,6 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching = { UE4CodeGen_Private::EPropertyClass::Bool, "isSearching", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ALotDesigner), &Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_SetBit, METADATA_PARAMS(Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALotDesigner_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALotDesigner_Statics::NewProp_proxBox,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALotDesigner_Statics::NewProp_myMeshComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALotDesigner_Statics::NewProp_isSearching,
 	};
@@ -101,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeLotDesigner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALotDesigner, 165483850);
+	IMPLEMENT_CLASS(ALotDesigner, 3521455939);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALotDesigner(Z_Construct_UClass_ALotDesigner, &ALotDesigner::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ALotDesigner"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALotDesigner);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
