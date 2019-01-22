@@ -282,7 +282,7 @@ void ALotPlacement::GenerateBuilding()
 	{
 		PlacePoints();
 	}
-	else if (plots.Max() != 0)
+	else if (plots.Max() != 0)	
 	{
 
 		//update the location of each point and the mesh so that it sticks to the road
