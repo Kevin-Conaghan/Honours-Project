@@ -11,33 +11,42 @@ ANewProcMesh::ANewProcMesh()
 	procMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Procedural Mesh"));
 	procMesh->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
 
-	iteratorCount = 0;
+	setPlotCount = 0;
+	vertCounter = 1;
 }
 
 void ANewProcMesh::CallTriangles()
 {
-	AddTriangles(11, 1, 0);			//Front Face
-	AddTriangles(0, 10, 11);
+	int evenCheck = 0;
 
-	AddTriangles(9, 11, 10);		//Side 1 
-	AddTriangles(10, 8, 9);
-	
-	AddTriangles(7, 9, 8);			//Side 2
-	AddTriangles(8, 6, 7);
-	
-	AddTriangles(5, 7, 6);			//Side 3
-	AddTriangles(6, 4, 5);
-	
-	AddTriangles(3, 5, 4);			//Side 4
-	AddTriangles(4, 2, 3);
-	
-	AddTriangles(1, 3, 2);			//Side 5
-	AddTriangles(2, 0, 1);
-	
-	AddTriangles(9, 7, 11);			//Top Face
-	AddTriangles(1, 11, 7);
-	AddTriangles(7, 5, 1);
-	AddTriangles(1, 5, 3);
+	for (int32 i = 0; i < (vertices.Num() + 1); i++)
+	{
+		if (i == (vertices.Num() - 2))
+		{
+			AddTriangles(i, 0, i + 1);
+		}
+
+		if(i == vertices.Num())
+		{
+			AddTriangles(i, 0, 1);
+		}
+		else
+		{
+			evenCheck = i % 2;
+
+			if (evenCheck == 0)
+			{
+				AddTriangles(i, i + 2, i + 1);
+			}
+			else
+			{
+				if (i != 1)
+				{
+					AddTriangles(i, i - 2, i - 1);
+				}
+			}
+		}
+	}
 }
 
 void ANewProcMesh::LotSort()
@@ -61,6 +70,7 @@ void ANewProcMesh::DrawMesh()
 				vertices.Add(distances[i]);
 				//add some height to the building
 				vertices.Add(distances[i] + FVector(0.0f, 0.0f, 500.0f));
+				
 			}
 		}
 
@@ -78,7 +88,7 @@ void ANewProcMesh::DrawMesh()
 
 void ANewProcMesh::OnConstruction(const FTransform & Transform)
 {
-	if (iteratorCount < 1)
+	if (setPlotCount < 1)
 	{
 		SetPlotPoints();
 		DrawMesh();
@@ -98,6 +108,7 @@ void ANewProcMesh::SetPlotPoints()
 	//iterate through all the plot points in the scene on construction of the proc mesh
 	for (TActorIterator<ALotDesigner> actorItr(world); actorItr; ++actorItr)
 	{
+
 		//get the current plot point and store it to reference
 		ALotDesigner* plotFound = *actorItr;
 
@@ -117,7 +128,7 @@ void ANewProcMesh::SetPlotPoints()
 	LotSort();
 	CalcPointDist();
 	//iterate so it will not call this function whenever the proc mesh is moved
-	iteratorCount++;
+	setPlotCount++;
 }
 
 void ANewProcMesh::CalcPointDist()

@@ -56,11 +56,14 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = "Plots")
 		TArray<ALotDesigner*> plotPoints;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		TArray<int> vertCount;
 
 	ALotDesigner* oldPlotFound;
 	FVector pointTwo;
-
-	int iteratorCount;
+	
+	int vertCounter;
+	int setPlotCount;
 
 	bool hasCalculated;
 
