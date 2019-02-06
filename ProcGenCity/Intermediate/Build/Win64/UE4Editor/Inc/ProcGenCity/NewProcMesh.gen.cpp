@@ -95,10 +95,14 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_vertices;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_vertices_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_vertEdit_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_roofVerts_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_vertEdit;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_vertEdit_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_roofVerts;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_roofVerts_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_procRoof_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_procRoof;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_procMesh_MetaData[];
 #endif
@@ -206,13 +210,21 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices = { UE4CodeGen_Private::EPropertyClass::Array, "vertices", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, vertices), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "vertices", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertEdit_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts_MetaData[] = {
 		{ "Category", "Vertices" },
 		{ "ModuleRelativePath", "NewProcMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertEdit = { UE4CodeGen_Private::EPropertyClass::Array, "vertEdit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, vertEdit), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertEdit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertEdit_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertEdit_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "vertEdit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts = { UE4CodeGen_Private::EPropertyClass::Array, "roofVerts", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, roofVerts), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "roofVerts", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_procRoof_MetaData[] = {
+		{ "Category", "ProcMesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "NewProcMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_procRoof = { UE4CodeGen_Private::EPropertyClass::Object, "procRoof", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a0009, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, procRoof), Z_Construct_UClass_UProceduralMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_procRoof_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_procRoof_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_procMesh_MetaData[] = {
 		{ "Category", "ProcMesh" },
@@ -243,8 +255,9 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_normals_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertEdit,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertEdit_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_procRoof,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_procMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANewProcMesh_Statics::StaticCppClassTypeInfo = {
@@ -270,7 +283,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANewProcMesh, 1167042394);
+	IMPLEMENT_CLASS(ANewProcMesh, 3109553448);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANewProcMesh(Z_Construct_UClass_ANewProcMesh, &ANewProcMesh::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ANewProcMesh"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANewProcMesh);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

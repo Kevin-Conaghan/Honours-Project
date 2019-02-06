@@ -7,6 +7,7 @@
 #include "ProceduralMeshComponent.h"
 #include "LotDesigner.h"
 #include "EngineUtils.h"
+#include "Algo/Reverse.h"
 #include "NewProcMesh.generated.h"
 
 UCLASS()
@@ -17,6 +18,9 @@ class PROCGENCITY_API ANewProcMesh : public AActor
 	UPROPERTY(VisibleAnywhere, Category = "ProcMesh")
 		UProceduralMeshComponent* procMesh;
 
+	UPROPERTY(VisibleAnywhere, Category = "ProcMesh")
+		UProceduralMeshComponent* procRoof;
+
 	void CallTriangles();
 	void LotSort();
 
@@ -26,7 +30,7 @@ public:
 	void DrawMesh();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vertices")
-		TArray<FVector> vertEdit;
+		TArray<FVector> roofVerts;
 
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		TArray<FVector> vertices;
@@ -56,6 +60,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = "Plots")
 		TArray<ALotDesigner*> plotPoints;
+
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		TArray<int> vertCount;
 
@@ -67,7 +72,14 @@ public:
 
 	bool hasCalculated;
 
+	bool isConvex;
+
 	virtual void OnConstruction(const FTransform& Transform) override;
+
+	void CreateRoof();
+	void ConvexEarMethod();
+	void ConcaveEarMethod();
+	void DrawRoof();
 
 	void SetPlotPoints();
 

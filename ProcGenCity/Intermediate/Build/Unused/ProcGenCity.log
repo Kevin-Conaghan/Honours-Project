@@ -7,24 +7,26 @@
   Parsing headers for ProcGenCityEditor
     Running UnrealHeaderTool "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
 LogCompile : error : Circular dependency detected for filename C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\LotCalculator.h!
-  Reflection code generated for ProcGenCityEditor in 34.5178588 seconds
+  Reflection code generated for ProcGenCityEditor in 10.755556 seconds
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2412.dll".
+  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2412.pdb".
   Building 20 actions with 8 processes...
     [1/20] PCLaunch.rc
     [2/20] SharedPCH.Engine.cpp
-    [3/20] Road.gen.cpp
-    [4/20] MyProcMesh.gen.cpp
-    [5/20] LotPlacement.gen.cpp
-    [6/20] NewProcMesh.gen.cpp
-    [7/20] ProcGenCity.init.gen.cpp
-    [8/20] LotDesigner.gen.cpp
-    [9/20] LotCalculator.gen.cpp
+    [3/20] ProcGenCity.init.gen.cpp
+    [4/20] Road.gen.cpp
+    [5/20] NewProcMesh.gen.cpp
+    [6/20] LotDesigner.gen.cpp
+    [7/20] MyProcMesh.gen.cpp
+    [8/20] LotCalculator.gen.cpp
+    [9/20] LotPlacement.gen.cpp
     [10/20] ProcGenCity.cpp
     [11/20] NewProcMesh.cpp
-    [12/20] LotPlacement.cpp
-    [13/20] MyProcMesh.cpp
-    [14/20] SplineNetwork.cpp
-    [15/20] SplineNetwork.gen.cpp
-    [16/20] LotDesigner.cpp
+    [12/20] SplineNetwork.cpp
+    [13/20] SplineNetwork.gen.cpp
+    [14/20] LotDesigner.cpp
+    [15/20] LotPlacement.cpp
+    [16/20] MyProcMesh.cpp
     [17/20] Road.cpp
     [18/20] LotCalculator.cpp
     [19/20] UE4Editor-ProcGenCity.lib
@@ -32,5 +34,5 @@ LogCompile : error : Circular dependency detected for filename C:\Users\Grizz\Do
     [20/20] UE4Editor-ProcGenCity.dll
        Creating library C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.lib and object C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.exp
   Deploying ProcGenCityEditor Win64 Development...
-  Total build time: 162.45 seconds (Parallel executor: 60.65 seconds)
+  Total build time: 71.92 seconds (Parallel executor: 51.93 seconds)
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" ProcGenCityEditor Win64 Development "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" -WaitMutex -FromMsBuild" exited with code -1.

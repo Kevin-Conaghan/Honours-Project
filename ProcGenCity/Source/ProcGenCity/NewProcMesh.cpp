@@ -11,8 +11,13 @@ ANewProcMesh::ANewProcMesh()
 	procMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Procedural Mesh"));
 	procMesh->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
 
+	procRoof = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Procedural Roof"));
+	procRoof->AttachToComponent(procMesh, FAttachmentTransformRules::KeepRelativeTransform);
+
 	setPlotCount = 0;
 	vertCounter = 1;
+
+
 }
 
 void ANewProcMesh::CallTriangles()
@@ -70,7 +75,9 @@ void ANewProcMesh::DrawMesh()
 				vertices.Add(distances[i]);
 				//add some height to the building
 				vertices.Add(distances[i] + FVector(0.0f, 0.0f, 500.0f));
-				
+
+				//use a seperate list to later implement ear clipping method for the roof of the building
+				roofVerts.Add(distances[i] + FVector(0.0f, 0.0f, 500.0f));
 			}
 		}
 
@@ -83,6 +90,12 @@ void ANewProcMesh::DrawMesh()
 		tangents.Init(FProcMeshTangent(0.0f, 1.0f, 0.0f), vertices.Num());
 
 		procMesh->CreateMeshSection_LinearColor(0, vertices, triangles, normals, uvs, vertexColours, tangents, false);
+
+		ClearMeshData();
+
+
+		CreateRoof();
+		DrawRoof();
 	}
 }
 
@@ -98,6 +111,94 @@ void ANewProcMesh::OnConstruction(const FTransform & Transform)
 	{
 		this->SetActorLocation(plotPoints[0]->GetActorLocation());
 	}
+}
+
+void ANewProcMesh::CreateRoof()
+{
+	Algo::Reverse(roofVerts); //reverses the elements in the array
+
+
+	ConvexEarMethod();
+
+	//ConcaveEarMethod();	
+}
+
+void ANewProcMesh::ConvexEarMethod()
+{
+	//Psuedocode was not created by myself, can be found here: https://www.gamedev.net/articles/programming/graphics/polygon-triangulation-r3334/
+	/* create a stack with all of the vertecies in CW/CCW order;
+	pop the top vertex off the stack and store in p0;
+	pop the top vertex off the stack and store in pHelper;
+	while the stack is not empty
+	pop the top vertex off the stack and store in pTemp;
+	create a triangle with vertices p0, pHelper, pTemp;
+	let pHelper = pTemp
+	*/
+	FVector p0 = roofVerts.Pop();	//get the 1st vertice going in a clockwise direction
+	FVector pHelper = roofVerts.Pop();	//get the next vertice in a clockwise direction
+
+	int triangStart = vertices.Add(p0);	//add the first vertice to the vertex array so the mesh can be created and store a reference to be used in creating the triangles
+	int triangMid = vertices.Add(pHelper); // do the same for the next one
+
+	for (int i = 0; i < roofVerts.Max(); i++)
+	{
+		FVector pTemp = roofVerts.Pop();	//while iterating through the array of vertices in the roof part of the building pop the next vertice so it can be used to create a triangle with the previous vertices
+		int triangEnd = vertices.Add(pTemp);
+
+		AddTriangles(triangStart, triangMid, triangEnd);
+		triangMid = vertices.Add(pTemp);	//the last vertice will become the middle one and it will be added the the vertex array so the mesh can be created
+	}
+}
+
+void ANewProcMesh::ConcaveEarMethod()
+{
+	//Psuedocode was not created by myself, can be found here: https://www.gamedev.net/articles/programming/graphics/polygon-triangulation-r3334/
+	/*create a list of the vertices (perferably in CCW order, starting anywhere)
+	while true
+		for every vertex
+		let pPrev = the previous vertex in the list
+		let pCur = the current vertex;
+		let pNext = the next vertex in the list
+		if the vertex is not an interior vertex (the wedge product of (pPrev - pCur) and (pNext - pCur) <= 0, for CCW winding);		//TODO
+		  continue;
+		if there are any vertices in the polygon inside the triangle made by the current vertex and the two adjacent ones
+		  continue;
+		create the triangle with the points pPrev, pCur, pNext, for a CCW triangle;
+		remove pCur from the list;
+		 if no triangles were made in the above for loop
+			break;
+	*/
+
+	Algo::Reverse(roofVerts);
+
+	for (int i = 0; i < roofVerts.Max(); i++)
+	{	
+		if(i != 0)
+			FVector pPrev = roofVerts[i - 1];
+		else
+			FVector pPrev = roofVerts[i];
+
+		FVector pCur = roofVerts[i];
+		FVector pNext = roofVerts[i + 1];
+
+
+
+	}
+
+
+
+
+}
+
+void ANewProcMesh::DrawRoof()
+{
+	uvs.Init(FVector2D(0.0f, 0.0f), vertices.Num());
+	normals.Init(FVector(0.0f, 0.0f, 1.0f), vertices.Num());
+	vertexColours.Init(FLinearColor(1.0f, 0.0f, 0.0f, 1.0f), vertices.Num());
+	tangents.Init(FProcMeshTangent(0.0f, 1.0f, 0.0f), vertices.Num());
+
+	procRoof->CreateMeshSection_LinearColor(1, vertices, triangles, normals, uvs, vertexColours, tangents, false);
+
 }
 
 void ANewProcMesh::SetPlotPoints()
