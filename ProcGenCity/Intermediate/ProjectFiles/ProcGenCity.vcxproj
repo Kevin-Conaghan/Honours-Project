@@ -576,6 +576,8 @@
 		<ClInclude Include="..\..\Source\ProcGenCity\LotDesigner.h" />
 		<ClCompile Include="..\..\Source\ProcGenCity\LotPlacement.cpp" />
 		<ClInclude Include="..\..\Source\ProcGenCity\LotPlacement.h" />
+		<ClCompile Include="..\..\Source\ProcGenCity\LRoad.cpp" />
+		<ClInclude Include="..\..\Source\ProcGenCity\LRoad.h" />
 		<ClCompile Include="..\..\Source\ProcGenCity\MyProcMesh.cpp" />
 		<ClInclude Include="..\..\Source\ProcGenCity\MyProcMesh.h" />
 		<ClCompile Include="..\..\Source\ProcGenCity\NewProcMesh.cpp" />
