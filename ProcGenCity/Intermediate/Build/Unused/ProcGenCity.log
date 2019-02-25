@@ -1,38 +1,28 @@
 ﻿  Cleaning ProcGenCityEditor Binaries...
+UnrealBuildTool : error : Unable to clean target while hot-reloading. Close the editor and try again.
+                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
   Using 'git status' to determine working set for adaptive non-unity build.
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for ProcGenCityEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
+  Creating makefile for hot reloading ProcGenCityEditor (modules to compile have changed)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for ProcGenCityEditor
-    Running UnrealHeaderTool "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-LogCompile : error : Circular dependency detected for filename C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\LotCalculator.h!
-  Reflection code generated for ProcGenCityEditor in 10.755556 seconds
-  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2412.dll".
-  Deleting old hot reload file: "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2412.pdb".
-  Building 20 actions with 8 processes...
-    [1/20] PCLaunch.rc
-    [2/20] SharedPCH.Engine.cpp
-    [3/20] ProcGenCity.init.gen.cpp
-    [4/20] Road.gen.cpp
-    [5/20] NewProcMesh.gen.cpp
-    [6/20] LotDesigner.gen.cpp
-    [7/20] MyProcMesh.gen.cpp
-    [8/20] LotCalculator.gen.cpp
-    [9/20] LotPlacement.gen.cpp
-    [10/20] ProcGenCity.cpp
-    [11/20] NewProcMesh.cpp
-    [12/20] SplineNetwork.cpp
-    [13/20] SplineNetwork.gen.cpp
-    [14/20] LotDesigner.cpp
-    [15/20] LotPlacement.cpp
-    [16/20] MyProcMesh.cpp
-    [17/20] Road.cpp
-    [18/20] LotCalculator.cpp
-    [19/20] UE4Editor-ProcGenCity.lib
-       Creating library C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.lib and object C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.exp
-    [20/20] UE4Editor-ProcGenCity.dll
-       Creating library C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.lib and object C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.exp
-  Deploying ProcGenCityEditor Win64 Development...
-  Total build time: 71.92 seconds (Parallel executor: 51.93 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" ProcGenCityEditor Win64 Development "C:\Users\Grizz\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+  Building 6 actions with 8 processes...
+    [1/6] Branch.gen.cpp
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C3646: 'SetNewBranchDirection': unknown override specifier
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2059: syntax error: '('
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2238: unexpected token(s) preceding ';'
+    [2/6] Boundary.cpp
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C3646: 'SetNewBranchDirection': unknown override specifier
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2059: syntax error: '('
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2238: unexpected token(s) preceding ';'
+    [3/6] Branch.cpp
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C3646: 'SetNewBranchDirection': unknown override specifier
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2059: syntax error: '('
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2238: unexpected token(s) preceding ';'
+    [4/6] Boundary.gen.cpp
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C3646: 'SetNewBranchDirection': unknown override specifier
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2059: syntax error: '('
+c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(53): error C2238: unexpected token(s) preceding ';'
+UnrealBuildTool : error : UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2545.dll
+                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+  Total build time: 7.26 seconds (Parallel executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" ProcGenCityEditor Win64 Development "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" -WaitMutex -FromMsBuild" exited with code -1.

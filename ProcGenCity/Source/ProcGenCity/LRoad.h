@@ -58,7 +58,5 @@ public:
 	FString ApplyRules(char ch);
 	void DrawLSystem(FString instructions, FRotator angle, int distance);
 
-	void GenerateRoads();
-	bool LocalRestraints();
-	void GlobalGoals();
+
 };

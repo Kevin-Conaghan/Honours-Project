@@ -11,7 +11,7 @@ ALRoad::ALRoad()
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> meshObj(TEXT("/Game/StarterContent/Architecture/Floor_400x400"));
 	mesh->SetStaticMesh(meshObj.Object);
 
-
+	//initialise editable variables
 	angle.Yaw = FMath::RadiansToDegrees(90);
 	negAngle.Yaw = FMath::RadiansToDegrees(-90);
 	iterator = 0;
@@ -21,16 +21,17 @@ ALRoad::ALRoad()
 
 void ALRoad::OnConstruction(const FTransform & Transform)
 {
+	//if the user wants to generate the road network
 	if (isGenerating)
 	{
+		//only generate the network once
 		if (iterator < 1)
 		{
+			//initialise the start instructions for the string converter
 			FString inst = CreateLSystem(instructions, "FX");
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, inst);
-
-
+			GEngine->AddOnScreenDebugMessage(-1, 100.0f, FColor::Red, inst);
+			//do the string conversion and build a road network based on those instructions
 			DrawLSystem(inst, angle, 10);
-
 			iterator++;
 		}
 	}
@@ -41,8 +42,10 @@ FString ALRoad::CreateLSystem(int iterators, FString start)
 	FString startString = start;
 	FString endString;
 
+	//for the number of times the user wants to processes the string (this will determine how big the road network will be)
 	for (int i = 0; i < iterators; ++i)
 	{
+		//do the string conversion and return the instructions
 		endString = ProcessString(startString);
 		startString = endString;
 	}
@@ -53,13 +56,18 @@ FString ALRoad::CreateLSystem(int iterators, FString start)
 FString ALRoad::ProcessString(FString oldStr)
 {
 	FString newStr;
+	//get all the chars in the string and put them into an array 
 	const TArray<TCHAR> charArray = oldStr.GetCharArray();
+
+	//for the length of the string 
 	for (int i = 0; i < oldStr.Len(); ++i)
 	{
+		//apply the conversions on the current char
 		char ch = charArray[i];
 		newStr = newStr + ApplyRules(ch);
 	}
 
+	//return the new string (this will be the string with the instructions)
 	return newStr;
 }
 
@@ -67,13 +75,14 @@ FString ALRoad::ApplyRules(char ch)
 {
 	FString newStr;
 
+	//if it is an X set the char to be the new rule
 	if (ch == 'X')
 	{
-		newStr = "FXFX";
+		newStr = "X+YF+";		//new rule
 	}
 	else if (ch == 'Y')
 	{
-		newStr = "-FX-Y";
+		newStr = "-FX-Y";		//new rule for Y char
 	}
 
 	return newStr;
@@ -90,6 +99,7 @@ void ALRoad::DrawLSystem(FString instructions, FRotator angle, int distance)
 
 	for (int i = 0; i < instructions.Len(); ++i)
 	{
+		//if there is an F in the instructions that means go forward so spawn an object forward
 		if (charArray[i] == 'F')
 		{
 			FVector forward = FVector(0.0f, 400.0f, 0.0f);
@@ -99,76 +109,47 @@ void ALRoad::DrawLSystem(FString instructions, FRotator angle, int distance)
 				GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation() + forward, this->GetActorRotation(), spawnParams);
 			}
 
+			//move the checker forward aswell so it can spawn more
 			DrawDebugLine(GetWorld(), this->GetActorLocation(), forward, FColor::Green, true, 100.0f);
 			this->SetActorLocation(this->GetActorLocation() + forward);
 		}
+		//if it is a + sign that means turn right at an angle the user defines
 		else if (charArray[i] == '+')
 		{
-			this->SetActorRotation(FQuat(angle));
-
+			//rotate the checker
+			this->SetActorRelativeRotation(FQuat(angle));
+				
 			if (bpRoad != NULL)
 			{
-
-				FVector forward = FVector(400.0f, 0.0f, 0.0f);
-				GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation() + forward, this->GetActorRotation(), spawnParams);
+				ARoad* tempRoad;
+				//spawn an object in the forward direction of the rotated checker
+				FVector forward = FVector(0.0f, 400.0f, 0.0f);
+				tempRoad = GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation(), this->GetActorRotation(), spawnParams);
+				tempRoad->SetActorRelativeLocation(FVector().RightVector + forward);
+				//move the checker forward aswell so it can spawn more 
 				this->SetActorLocation(this->GetActorLocation() + forward);
 			}
 
 		}
+		//if it is a - sign then that means turn left at an angle the user defines
 		else if (charArray[i] == '-')
 		{
 			this->SetActorRotation(FQuat(negAngle));
 
 			if (bpRoad != NULL)
 			{
-				FVector forward = FVector(-400.0f, 0.0f, 0.0f);
-				GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation() + forward, this->GetActorRotation(), spawnParams);
+				ARoad* tempRoad;
+				//spawn an object in the forward direction of the rotated checker
+				FVector forward = FVector(0.0f, -400.0f, 0.0f);
+				tempRoad = GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation(), this->GetActorRotation(), spawnParams);
+				tempRoad->SetActorRelativeLocation(FVector().RightVector + forward);
+				//move the checker forward aswell so it can spawn more objects 
 				this->SetActorLocation(this->GetActorLocation() + forward);
 			}
-
-		}
-	}
-
-
-}
-
-void ALRoad::GenerateRoads()
-{
-	//until the number of roads is empty
-	for (int i = 0; i < roads.Num(); ++i)
-	{
-		//get the current road
-		ARoad* currRoad = roads.Pop();
-
-		//check to see if it meets the restraint requirements
-		bool accepted = LocalRestraints();
-
-		if (accepted)
-		{
-			//segment roads is the roads that have been placed
-			segmentRoads.Add(roads[i]);
-
-
 		}
 	}
 }
 
-bool ALRoad::LocalRestraints()
-{	
-	/* 
-		1. If intersecting with another road, create an intersection object to join the roads.
-		2. If reaches a boundary cut off road.
-		3. If the road is close to an intersection extend road to meet intersection.
-	*/
-	return true;
-}
 
-void ALRoad::GlobalGoals()
-{
-	/*
-		1. If this is the fourth road place a branch point (branch points will be intersections). 
-		2. Extend road in positive y, positive x and negative x. 
-		3. Extend road for another four times. 
-	*/
-}
+
 

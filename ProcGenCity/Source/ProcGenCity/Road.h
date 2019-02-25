@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/Actor.h"
-#include "LotCalculator.h"
+#include "Components/BoxComponent.h"
 #include "Road.generated.h"
 
 UCLASS()
@@ -21,19 +21,11 @@ public:
 		class UStaticMeshComponent* mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool calculateLots;
+		class UBoxComponent* boxCollider;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TSubclassOf<class ALotCalculator> bpLotCalculator;
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-	virtual void OnConstruction(const FTransform& Transform) override;
-
-	ALotCalculator* lotCalculator;
 
 };

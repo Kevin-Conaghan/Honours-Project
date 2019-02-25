@@ -1,0 +1,1319 @@
+﻿Log file open, 02/19/19 15:28:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProcGenCity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.229610
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.450s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.023s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.19-15.28.35:208][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.19-15.28.35:208][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.19-15.28.35:266][  0]LogHAL: Display: Platform has ~ 16 GB [17058729984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.19-15.28.35:267][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.19-15.28.35:267][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.19-15.28.35:279][  0]LogInit: Computer: LAPTOP-TLBN2SQS
+[2019.02.19-15.28.35:279][  0]LogInit: User: kevin
+[2019.02.19-15.28.35:279][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.19-15.28.35:279][  0]LogInit: High frequency timer resolution =1.945312 MHz
+[2019.02.19-15.28.35:280][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.19-15.28.35:280][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.19-15.28.35:280][  0]LogMemory: Process Physical Memory: 101.73 MB used, 101.73 MB peak
+[2019.02.19-15.28.35:280][  0]LogMemory: Process Virtual Memory: 94.08 MB used, 94.08 MB peak
+[2019.02.19-15.28.35:280][  0]LogMemory: Physical Memory: 6598.39 MB used,  9670.09 MB free, 16268.47 MB total
+[2019.02.19-15.28.35:280][  0]LogMemory: Virtual Memory: 4655.24 MB used,  9670.09 MB free, 134217728.00 MB total
+[2019.02.19-15.28.35:653][  0]LogInit: Using OS detected language (en-GB).
+[2019.02.19-15.28.35:653][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.19-15.28.35:655][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.02.19-15.28.36:722][  0]LogStreaming: Display: Took  1.068s to InitEngineTextLocalization.
+[2019.02.19-15.28.36:723][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.19-15.28.36:945][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.19-15.28.36:945][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.19-15.28.42:759][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.19-15.28.42:759][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.19-15.28.43:638][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.02.19-15.28.43:638][  0]LogD3D11RHI:       4027/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.19-15.28.43:709][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.02.19-15.28.43:710][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.19-15.28.43:718][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.19-15.28.43:718][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.19-15.28.43:718][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.19-15.28.43:827][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.19-15.28.43:827][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.19-15.28.43:828][  0]LogWindows: EnumDisplayDevices:
+[2019.02.19-15.28.43:828][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.02.19-15.28.43:828][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.02.19-15.28.43:829][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.02.19-15.28.43:829][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.19-15.28.43:829][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.02.19-15.28.43:829][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.19-15.28.43:829][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.19-15.28.43:830][  0]LogRHI: Texture pool is 2819 MB (70% of 4027 MB)
+[2019.02.19-15.28.43:955][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.19-15.28.43:996][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.19-15.28.44:001][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Intermediate/Shaders/WorkingDirectory/11024/).
+[2019.02.19-15.28.44:002][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/EE2E0A7242A6668BAD382FA6B85507F1/'.
+[2019.02.19-15.28.44:805][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.19-15.28.44:839][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.19-15.28.44:872][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.19-15.28.44:907][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.19-15.28.44:951][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.19-15.28.44:986][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.19-15.28.45:027][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.19-15.28.45:069][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.19-15.28.45:087][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.19-15.28.45:351][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.19-15.28.45:358][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.19-15.28.45:491][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.19-15.28.45:491][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.19-15.28.45:548][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.19-15.28.45:548][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.19-15.28.45:579][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.19-15.28.45:606][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.19-15.28.45:635][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.19-15.28.45:678][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.19-15.28.45:699][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.19-15.28.45:699][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.19-15.28.45:928][  0]LogXGEController: Cleaning working directory: C:/Users/kevin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.19-15.28.45:928][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.19-15.28.45:928][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.19-15.28.45:928][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.19-15.28.49:501][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.19-15.28.49:883][  0]LogDerivedDataCache: Loaded boot cache 0.38s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.19-15.28.49:884][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.19-15.28.49:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.19-15.28.49:885][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.19-15.28.49:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.19-15.28.49:885][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.19-15.28.49:929][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.19-15.28.49:943][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.19-15.28.49:943][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.19-15.28.49:943][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.19-15.28.49:999][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.19-15.28.50:006][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.19-15.28.50:029][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.19-15.28.50:575][  0]LogAssetRegistry: FAssetRegistry took 0.0352 seconds to start up
+[2019.02.19-15.28.51:295][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.19-15.28.51:942][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.19-15.28.51:976][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.19-15.28.51:976][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.19-15.28.51:977][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.19-15.28.51:977][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.19-15.28.52:072][  0]LogNetVersion: ProcGenCity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2895139612)
+[2019.02.19-15.28.54:864][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.445414 seconds
+[2019.02.19-15.28.54:891][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.19-15.28.54:891][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.19-15.28.54:891][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.19-15.29.05:303][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.19-15.29.05:327][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.19-15.29.06:290][  0]SourceControl: Source control is disabled
+[2019.02.19-15.29.06:291][  0]SourceControl: Source control is disabled
+[2019.02.19-15.29.06:310][  0]SourceControl: Source control is disabled
+[2019.02.19-15.29.06:321][  0]SourceControl: Source control is disabled
+[2019.02.19-15.29.06:960][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.19-15.29.07:134][  0]LogOcInput: OculusInput pre-init called
+[2019.02.19-15.29.07:463][  0]LogEngine: Initializing Engine...
+[2019.02.19-15.29.07:551][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.19-15.29.07:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.02.19-15.29.07:560][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.19-15.29.07:561][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.19-15.29.07:561][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.19-15.29.08:778][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.19-15.29.08:860][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.19-15.29.08:893][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.19-15.29.08:951][  0]LogInit: FAudioDevice initialized.
+[2019.02.19-15.29.08:951][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.19-15.29.09:090][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.19-15.29.09:135][  0]LogInit: Texture streaming: Enabled
+[2019.02.19-15.29.09:194][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.19-15.29.09:249][  0]LogInit: Transaction tracking system initialized
+[2019.02.19-15.29.09:379][  0]BlueprintLog: New page: Editor Load
+[2019.02.19-15.29.09:762][  0]LocalizationService: Localization service is disabled
+[2019.02.19-15.29.11:990][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.19-15.29.11:991][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.19-15.29.11:991][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.19-15.29.11:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.19-15.29.11:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.19-15.29.11:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.19-15.29.11:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.19-15.29.12:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/' took 0.03s
+[2019.02.19-15.29.12:679][  0]SourceControl: Source control is disabled
+[2019.02.19-15.29.12:680][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.19-15.29.12:693][  0]LightingResults: New page: Lighting Build
+[2019.02.19-15.29.12:706][  0]MapCheck: New page: Map Check
+[2019.02.19-15.29.12:706][  0]LightingResults: New page: Lighting Build
+[2019.02.19-15.29.13:962][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.19-15.29.14:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.19-15.29.14:109][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.19-15.29.14:375][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 266.157ms to complete.
+[2019.02.19-15.29.14:376][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.697
+[2019.02.19-15.29.14:717][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-15.29.14:734][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-15.29.14:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-15.29.14:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-15.29.14:816][  0]LogCollectionManager: Loaded 0 collections in 0.009442 seconds
+[2019.02.19-15.29.14:886][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Collections/' took 0.01s
+[2019.02.19-15.29.14:886][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Developers/kevin/Collections/' took 0.01s
+[2019.02.19-15.29.14:886][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Collections/' took 0.01s
+[2019.02.19-15.29.14:886][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.19-15.29.14:915][  0]LogContentBrowser: Native class hierarchy populated in 0.0273 seconds. Added 2583 classes and 605 folders.
+[2019.02.19-15.29.14:959][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2019.02.19-15.29.16:149][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2019.02.19-15.29.16:177][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2019.02.19-15.29.16:318][  0]LogSlate: Took 0.017422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.19-15.29.16:344][  0]LogSlate: Took 0.015907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.19-15.29.16:375][  0]LogSlate: Took 0.017221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.19-15.29.16:789][  0]LogRenderer: Reallocating scene render targets to support 1284x576 Format 9 NumSamples 1 (Frame:1).
+[2019.02.19-15.29.17:208][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.02.19-15.29.17:208][  0]LogLoad: (Engine Initialization) Total time: 53.15 seconds
+[2019.02.19-15.29.17:208][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.19-15.29.17:265][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.02.19-15.29.17:388][  0]LogSlate: Took 0.012189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.19-15.29.17:617][  4]LogAssetRegistry: Asset discovery search completed in 27.0651 seconds
+[2019.02.19-15.29.17:621][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.19-15.29.17:621][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
+[2019.02.19-15.32.10:609][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-15.32.13:295][595]LogActor: Warning: Road /Engine/Transient.World_0:PersistentLevel.Road_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.19-15.32.13:320][596]LogActor: Warning: LRoad /Engine/Transient.World_1:PersistentLevel.LRoad_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.19-15.32.13:354][597]LogActor: Warning: LotPlacement /Engine/Transient.World_2:PersistentLevel.LotPlacement_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.19-15.32.18:049][824]LogSlate: Took 0.000678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.19-15.32.18:068][824]LogAssetEditorManager: Opening Asset editor for Class /Script/ProcGenCity.Branch
+[2019.02.19-15.37.44:853][311]Candidate modules for hot reload:
+[2019.02.19-15.37.44:853][311]  ProcGenCity
+[2019.02.19-15.37.44:853][311]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,4355 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.19-15.37.44:859][311]Warning: Starting HotReload took  0.2s.
+[2019.02.19-15.38.55:664][743]CompilerResultsLog: New page: Compilation - 19 Feb 2019 15:38:55
+[2019.02.19-15.38.55:664][743]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.19-15.38.55:664][743]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.19-15.38.55:665][743]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.19-15.38.55:665][743]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Road.h!
+[2019.02.19-15.38.55:665][743]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 53.457965 seconds
+[2019.02.19-15.38.55:665][743]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:   [1/6] Branch.cpp
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(33) : error C2664: 'T *UWorld::SpawnActor<AChecker>(UClass *,const FVector &,const FRotator &,const FActorSpawnParameters &)': cannot convert argument 1 from 'AChecker *' to 'UClass *'
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           with
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           [
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:               T=AChecker
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           ]
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:   C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(33): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(34) : error C2664: 'T *UWorld::SpawnActor<AChecker>(UClass *,const FVector &,const FRotator &,const FActorSpawnParameters &)': cannot convert argument 1 from 'AChecker *' to 'UClass *'
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           with
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           [
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:               T=AChecker
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           ]
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:   C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(34): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(35) : error C2664: 'T *UWorld::SpawnActor<AChecker>(UClass *,const FVector &,const FRotator &,const FActorSpawnParameters &)': cannot convert argument 1 from 'AChecker *' to 'UClass *'
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           with
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:           [
+[2019.02.19-15.38.55:665][743]CompilerResultsLog:               T=AChecker
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:           ]
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:   C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(35): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(36) : error C2664: 'T *UWorld::SpawnActor<AChecker>(UClass *,const FVector &,const FRotator &,const FActorSpawnParameters &)': cannot convert argument 1 from 'AChecker *' to 'UClass *'
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:           with
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:           [
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:               T=AChecker
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:           ]
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:   C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(36): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:   [2/6] Boundary.cpp
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:   [3/6] Boundary.gen.cpp
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:   [4/6] Branch.gen.cpp
+[2019.02.19-15.38.55:666][743]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-4355.dll
+[2019.02.19-15.38.55:666][743]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.19-15.38.55:666][743]CompilerResultsLog: Total build time: 69.83 seconds (Parallel executor: 0.00 seconds)
+[2019.02.19-15.38.55:666][743]LogMainFrame: MainFrame: Module compiling took 70.823 seconds
+[2019.02.19-15.38.55:666][743]Warning: HotReload failed, recompile failed
+[2019.02.19-15.42.46:147][111]Candidate modules for hot reload:
+[2019.02.19-15.42.46:147][111]  ProcGenCity
+[2019.02.19-15.42.46:148][111]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,9943 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.19-15.42.46:158][111]Warning: Starting HotReload took  0.1s.
+[2019.02.19-15.43.12:504][366]LogSlate: Window 'Message Log' being destroyed
+[2019.02.19-15.43.12:512][366]LogSlate: Window 'Message Log' being destroyed
+[2019.02.19-15.43.20:418][827]CompilerResultsLog: New page: Compilation - 19 Feb 2019 15:43:20
+[2019.02.19-15.43.20:419][827]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.19-15.43.20:419][827]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.19-15.43.20:419][827]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.19-15.43.20:419][827]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Road.h!
+[2019.02.19-15.43.20:419][827]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 19.8983299 seconds
+[2019.02.19-15.43.20:419][827]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   [1/7] ProcGenCity.init.gen.cpp
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   [2/7] Boundary.cpp
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   [3/7] Branch.cpp
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   [4/7] Branch.gen.cpp
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   [5/7] Boundary.gen.cpp
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   [6/7] UE4Editor-ProcGenCity-9943.lib
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9943.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9943.exp
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:   [7/7] UE4Editor-ProcGenCity-9943.dll
+[2019.02.19-15.43.20:419][827]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9943.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9943.suppressed.exp
+[2019.02.19-15.43.20:420][827]CompilerResultsLog: Total build time: 33.45 seconds (Parallel executor: 7.45 seconds)
+[2019.02.19-15.43.20:420][827]LogMainFrame: MainFrame: Module compiling took 34.279 seconds
+[2019.02.19-15.43.20:526][827]LogClass: Could not find existing class Branch in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.02.19-15.43.20:548][827]LogHotReload: Re-instancing Branch after hot-reload.
+[2019.02.19-15.43.20:715][827]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0014 seconds. Added 11 classes and 2 folders.
+[2019.02.19-15.43.20:719][827]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.19-15.43.20:968][827]LogContentBrowser: Native class hierarchy populated in 0.0336 seconds. Added 2584 classes and 607 folders.
+[2019.02.19-15.43.20:998][827]Display: HotReload took 34.9s.
+[2019.02.19-15.43.58:117][941]LogSlate: Took 0.021708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.19-15.44.02:608][172]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MyBranch.MyBranch
+[2019.02.19-15.44.04:933][172]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2019.02.19-15.44.06:898][172]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.02.19-15.44.06:907][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.06:908][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.06:908][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.06:908][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.07:201][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.07:201][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.07:201][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.07:201][172]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-15.44.07:312][172]LogRenderer: Reallocating scene render targets to support 1284x712 Format 9 NumSamples 1 (Frame:1).
+[2019.02.19-15.44.07:362][173]LogActor: Warning: MyRoad_C /Engine/Transient.World_5:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.19-15.44.27:680][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.075
+[2019.02.19-15.44.27:685][ 93]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/MyBranch] ([1] browsable assets)...
+[2019.02.19-15.44.27:685][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyBranch]
+[2019.02.19-15.44.27:720][ 93]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/MyBranch_Auto1DB0E2C554FDB3B5A8F1FC8B80D8BA5F9.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/BP/MyBranch_Auto1.uasset'
+[2019.02.19-15.44.27:724][ 93]LogFileHelpers: Auto-saving content packages took 0.042
+[2019.02.19-15.44.53:130][786]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.19-15.45.06:988][516]BlueprintLog: New page: Compile MyBranch
+[2019.02.19-15.45.09:952][640]LogSlate: Window 'MyBranch*' being destroyed
+[2019.02.19-15.45.19:722][223]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.19-15.45.20:878][290]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.19-15.45.23:703][457]BlueprintLog: New page: Compile MyBranch
+[2019.02.19-15.45.37:243][245]LogSlate: Took 0.038315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.19-15.45.38:565][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-15.46.02:838][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-15.46.16:967][581]BlueprintLog: New page: Compile MyBranch
+[2019.02.19-15.47.53:979][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-15.48.18:382][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:383][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:385][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:385][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:386][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:386][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:388][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:388][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:389][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:389][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:390][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:392][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:392][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:394][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:396][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:397][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:397][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:398][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:399][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:399][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:400][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:401][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:401][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:402][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:403][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:404][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:405][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:405][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:406][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:408][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:410][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:412][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:413][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:414][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:415][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:416][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:417][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:417][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:419][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:419][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:420][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:421][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:422][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:423][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:424][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:424][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:425][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:426][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:428][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:429][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:430][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:431][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:432][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:433][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:434][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:435][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:435][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:437][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:437][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:439][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:439][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:440][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:441][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:442][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:443][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:444][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:445][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:447][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:447][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:448][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:449][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:450][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:451][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:452][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:453][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:454][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:456][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:457][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:458][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:459][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:461][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:462][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:463][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:464][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:465][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:466][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:467][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:467][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:469][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:469][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:470][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:471][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:471][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:473][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:473][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:474][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:475][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:476][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:477][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:479][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:480][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:481][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:482][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:483][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:484][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:485][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:486][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:487][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:488][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:489][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:490][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:492][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:493][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:494][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:495][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:496][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:497][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:498][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:500][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:501][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:501][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:502][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:504][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:505][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.18:506][615]LogEditorActor: Actor CheckerObj124 is referenced by MyBranch.
+[2019.02.19-15.48.22:960][615]LogSlate: Window 'Message' being destroyed
+[2019.02.19-15.48.22:969][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:971][615]LogEditorActor: Actor CheckerObj125 is referenced by MyBranch.
+[2019.02.19-15.48.22:971][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:973][615]LogEditorActor: Actor CheckerObj126 is referenced by MyBranch.
+[2019.02.19-15.48.22:974][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:975][615]LogEditorActor: Actor CheckerObj127 is referenced by MyBranch.
+[2019.02.19-15.48.22:975][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:977][615]LogEditorActor: Actor CheckerObj128 is referenced by MyBranch.
+[2019.02.19-15.48.22:977][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:978][615]LogEditorActor: Actor CheckerObj129 is referenced by MyBranch.
+[2019.02.19-15.48.22:978][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:979][615]LogEditorActor: Actor CheckerObj130 is referenced by MyBranch.
+[2019.02.19-15.48.22:979][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:981][615]LogEditorActor: Actor CheckerObj131 is referenced by MyBranch.
+[2019.02.19-15.48.22:981][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:981][615]LogEditorActor: Actor CheckerObj132 is referenced by MyBranch.
+[2019.02.19-15.48.22:981][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:982][615]LogEditorActor: Actor CheckerObj133 is referenced by MyBranch.
+[2019.02.19-15.48.22:982][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:983][615]LogEditorActor: Actor CheckerObj134 is referenced by MyBranch.
+[2019.02.19-15.48.22:983][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:983][615]LogEditorActor: Actor CheckerObj135 is referenced by MyBranch.
+[2019.02.19-15.48.22:983][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:985][615]LogEditorActor: Actor CheckerObj136 is referenced by MyBranch.
+[2019.02.19-15.48.22:985][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:985][615]LogEditorActor: Actor CheckerObj137 is referenced by MyBranch.
+[2019.02.19-15.48.22:985][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:986][615]LogEditorActor: Actor CheckerObj138 is referenced by MyBranch.
+[2019.02.19-15.48.22:986][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.22:987][615]LogEditorActor: Actor CheckerObj139 is referenced by MyBranch.
+[2019.02.19-15.48.22:987][615]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.48.23:036][615]LogEditorActor: Deleted 140 Actors (4.748 secs)
+[2019.02.19-15.48.27:419][913]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.19-15.48.27:472][913]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2019.02.19-15.48.29:747][131]Candidate modules for hot reload:
+[2019.02.19-15.48.29:747][131]  ProcGenCity
+[2019.02.19-15.48.29:748][131]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,657 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.19-15.48.29:757][131]Warning: Starting HotReload took  0.1s.
+[2019.02.19-15.48.45:634][296]CompilerResultsLog: New page: Compilation - 19 Feb 2019 15:48:45
+[2019.02.19-15.48.45:634][296]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.19-15.48.45:634][296]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.19-15.48.45:635][296]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.19-15.48.45:635][296]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.02.19-15.48.45:635][296]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-657.lib
+[2019.02.19-15.48.45:635][296]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-657.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-657.exp
+[2019.02.19-15.48.45:635][296]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-657.dll
+[2019.02.19-15.48.45:635][296]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-657.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-657.suppressed.exp
+[2019.02.19-15.48.45:635][296]CompilerResultsLog: Total build time: 14.67 seconds (Parallel executor: 7.02 seconds)
+[2019.02.19-15.48.45:635][296]LogMainFrame: MainFrame: Module compiling took 15.906 seconds
+[2019.02.19-15.48.45:782][296]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0014 seconds. Added 11 classes and 2 folders.
+[2019.02.19-15.48.45:788][296]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.19-15.48.46:382][296]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2584 classes and 607 folders.
+[2019.02.19-15.48.46:382][296]Display: HotReload took 16.7s.
+[2019.02.19-15.49.18:093][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-15.49.29:747][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.29:749][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.29:750][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.29:752][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.29:753][157]LogEditorActor: Actor CheckerObj144 is referenced by MyBranch.
+[2019.02.19-15.49.31:902][157]LogSlate: Window 'Message' being destroyed
+[2019.02.19-15.49.31:913][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.31:915][157]LogEditorActor: Actor CheckerObj145 is referenced by MyBranch.
+[2019.02.19-15.49.31:916][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.31:918][157]LogEditorActor: Actor CheckerObj146 is referenced by MyBranch.
+[2019.02.19-15.49.31:918][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.31:920][157]LogEditorActor: Actor CheckerObj147 is referenced by MyBranch.
+[2019.02.19-15.49.31:920][157]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.49.32:003][157]LogEditorActor: Deleted 8 Actors (2.276 secs)
+[2019.02.19-15.49.34:680][393]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.19-15.49.34:748][393]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2019.02.19-15.50.39:528][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-15.50.41:113][270]Candidate modules for hot reload:
+[2019.02.19-15.50.41:113][270]  ProcGenCity
+[2019.02.19-15.50.41:114][270]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,8114 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.19-15.50.41:128][270]Warning: Starting HotReload took  0.1s.
+[2019.02.19-15.51.14:252][435]CompilerResultsLog: New page: Compilation - 19 Feb 2019 15:51:14
+[2019.02.19-15.51.14:252][435]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.19-15.51.14:252][435]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.19-15.51.14:252][435]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.19-15.51.14:252][435]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.19-15.51.14:252][435]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Road.h!
+[2019.02.19-15.51.14:252][435]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 20.9017242 seconds
+[2019.02.19-15.51.14:252][435]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:   [1/6] Boundary.cpp
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:   [2/6] Branch.gen.cpp
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:   [3/6] Boundary.gen.cpp
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:   [4/6] Branch.cpp
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:   [5/6] UE4Editor-ProcGenCity-8114.lib
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8114.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8114.exp
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:   [6/6] UE4Editor-ProcGenCity-8114.dll
+[2019.02.19-15.51.14:253][435]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8114.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8114.suppressed.exp
+[2019.02.19-15.51.14:253][435]CompilerResultsLog: Total build time: 32.15 seconds (Parallel executor: 5.73 seconds)
+[2019.02.19-15.51.14:254][435]LogMainFrame: MainFrame: Module compiling took 33.154 seconds
+[2019.02.19-15.51.14:367][435]LogClass: Could not find existing class Branch in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.02.19-15.51.14:412][435]LogHotReload: Re-instancing Branch after hot-reload.
+[2019.02.19-15.51.14:949][435]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0006 seconds. Added 11 classes and 2 folders.
+[2019.02.19-15.51.14:955][435]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.19-15.51.15:855][435]LogContentBrowser: Native class hierarchy populated in 0.0261 seconds. Added 2584 classes and 607 folders.
+[2019.02.19-15.51.15:855][435]Display: HotReload took 34.9s.
+[2019.02.19-15.51.34:690][584]Candidate modules for hot reload:
+[2019.02.19-15.51.34:691][584]  ProcGenCity
+[2019.02.19-15.51.34:691][584]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,447 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.19-15.51.34:701][584]Warning: Starting HotReload took  0.1s.
+[2019.02.19-15.52.14:806][318]CompilerResultsLog: New page: Compilation - 19 Feb 2019 15:52:14
+[2019.02.19-15.52.14:806][318]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.19-15.52.14:806][318]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.19-15.52.14:806][318]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.19-15.52.14:806][318]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.19-15.52.14:806][318]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Road.h!
+[2019.02.19-15.52.14:806][318]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 22.2102392 seconds
+[2019.02.19-15.52.14:806][318]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:   [1/7] ProcGenCity.init.gen.cpp
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:   [2/7] Boundary.cpp
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:   [3/7] Branch.cpp
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:   [4/7] Branch.gen.cpp
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:   [5/7] Boundary.gen.cpp
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:   [6/7] UE4Editor-ProcGenCity-447.lib
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-447.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-447.exp
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:   [7/7] UE4Editor-ProcGenCity-447.dll
+[2019.02.19-15.52.14:807][318]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-447.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-447.suppressed.exp
+[2019.02.19-15.52.14:807][318]CompilerResultsLog: Total build time: 39.16 seconds (Parallel executor: 7.57 seconds)
+[2019.02.19-15.52.14:807][318]LogMainFrame: MainFrame: Module compiling took 40.130 seconds
+[2019.02.19-15.52.14:943][318]LogClass: Could not find existing class Branch in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.02.19-15.52.14:989][318]LogHotReload: Re-instancing Branch after hot-reload.
+[2019.02.19-15.52.15:502][318]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0009 seconds. Added 11 classes and 2 folders.
+[2019.02.19-15.52.15:508][318]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.19-15.52.16:120][318]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2584 classes and 607 folders.
+[2019.02.19-15.52.16:120][318]Display: HotReload took 41.5s.
+[2019.02.19-15.52.26:104][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-15.53.02:778][698]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-15.53.11:668][409]LogEditorActor: Actor MyBranch is referenced by CheckerObj148.
+[2019.02.19-15.53.11:668][409]LogEditorActor: Actor MyBranch is referenced by CheckerObj149.
+[2019.02.19-15.53.11:668][409]LogEditorActor: Actor MyBranch is referenced by CheckerObj150.
+[2019.02.19-15.53.11:668][409]LogEditorActor: Actor MyBranch is referenced by CheckerObj151.
+[2019.02.19-15.53.14:324][409]LogSlate: Window 'Message' being destroyed
+[2019.02.19-15.53.14:343][409]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.19-15.53.14:344][409]LogEditorActor: Actor CheckerObj148 is referenced by MyBranch.
+[2019.02.19-15.53.14:344][409]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.53.14:345][409]LogEditorActor: Actor CheckerObj149 is referenced by MyBranch.
+[2019.02.19-15.53.14:345][409]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.53.14:345][409]LogEditorActor: Actor CheckerObj150 is referenced by MyBranch.
+[2019.02.19-15.53.14:346][409]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.53.14:346][409]LogEditorActor: Actor CheckerObj151 is referenced by MyBranch.
+[2019.02.19-15.53.14:346][409]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.19-15.53.14:450][409]LogEditorActor: Deleted 5 Actors (2.800 secs)
+[2019.02.19-15.54.29:260][774]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto2BBBDBD5C4921DAE47BE3A78E5366CC78.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2019.02.19-15.54.29:273][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.011
+[2019.02.19-15.54.29:273][774]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.011
+[2019.02.19-15.54.29:280][774]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/MyBranch] ([1] browsable assets)...
+[2019.02.19-15.54.29:328][774]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/MyBranch.MyBranch]
+[2019.02.19-15.54.29:328][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyBranch]
+[2019.02.19-15.54.29:367][774]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/MyBranch_Auto2573D49E549F2CCDBA69046811E55BF84.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/BP/MyBranch_Auto2.uasset'
+[2019.02.19-15.54.29:370][774]LogFileHelpers: Auto-saving content packages took 0.093
+[2019.02.19-16.35.58:840][296]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.19-16.35.59:413][347]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.19-16.36.09:807][236]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.02.19-16.36.10:613][288]LogEditorViewport: Clicking on Actor (LMB): MyRoad_C (MyRoad13)
+[2019.02.19-16.36.12:600][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-16.36.14:465][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.19-16.36.14:548][637]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2019.02.19-16.36.57:360][400]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto3901064554C91BB4E1410AC8D2B555D77.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2019.02.19-16.36.57:374][400]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.250
+[2019.02.19-16.36.57:374][400]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.250
+[2019.02.19-16.39.18:204][976]Candidate modules for hot reload:
+[2019.02.19-16.39.18:205][976]  ProcGenCity
+[2019.02.19-16.39.18:205][976]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,8425 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.19-16.39.18:216][976]Warning: Starting HotReload took  0.1s.
+[2019.02.19-16.39.59:470][879]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.19-16.40.04:960][269]CompilerResultsLog: New page: Compilation - 19 Feb 2019 16:40:04
+[2019.02.19-16.40.04:960][269]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.19-16.40.04:960][269]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.19-16.40.04:961][269]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.19-16.40.04:961][269]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.19-16.40.04:961][269]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.02.19-16.40.04:961][269]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Road.h!
+[2019.02.19-16.40.04:961][269]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 29.2713225 seconds
+[2019.02.19-16.40.04:961][269]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.02.19-16.40.04:961][269]CompilerResultsLog:   [1/9] ProcGenCity.init.gen.cpp
+[2019.02.19-16.40.04:961][269]CompilerResultsLog:   [2/9] Boundary.cpp
+[2019.02.19-16.40.04:961][269]CompilerResultsLog:   [3/9] Boundary.gen.cpp
+[2019.02.19-16.40.04:961][269]CompilerResultsLog:   [4/9] Branch.cpp
+[2019.02.19-16.40.04:961][269]CompilerResultsLog:   [5/9] Checker.cpp
+[2019.02.19-16.40.04:961][269]CompilerResultsLog:   [6/9] Branch.gen.cpp
+[2019.02.19-16.40.04:962][269]CompilerResultsLog:   [7/9] Checker.gen.cpp
+[2019.02.19-16.40.04:962][269]CompilerResultsLog:   [8/9] UE4Editor-ProcGenCity-8425.lib
+[2019.02.19-16.40.04:962][269]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8425.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8425.exp
+[2019.02.19-16.40.04:962][269]CompilerResultsLog:   [9/9] UE4Editor-ProcGenCity-8425.dll
+[2019.02.19-16.40.04:962][269]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8425.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8425.suppressed.exp
+[2019.02.19-16.40.04:962][269]CompilerResultsLog: Total build time: 46.00 seconds (Parallel executor: 8.52 seconds)
+[2019.02.19-16.40.04:962][269]LogMainFrame: MainFrame: Module compiling took 46.771 seconds
+[2019.02.19-16.40.05:108][269]LogClass: Could not find existing class Branch in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.02.19-16.40.05:108][269]LogClass: Could not find existing class Checker in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.02.19-16.40.05:147][269]LogHotReload: Re-instancing Branch after hot-reload.
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_0
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_1
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_2
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_3
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_4
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_5
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_6
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_7
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_8
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_9
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_10
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_11
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_12
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_13
+[2019.02.19-16.40.05:170][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_14
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_15
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_16
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_17
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_18
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_19
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_20
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_21
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_22
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_23
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_24
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_25
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_26
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_Checker_4 for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = HOTRELOADED_Checker_4 /Engine/Transient.World_4:PersistentLevel.Checker_27
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_0
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_1
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_2
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_3
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_4
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_5
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_6
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_7
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_8
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_9
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_10
+[2019.02.19-16.40.05:171][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_11
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_12
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_13
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_14
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_15
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_16
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_17
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_18
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_19
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_20
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_21
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_22
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_23
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_24
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_25
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_26
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_27
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_28
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_29
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_30
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_31
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_32
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_33
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_34
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_35
+[2019.02.19-16.40.05:172][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_36
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_37
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_38
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_39
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_40
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_41
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_42
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_43
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_44
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_45
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_46
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_47
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_48
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_49
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_50
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_51
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_52
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_53
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_54
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_55
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_56
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_57
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_58
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_59
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_60
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_61
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_62
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_63
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_64
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_65
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_66
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_67
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_68
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_69
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_70
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_71
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_72
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_73
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_74
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_75
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_76
+[2019.02.19-16.40.05:173][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_77
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_78
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_79
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_80
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_81
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_82
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_83
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_84
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_85
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_86
+[2019.02.19-16.40.05:174][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_4:PersistentLevel.CheckerObj_C_87
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_24
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_25
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_26
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_27
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_28
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_29
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_30
+[2019.02.19-16.40.05:175][269]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/BP/CheckerObj.CheckerObj_C for a property of Class /Script/ProcGenCity.Checker. Reference will be nullptred.
+    Property = ObjectProperty /Script/ProcGenCity.Branch:checkerObjs.checkerObjs
+    Item = CheckerObj_C /Engine/Transient.World_9:PersistentLevel.CheckerObj_C_31
+[2019.02.19-16.40.05:677][269]LogHotReload: Re-instancing Checker after hot-reload.
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:738][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:739][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:740][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:741][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:742][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:743][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:953][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:954][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:955][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.05:955][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.40.06:187][269]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0015 seconds. Added 11 classes and 2 folders.
+[2019.02.19-16.40.06:194][269]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.19-16.40.06:960][269]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 2584 classes and 607 folders.
+[2019.02.19-16.40.06:960][269]Display: HotReload took 48.9s.
+[2019.02.19-16.40.07:003][271]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.41.52:018][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-16.42.08:374][ 38]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.02.19-16.42.11:116][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-16.42.11:666][292]EditorErrors: New page: Actor attachment
+[2019.02.19-16.42.21:998][101]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.42.21:998][101]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.42.21:999][101]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.19-16.42.22:524][101]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.525 s
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: 
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: Ensure condition failed: !RotationQuat.ContainsNaN() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Math\UnrealMath.cpp] [Line: 448]
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: Invalid input to FRotator::Quaternion - generated NaN output: X=nan Y=nan Z=nan W=-nan
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: Stack: 
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffaae2e71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffaae020c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffaae03b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffaae04036c UE4Editor-Core.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffae4803ee3 UE4Editor-ProcGenCity-8425.dll!ABranch::OnConstruction() [c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\branch.cpp:39]
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffa85344eff UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffa853771f1 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffa85364e8e UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffaada8cf73 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.19-16.42.22:524][101]LogOutputDevice: Error: [Callstack] 0x00007ffa84ad69a6 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffa84aca699 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffa84acac2d UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffa84aca8ce UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffa84b13e1a UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffa84bc817e UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffa84baa779 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaad479ddd UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaad2694c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaad301db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaad2e7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaad2db25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffabf89d1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffabf890270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffabf89f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffabf88c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaeef86d41 USER32.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaeef86713 USER32.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffabf8a0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ff740b454e5 UE4Editor.exe!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ff740b55b3c UE4Editor.exe!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ff740b55bba UE4Editor.exe!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ff740b63dac UE4Editor.exe!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ff740b65aaa UE4Editor.exe!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaef493dc4 KERNEL32.DLL!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: [Callstack] 0x00007ffaef633691 ntdll.dll!UnknownFunction []
+[2019.02.19-16.42.22:525][101]LogOutputDevice: Error: 
+[2019.02.19-16.42.22:535][101]LogStats:                SubmitErrorReport -  0.000 s

@@ -17,8 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeRoad() {}
 	PROCGENCITY_API UClass* Z_Construct_UClass_ARoad();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	PROCGENCITY_API UClass* Z_Construct_UClass_ALotCalculator_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ARoad::StaticRegisterNativesARoad()
@@ -35,14 +34,9 @@ void EmptyLinkFunctionForGeneratedCodeRoad() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpLotCalculator_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_boxCollider_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_bpLotCalculator;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_calculateLots_MetaData[];
-#endif
-		static void NewProp_calculateLots_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_calculateLots;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_boxCollider;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mesh_MetaData[];
 #endif
@@ -62,23 +56,13 @@ void EmptyLinkFunctionForGeneratedCodeRoad() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARoad_Statics::NewProp_bpLotCalculator_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARoad_Statics::NewProp_boxCollider_MetaData[] = {
 		{ "Category", "Road" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Road.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ARoad_Statics::NewProp_bpLotCalculator = { UE4CodeGen_Private::EPropertyClass::Class, "bpLotCalculator", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(ARoad, bpLotCalculator), Z_Construct_UClass_ALotCalculator_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ARoad_Statics::NewProp_bpLotCalculator_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARoad_Statics::NewProp_bpLotCalculator_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARoad_Statics::NewProp_calculateLots_MetaData[] = {
-		{ "Category", "Road" },
-		{ "ModuleRelativePath", "Road.h" },
-	};
-#endif
-	void Z_Construct_UClass_ARoad_Statics::NewProp_calculateLots_SetBit(void* Obj)
-	{
-		((ARoad*)Obj)->calculateLots = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ARoad_Statics::NewProp_calculateLots = { UE4CodeGen_Private::EPropertyClass::Bool, "calculateLots", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ARoad), &Z_Construct_UClass_ARoad_Statics::NewProp_calculateLots_SetBit, METADATA_PARAMS(Z_Construct_UClass_ARoad_Statics::NewProp_calculateLots_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARoad_Statics::NewProp_calculateLots_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARoad_Statics::NewProp_boxCollider = { UE4CodeGen_Private::EPropertyClass::Object, "boxCollider", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(ARoad, boxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARoad_Statics::NewProp_boxCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARoad_Statics::NewProp_boxCollider_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARoad_Statics::NewProp_mesh_MetaData[] = {
 		{ "Category", "Road" },
@@ -88,8 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeRoad() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARoad_Statics::NewProp_mesh = { UE4CodeGen_Private::EPropertyClass::Object, "mesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(ARoad, mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARoad_Statics::NewProp_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ARoad_Statics::NewProp_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARoad_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoad_Statics::NewProp_bpLotCalculator,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoad_Statics::NewProp_calculateLots,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoad_Statics::NewProp_boxCollider,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARoad_Statics::NewProp_mesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ARoad_Statics::StaticCppClassTypeInfo = {
@@ -115,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeRoad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARoad, 2519074172);
+	IMPLEMENT_CLASS(ARoad, 970937436);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ARoad(Z_Construct_UClass_ARoad, &ARoad::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ARoad"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ARoad);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
