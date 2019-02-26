@@ -38,10 +38,28 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "New Branch")
 		ABranch* branch;
 
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		int maxWidth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		int maxHeight;
+
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		bool condition;
+
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+	int leftBranchNum;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+	int rightBranchNum;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+	int upBranchNum;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+	int downBranchNum;
+
 protected:
 	float timer;
 	float maxTime;
+
 
 
 public:	
@@ -53,4 +71,6 @@ public:
 
 	void SpawnBranch();
 	void SetNewBranchDirection();
+
+	void Branches();
 };

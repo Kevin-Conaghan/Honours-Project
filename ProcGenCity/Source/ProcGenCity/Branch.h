@@ -5,16 +5,19 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Checker.h"
+#include "EngineUtils.h"
+#include "Engine.h"
 #include "Branch.generated.h"
 
 UENUM(BlueprintType)
 enum class EBranchState : uint8
 {
-	EB_Up		UMETA(DisplayeName = "Up-Direction"),
-	EB_DOWN		UMETA(DisplayeName = "Down-Direction"),
-	EB_LEFT		UMETA(DisplayeName = "Left-Direction"),
-	EB_RIGHT	UMETA(DisplayeName = "Right-Direction"),
-	EB_INIT		UMETA(DisplayName  = "Initial-Branch")
+	EB_NULL		UMETA(DisplayName = "Null-Branch"),
+	EB_INIT		UMETA(DisplayName = "Initial-Branch"),
+	EB_Up		UMETA(DisplayName = "Up-Direction"),
+	EB_DOWN		UMETA(DisplayName = "Down-Direction"),
+	EB_LEFT		UMETA(DisplayName = "Left-Direction"),
+	EB_RIGHT	UMETA(DisplayName = "Right-Direction")
 };
 
 UCLASS()
@@ -41,20 +44,22 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		bool isGenerating;
 
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enum")
 		EBranchState branchDirection;
 
+
 protected:
-
-
-
-
 
 public:	
 	virtual void OnConstruction(const FTransform& transform) override;
 	
 
 	void InitCheckers(FActorSpawnParameters spawnParams);
+	void SpawnLeft();
+	void SpawnRight();
+	void SpawnUp();
+	void SpawnDown();
+
 	void SetBranchDir(EBranchState branchDir);
+	EBranchState GetBranchDir();	
 };

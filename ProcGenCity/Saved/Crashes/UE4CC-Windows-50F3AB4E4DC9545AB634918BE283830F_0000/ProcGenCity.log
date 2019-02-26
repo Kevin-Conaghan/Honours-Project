@@ -1,0 +1,1548 @@
+﻿Log file open, 02/26/19 20:05:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProcGenCity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.341584
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.403s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.013s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.26-20.05.29:375][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.26-20.05.29:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.26-20.05.29:426][  0]LogHAL: Display: Platform has ~ 16 GB [17058729984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.26-20.05.29:426][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.26-20.05.29:426][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.26-20.05.29:428][  0]LogInit: Computer: LAPTOP-TLBN2SQS
+[2019.02.26-20.05.29:428][  0]LogInit: User: kevin
+[2019.02.26-20.05.29:428][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.26-20.05.29:428][  0]LogInit: High frequency timer resolution =1.945312 MHz
+[2019.02.26-20.05.29:429][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.26-20.05.29:430][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.26-20.05.29:430][  0]LogMemory: Process Physical Memory: 102.04 MB used, 102.04 MB peak
+[2019.02.26-20.05.29:430][  0]LogMemory: Process Virtual Memory: 94.11 MB used, 94.11 MB peak
+[2019.02.26-20.05.29:430][  0]LogMemory: Physical Memory: 7427.43 MB used,  8841.04 MB free, 16268.47 MB total
+[2019.02.26-20.05.29:430][  0]LogMemory: Virtual Memory: 4655.32 MB used,  8841.04 MB free, 134217728.00 MB total
+[2019.02.26-20.05.29:488][  0]LogInit: Using OS detected language (en-GB).
+[2019.02.26-20.05.29:488][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.26-20.05.29:492][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.02.26-20.05.30:914][  0]LogStreaming: Display: Took  1.426s to InitEngineTextLocalization.
+[2019.02.26-20.05.30:915][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.26-20.05.31:309][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.26-20.05.31:309][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.26-20.05.32:020][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.02.26-20.05.32:020][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.26-20.05.32:937][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.02.26-20.05.32:937][  0]LogD3D11RHI:       4027/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.26-20.05.32:972][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.02.26-20.05.32:972][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.26-20.05.32:978][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.26-20.05.32:978][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.26-20.05.32:978][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.26-20.05.33:112][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.26-20.05.33:112][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.26-20.05.33:113][  0]LogWindows: EnumDisplayDevices:
+[2019.02.26-20.05.33:114][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.02.26-20.05.33:116][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.02.26-20.05.33:118][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.02.26-20.05.33:119][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.26-20.05.33:119][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.02.26-20.05.33:119][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.26-20.05.33:119][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.26-20.05.33:120][  0]LogRHI: Texture pool is 2819 MB (70% of 4027 MB)
+[2019.02.26-20.05.33:276][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.26-20.05.33:316][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2019.02.26-20.05.33:341][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Intermediate/Shaders/WorkingDirectory/21392/).
+[2019.02.26-20.05.33:341][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/A0C4BB334FAA9A8C5A2FF6BBCB2C85B5/'.
+[2019.02.26-20.05.34:821][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.26-20.05.34:872][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.26-20.05.34:922][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.26-20.05.34:949][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.26-20.05.34:977][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.26-20.05.35:003][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.26-20.05.35:033][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.26-20.05.35:060][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.26-20.05.35:074][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:211][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-20.05.35:214][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.26-20.05.35:295][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.26-20.05.35:295][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.26-20.05.35:338][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.26-20.05.35:338][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.26-20.05.35:359][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.26-20.05.35:381][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.26-20.05.35:402][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.26-20.05.35:426][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.26-20.05.35:445][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.26-20.05.35:445][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.26-20.05.35:580][  0]LogXGEController: Cleaning working directory: C:/Users/kevin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.26-20.05.35:580][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.26-20.05.35:580][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.26-20.05.35:580][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.26-20.05.36:906][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.26-20.05.36:997][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.26-20.05.36:998][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.26-20.05.36:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.26-20.05.36:999][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.26-20.05.36:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.26-20.05.36:999][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.26-20.05.37:025][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.26-20.05.37:057][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.26-20.05.37:057][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.26-20.05.37:057][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.26-20.05.37:092][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.26-20.05.37:097][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.26-20.05.37:098][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.26-20.05.37:217][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2019.02.26-20.05.37:981][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.26-20.05.38:272][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.26-20.05.38:281][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.26-20.05.38:282][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.26-20.05.38:282][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.26-20.05.38:282][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.26-20.05.38:382][  0]LogNetVersion: ProcGenCity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2895139612)
+[2019.02.26-20.05.39:955][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.351938 seconds
+[2019.02.26-20.05.39:975][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.26-20.05.39:975][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.26-20.05.39:975][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.26-20.05.41:864][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.26-20.05.41:879][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.26-20.05.42:160][  0]SourceControl: Source control is disabled
+[2019.02.26-20.05.42:160][  0]SourceControl: Source control is disabled
+[2019.02.26-20.05.42:163][  0]SourceControl: Source control is disabled
+[2019.02.26-20.05.42:165][  0]SourceControl: Source control is disabled
+[2019.02.26-20.05.42:397][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.26-20.05.42:491][  0]LogOcInput: OculusInput pre-init called
+[2019.02.26-20.05.42:615][  0]LogEngine: Initializing Engine...
+[2019.02.26-20.05.42:617][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.02.26-20.05.42:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.26-20.05.42:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.26-20.05.42:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.26-20.05.42:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.26-20.05.43:439][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.26-20.05.43:498][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.26-20.05.43:524][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-20.05.43:587][  0]LogInit: FAudioDevice initialized.
+[2019.02.26-20.05.43:588][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.26-20.05.43:797][  0]LogDerivedDataCache: Saved boot cache 0.21s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.26-20.05.43:838][  0]LogInit: Texture streaming: Enabled
+[2019.02.26-20.05.43:878][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.26-20.05.43:878][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={CA56AE98-4B11-7B79-1946-A7ABE50F710A}
+[2019.02.26-20.05.43:915][  0]LogInit: Transaction tracking system initialized
+[2019.02.26-20.05.43:979][  0]BlueprintLog: New page: Editor Load
+[2019.02.26-20.05.44:204][  0]LocalizationService: Localization service is disabled
+[2019.02.26-20.05.45:762][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.26-20.05.45:762][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.26-20.05.45:763][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.26-20.05.45:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.26-20.05.45:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.26-20.05.45:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.26-20.05.45:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.26-20.05.46:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/' took 0.02s
+[2019.02.26-20.05.46:215][  0]SourceControl: Source control is disabled
+[2019.02.26-20.05.46:216][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.26-20.05.46:218][  0]LightingResults: New page: Lighting Build
+[2019.02.26-20.05.46:234][  0]MapCheck: New page: Map Check
+[2019.02.26-20.05.46:234][  0]LightingResults: New page: Lighting Build
+[2019.02.26-20.05.47:127][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.26-20.05.47:154][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.26-20.05.47:204][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.26-20.05.47:369][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 166.044ms to complete.
+[2019.02.26-20.05.47:369][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.154
+[2019.02.26-20.05.47:517][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-20.05.47:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-20.05.47:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-20.05.47:569][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-20.05.47:602][  0]LogCollectionManager: Loaded 0 collections in 0.009941 seconds
+[2019.02.26-20.05.47:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Collections/' took 0.01s
+[2019.02.26-20.05.47:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Developers/kevin/Collections/' took 0.01s
+[2019.02.26-20.05.47:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Collections/' took 0.01s
+[2019.02.26-20.05.47:674][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.26-20.05.47:715][  0]LogContentBrowser: Native class hierarchy populated in 0.0414 seconds. Added 2583 classes and 605 folders.
+[2019.02.26-20.05.47:737][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.02.26-20.05.47:884][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.02.26-20.05.47:898][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.02.26-20.05.47:922][  0]LogSlate: Took 0.000553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.26-20.05.47:931][  0]LogSlate: Took 0.000491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.26-20.05.47:939][  0]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.26-20.05.48:157][  0]LogRenderer: Reallocating scene render targets to support 1284x576 Format 9 NumSamples 1 (Frame:1).
+[2019.02.26-20.05.48:487][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.02.26-20.05.48:487][  0]LogLoad: (Engine Initialization) Total time: 25.22 seconds
+[2019.02.26-20.05.48:487][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.26-20.05.48:542][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.02.26-20.05.48:623][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.26-20.05.48:948][  3]LogAssetRegistry: Asset discovery search completed in 11.7539 seconds
+[2019.02.26-20.05.48:952][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.26-20.05.48:952][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
+[2019.02.26-20.05.49:938][  6]LogSlate: Took 0.000455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.26-20.05.52:110][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.05.52:545][ 64]Candidate modules for hot reload:
+[2019.02.26-20.05.52:545][ 64]  ProcGenCity
+[2019.02.26-20.05.52:545][ 64]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,1133 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.05.52:552][ 64]Warning: Starting HotReload took  0.3s.
+[2019.02.26-20.06.35:655][542]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:06:35
+[2019.02.26-20.06.35:655][542]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.06.35:655][542]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.06.35:656][542]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.26-20.06.35:656][542]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.02.26-20.06.35:656][542]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-1133.lib
+[2019.02.26-20.06.35:656][542]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1133.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1133.exp
+[2019.02.26-20.06.35:656][542]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-1133.dll
+[2019.02.26-20.06.35:656][542]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1133.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1133.suppressed.exp
+[2019.02.26-20.06.35:656][542]CompilerResultsLog: Total build time: 42.27 seconds (Parallel executor: 32.88 seconds)
+[2019.02.26-20.06.35:656][542]LogMainFrame: MainFrame: Module compiling took 43.178 seconds
+[2019.02.26-20.06.35:786][542]LogClass: EBranchState HotReload.
+[2019.02.26-20.06.35:804][542]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0016 seconds. Added 11 classes and 2 folders.
+[2019.02.26-20.06.35:808][542]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.26-20.06.36:053][542]LogContentBrowser: Native class hierarchy populated in 0.0354 seconds. Added 2584 classes and 607 folders.
+[2019.02.26-20.06.36:056][542]Display: HotReload took 43.8s.
+[2019.02.26-20.06.43:064][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.08.07:814][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.08.08:101][472]Candidate modules for hot reload:
+[2019.02.26-20.08.08:101][472]  ProcGenCity
+[2019.02.26-20.08.08:101][472]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,9851 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.08.08:106][472]Warning: Starting HotReload took  0.1s.
+[2019.02.26-20.08.43:893][675]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:08:43
+[2019.02.26-20.08.43:894][675]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.08.43:894][675]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.08.43:894][675]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.26-20.08.43:894][675]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.02.26-20.08.43:894][675]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-9851.lib
+[2019.02.26-20.08.43:894][675]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9851.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9851.exp
+[2019.02.26-20.08.43:894][675]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-9851.dll
+[2019.02.26-20.08.43:894][675]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9851.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9851.suppressed.exp
+[2019.02.26-20.08.43:894][675]CompilerResultsLog: Total build time: 34.57 seconds (Parallel executor: 25.64 seconds)
+[2019.02.26-20.08.43:894][675]LogMainFrame: MainFrame: Module compiling took 35.808 seconds
+[2019.02.26-20.08.43:975][675]LogClass: EBranchState HotReload.
+[2019.02.26-20.08.43:986][675]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0013 seconds. Added 11 classes and 2 folders.
+[2019.02.26-20.08.43:990][675]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.26-20.08.44:095][675]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2584 classes and 607 folders.
+[2019.02.26-20.08.44:095][675]Display: HotReload took 36.1s.
+[2019.02.26-20.11.39:655][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.11.41:566][365]LogEditorViewport: Clicking on Actor (LMB): CheckerObj_C (CheckerObj1)
+[2019.02.26-20.13.21:104][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.13.29:319][435]LogEditorActor: Actor CheckerObj is referenced by MyBranch.
+[2019.02.26-20.13.29:319][435]LogEditorActor: Actor CheckerObj is referenced by MyRoad.
+[2019.02.26-20.13.29:319][435]LogEditorActor: Actor CheckerObj is referenced by MyRoad1.
+[2019.02.26-20.13.29:319][435]LogEditorActor: Actor CheckerObj is referenced by MyRoad2.
+[2019.02.26-20.13.29:319][435]LogEditorActor: Actor CheckerObj is referenced by MyRoad3.
+[2019.02.26-20.13.29:319][435]LogEditorActor: Actor CheckerObj is referenced by MyRoad4.
+[2019.02.26-20.13.31:910][435]LogSlate: Window 'Message' being destroyed
+[2019.02.26-20.13.31:925][435]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.13.31:926][435]LogEditorActor: Actor CheckerObj1 is referenced by MyBranch.
+[2019.02.26-20.13.31:926][435]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad5.
+[2019.02.26-20.13.31:926][435]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad6.
+[2019.02.26-20.13.31:926][435]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad7.
+[2019.02.26-20.13.31:926][435]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad8.
+[2019.02.26-20.13.31:926][435]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad9.
+[2019.02.26-20.13.31:930][435]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.13.31:931][435]LogEditorActor: Actor CheckerObj2 is referenced by MyBranch.
+[2019.02.26-20.13.31:931][435]LogEditorActor: Actor CheckerObj2 is referenced by MyRoad10.
+[2019.02.26-20.13.31:931][435]LogEditorActor: Actor CheckerObj2 is referenced by MyRoad11.
+[2019.02.26-20.13.31:931][435]LogEditorActor: Actor CheckerObj2 is referenced by MyRoad12.
+[2019.02.26-20.13.31:931][435]LogEditorActor: Actor CheckerObj2 is referenced by MyRoad13.
+[2019.02.26-20.13.31:931][435]LogEditorActor: Actor CheckerObj2 is referenced by MyRoad14.
+[2019.02.26-20.13.31:934][435]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.13.31:935][435]LogEditorActor: Actor CheckerObj3 is referenced by MyBranch.
+[2019.02.26-20.13.31:935][435]LogEditorActor: Actor CheckerObj3 is referenced by MyRoad15.
+[2019.02.26-20.13.31:935][435]LogEditorActor: Actor CheckerObj3 is referenced by MyRoad16.
+[2019.02.26-20.13.31:935][435]LogEditorActor: Actor CheckerObj3 is referenced by MyRoad17.
+[2019.02.26-20.13.31:935][435]LogEditorActor: Actor CheckerObj3 is referenced by MyRoad18.
+[2019.02.26-20.13.31:935][435]LogEditorActor: Actor CheckerObj3 is referenced by MyRoad19.
+[2019.02.26-20.13.31:938][435]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.13.31:938][435]LogEditorActor: Actor MyBranch is referenced by CheckerObj.
+[2019.02.26-20.13.31:938][435]LogEditorActor: Actor MyBranch is referenced by CheckerObj1.
+[2019.02.26-20.13.31:939][435]LogEditorActor: Actor MyBranch is referenced by CheckerObj2.
+[2019.02.26-20.13.31:939][435]LogEditorActor: Actor MyBranch is referenced by CheckerObj3.
+[2019.02.26-20.13.31:939][435]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.13.31:939][435]LogEditorActor: Actor MyRoad is referenced by CheckerObj.
+[2019.02.26-20.13.31:939][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:939][435]LogEditorActor: Actor MyRoad1 is referenced by CheckerObj.
+[2019.02.26-20.13.31:939][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:940][435]LogEditorActor: Actor MyRoad2 is referenced by CheckerObj.
+[2019.02.26-20.13.31:940][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:940][435]LogEditorActor: Actor MyRoad3 is referenced by CheckerObj.
+[2019.02.26-20.13.31:941][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:941][435]LogEditorActor: Actor MyRoad4 is referenced by CheckerObj.
+[2019.02.26-20.13.31:941][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:942][435]LogEditorActor: Actor MyRoad5 is referenced by CheckerObj1.
+[2019.02.26-20.13.31:942][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:942][435]LogEditorActor: Actor MyRoad6 is referenced by CheckerObj1.
+[2019.02.26-20.13.31:942][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:943][435]LogEditorActor: Actor MyRoad7 is referenced by CheckerObj1.
+[2019.02.26-20.13.31:943][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:944][435]LogEditorActor: Actor MyRoad8 is referenced by CheckerObj1.
+[2019.02.26-20.13.31:944][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:944][435]LogEditorActor: Actor MyRoad9 is referenced by CheckerObj1.
+[2019.02.26-20.13.31:944][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:945][435]LogEditorActor: Actor MyRoad10 is referenced by CheckerObj2.
+[2019.02.26-20.13.31:945][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:945][435]LogEditorActor: Actor MyRoad11 is referenced by CheckerObj2.
+[2019.02.26-20.13.31:945][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:946][435]LogEditorActor: Actor MyRoad12 is referenced by CheckerObj2.
+[2019.02.26-20.13.31:947][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:947][435]LogEditorActor: Actor MyRoad13 is referenced by CheckerObj2.
+[2019.02.26-20.13.31:948][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:948][435]LogEditorActor: Actor MyRoad14 is referenced by CheckerObj2.
+[2019.02.26-20.13.31:948][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:949][435]LogEditorActor: Actor MyRoad15 is referenced by CheckerObj3.
+[2019.02.26-20.13.31:949][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:950][435]LogEditorActor: Actor MyRoad16 is referenced by CheckerObj3.
+[2019.02.26-20.13.31:951][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:952][435]LogEditorActor: Actor MyRoad17 is referenced by CheckerObj3.
+[2019.02.26-20.13.31:952][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:953][435]LogEditorActor: Actor MyRoad18 is referenced by CheckerObj3.
+[2019.02.26-20.13.31:953][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.31:954][435]LogEditorActor: Actor MyRoad19 is referenced by CheckerObj3.
+[2019.02.26-20.13.31:954][435]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.13.32:003][435]LogEditorActor: Deleted 25 Actors (2.702 secs)
+[2019.02.26-20.15.49:853][369]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto1C3CF646A4009231FA2B381B932483453.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.02.26-20.15.49:871][369]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.944
+[2019.02.26-20.15.49:871][369]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.944
+[2019.02.26-20.16.03:582][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.16.03:872][463]Candidate modules for hot reload:
+[2019.02.26-20.16.03:872][463]  ProcGenCity
+[2019.02.26-20.16.03:873][463]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,3999 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.16.03:879][463]Warning: Starting HotReload took  0.1s.
+[2019.02.26-20.17.03:558][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.17.06:353][338]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:17:06
+[2019.02.26-20.17.06:353][338]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.17.06:353][338]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.17.06:353][338]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.26-20.17.06:353][338]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.26-20.17.06:354][338]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.02.26-20.17.06:354][338]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 22.5645428 seconds
+[2019.02.26-20.17.06:354][338]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:   [1/9] ProcGenCity.init.gen.cpp
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:   [2/9] Checker.cpp
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.cpp(29) : error C2065: 'condition': undeclared identifier
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.cpp(41) : error C2065: 'condition': undeclared identifier
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.cpp(45) : error C2065: 'condition': undeclared identifier
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.cpp(49) : error C2065: 'condition': undeclared identifier
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.cpp(53) : error C2065: 'condition': undeclared identifier
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.cpp(57) : error C2065: 'condition': undeclared identifier
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:   [3/9] Boundary.gen.cpp
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:   [4/9] Branch.gen.cpp
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:   [5/9] Boundary.cpp
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:   [6/9] Checker.gen.cpp
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:   [7/9] Branch.cpp
+[2019.02.26-20.17.06:354][338]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-3999.dll
+[2019.02.26-20.17.06:354][338]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.26-20.17.06:354][338]CompilerResultsLog: Total build time: 61.78 seconds (Parallel executor: 0.00 seconds)
+[2019.02.26-20.17.06:354][338]LogMainFrame: MainFrame: Module compiling took 62.491 seconds
+[2019.02.26-20.17.06:354][338]Warning: HotReload failed, recompile failed
+[2019.02.26-20.17.30:591][827]Candidate modules for hot reload:
+[2019.02.26-20.17.30:591][827]  ProcGenCity
+[2019.02.26-20.17.30:591][827]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2208 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.17.30:597][827]Warning: Starting HotReload took  0.1s.
+[2019.02.26-20.18.55:851][314]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:18:55
+[2019.02.26-20.18.55:851][314]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.18.55:851][314]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.18.55:851][314]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.26-20.18.55:851][314]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.26-20.18.55:851][314]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.02.26-20.18.55:851][314]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 26.7084693 seconds
+[2019.02.26-20.18.55:851][314]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.02.26-20.18.55:851][314]CompilerResultsLog:   [1/9] ProcGenCity.init.gen.cpp
+[2019.02.26-20.18.55:851][314]CompilerResultsLog:   [2/9] Boundary.gen.cpp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:   [3/9] Branch.gen.cpp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:   [4/9] Branch.cpp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:   [5/9] Boundary.cpp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:   [6/9] Checker.gen.cpp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:   [7/9] Checker.cpp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:   [8/9] UE4Editor-ProcGenCity-2208.lib
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2208.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2208.exp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:   [9/9] UE4Editor-ProcGenCity-2208.dll
+[2019.02.26-20.18.55:852][314]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2208.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2208.suppressed.exp
+[2019.02.26-20.18.55:852][314]CompilerResultsLog: Total build time: 84.50 seconds (Parallel executor: 48.42 seconds)
+[2019.02.26-20.18.55:852][314]LogMainFrame: MainFrame: Module compiling took 85.275 seconds
+[2019.02.26-20.18.55:934][314]LogClass: Could not find existing class Checker in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.02.26-20.18.55:944][314]LogClass: EBranchState HotReload.
+[2019.02.26-20.18.55:949][314]LogHotReload: Re-instancing Checker after hot-reload.
+[2019.02.26-20.18.56:106][314]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0007 seconds. Added 11 classes and 2 folders.
+[2019.02.26-20.18.56:109][314]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.26-20.18.56:198][314]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2584 classes and 607 folders.
+[2019.02.26-20.18.56:199][314]Display: HotReload took 85.7s.
+[2019.02.26-20.19.09:091][ 36]LogEditorViewport: Clicking on Actor (LMB): CheckerObj_C (CheckerObj6)
+[2019.02.26-20.19.12:247][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.20.50:427][ 52]LogEditorActor: Actor CheckerObj4 is referenced by MyBranch.
+[2019.02.26-20.20.50:427][ 52]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad20.
+[2019.02.26-20.20.50:427][ 52]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad21.
+[2019.02.26-20.20.50:427][ 52]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad22.
+[2019.02.26-20.20.50:427][ 52]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad23.
+[2019.02.26-20.20.50:427][ 52]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad24.
+[2019.02.26-20.20.52:814][ 52]LogSlate: Window 'Message' being destroyed
+[2019.02.26-20.20.52:827][ 52]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.20.52:828][ 52]LogEditorActor: Actor CheckerObj5 is referenced by MyBranch.
+[2019.02.26-20.20.52:828][ 52]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad25.
+[2019.02.26-20.20.52:828][ 52]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad26.
+[2019.02.26-20.20.52:828][ 52]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad27.
+[2019.02.26-20.20.52:828][ 52]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad28.
+[2019.02.26-20.20.52:828][ 52]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad29.
+[2019.02.26-20.20.52:835][ 52]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.20.52:836][ 52]LogEditorActor: Actor CheckerObj6 is referenced by MyBranch.
+[2019.02.26-20.20.52:836][ 52]LogEditorActor: Actor CheckerObj6 is referenced by MyRoad30.
+[2019.02.26-20.20.52:837][ 52]LogEditorActor: Actor CheckerObj6 is referenced by MyRoad31.
+[2019.02.26-20.20.52:837][ 52]LogEditorActor: Actor CheckerObj6 is referenced by MyRoad32.
+[2019.02.26-20.20.52:837][ 52]LogEditorActor: Actor CheckerObj6 is referenced by MyRoad33.
+[2019.02.26-20.20.52:837][ 52]LogEditorActor: Actor CheckerObj6 is referenced by MyRoad34.
+[2019.02.26-20.20.52:842][ 52]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.20.52:844][ 52]LogEditorActor: Actor CheckerObj7 is referenced by MyBranch.
+[2019.02.26-20.20.52:844][ 52]LogEditorActor: Actor CheckerObj7 is referenced by MyRoad35.
+[2019.02.26-20.20.52:844][ 52]LogEditorActor: Actor CheckerObj7 is referenced by MyRoad36.
+[2019.02.26-20.20.52:844][ 52]LogEditorActor: Actor CheckerObj7 is referenced by MyRoad37.
+[2019.02.26-20.20.52:844][ 52]LogEditorActor: Actor CheckerObj7 is referenced by MyRoad38.
+[2019.02.26-20.20.52:844][ 52]LogEditorActor: Actor CheckerObj7 is referenced by MyRoad39.
+[2019.02.26-20.20.52:848][ 52]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.20.52:849][ 52]LogEditorActor: Actor MyBranch is referenced by CheckerObj4.
+[2019.02.26-20.20.52:849][ 52]LogEditorActor: Actor MyBranch is referenced by CheckerObj5.
+[2019.02.26-20.20.52:849][ 52]LogEditorActor: Actor MyBranch is referenced by CheckerObj6.
+[2019.02.26-20.20.52:849][ 52]LogEditorActor: Actor MyBranch is referenced by CheckerObj7.
+[2019.02.26-20.20.52:849][ 52]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.20.52:850][ 52]LogEditorActor: Actor MyRoad20 is referenced by CheckerObj4.
+[2019.02.26-20.20.52:850][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:850][ 52]LogEditorActor: Actor MyRoad21 is referenced by CheckerObj4.
+[2019.02.26-20.20.52:851][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:852][ 52]LogEditorActor: Actor MyRoad22 is referenced by CheckerObj4.
+[2019.02.26-20.20.52:852][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:853][ 52]LogEditorActor: Actor MyRoad23 is referenced by CheckerObj4.
+[2019.02.26-20.20.52:853][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:854][ 52]LogEditorActor: Actor MyRoad24 is referenced by CheckerObj4.
+[2019.02.26-20.20.52:854][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:854][ 52]LogEditorActor: Actor MyRoad25 is referenced by CheckerObj5.
+[2019.02.26-20.20.52:855][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:855][ 52]LogEditorActor: Actor MyRoad26 is referenced by CheckerObj5.
+[2019.02.26-20.20.52:855][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:856][ 52]LogEditorActor: Actor MyRoad27 is referenced by CheckerObj5.
+[2019.02.26-20.20.52:856][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:857][ 52]LogEditorActor: Actor MyRoad28 is referenced by CheckerObj5.
+[2019.02.26-20.20.52:857][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:858][ 52]LogEditorActor: Actor MyRoad29 is referenced by CheckerObj5.
+[2019.02.26-20.20.52:858][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:859][ 52]LogEditorActor: Actor MyRoad30 is referenced by CheckerObj6.
+[2019.02.26-20.20.52:859][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:860][ 52]LogEditorActor: Actor MyRoad31 is referenced by CheckerObj6.
+[2019.02.26-20.20.52:860][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:861][ 52]LogEditorActor: Actor MyRoad32 is referenced by CheckerObj6.
+[2019.02.26-20.20.52:861][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:862][ 52]LogEditorActor: Actor MyRoad33 is referenced by CheckerObj6.
+[2019.02.26-20.20.52:862][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:863][ 52]LogEditorActor: Actor MyRoad34 is referenced by CheckerObj6.
+[2019.02.26-20.20.52:863][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:863][ 52]LogEditorActor: Actor MyRoad35 is referenced by CheckerObj7.
+[2019.02.26-20.20.52:863][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:864][ 52]LogEditorActor: Actor MyRoad36 is referenced by CheckerObj7.
+[2019.02.26-20.20.52:864][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:865][ 52]LogEditorActor: Actor MyRoad37 is referenced by CheckerObj7.
+[2019.02.26-20.20.52:865][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:865][ 52]LogEditorActor: Actor MyRoad38 is referenced by CheckerObj7.
+[2019.02.26-20.20.52:865][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:866][ 52]LogEditorActor: Actor MyRoad39 is referenced by CheckerObj7.
+[2019.02.26-20.20.52:866][ 52]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.20.52:907][ 52]LogEditorActor: Deleted 25 Actors (2.507 secs)
+[2019.02.26-20.20.54:569][135]Candidate modules for hot reload:
+[2019.02.26-20.20.54:569][135]  ProcGenCity
+[2019.02.26-20.20.54:569][135]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2258 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.20.54:574][135]Warning: Starting HotReload took  0.1s.
+[2019.02.26-20.21.55:133][327]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:21:55
+[2019.02.26-20.21.55:133][327]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.21.55:134][327]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.21.55:134][327]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.02.26-20.21.55:134][327]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.26-20.21.55:134][327]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.02.26-20.21.55:134][327]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 21.3063102 seconds
+[2019.02.26-20.21.55:134][327]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.02.26-20.21.55:134][327]CompilerResultsLog:   [1/9] ProcGenCity.init.gen.cpp
+[2019.02.26-20.21.55:134][327]CompilerResultsLog:   [2/9] Checker.gen.cpp
+[2019.02.26-20.21.55:134][327]CompilerResultsLog:   [3/9] Boundary.gen.cpp
+[2019.02.26-20.21.55:134][327]CompilerResultsLog:   [4/9] Branch.gen.cpp
+[2019.02.26-20.21.55:135][327]CompilerResultsLog:   [5/9] Boundary.cpp
+[2019.02.26-20.21.55:135][327]CompilerResultsLog:   [6/9] Checker.cpp
+[2019.02.26-20.21.55:135][327]CompilerResultsLog:   [7/9] Branch.cpp
+[2019.02.26-20.21.55:135][327]CompilerResultsLog:   [8/9] UE4Editor-ProcGenCity-2258.lib
+[2019.02.26-20.21.55:135][327]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2258.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2258.exp
+[2019.02.26-20.21.55:135][327]CompilerResultsLog:   [9/9] UE4Editor-ProcGenCity-2258.dll
+[2019.02.26-20.21.55:135][327]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2258.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2258.suppressed.exp
+[2019.02.26-20.21.55:135][327]CompilerResultsLog: Total build time: 59.53 seconds (Parallel executor: 29.57 seconds)
+[2019.02.26-20.21.55:135][327]LogMainFrame: MainFrame: Module compiling took 60.579 seconds
+[2019.02.26-20.21.55:286][327]LogClass: Could not find existing class Checker in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.02.26-20.21.55:294][327]LogClass: EBranchState HotReload.
+[2019.02.26-20.21.55:301][327]LogHotReload: Re-instancing Checker after hot-reload.
+[2019.02.26-20.21.55:500][327]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0008 seconds. Added 11 classes and 2 folders.
+[2019.02.26-20.21.55:503][327]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.26-20.21.55:588][327]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2584 classes and 607 folders.
+[2019.02.26-20.21.55:588][327]Display: HotReload took 61.1s.
+[2019.02.26-20.22.05:727][693]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.22.09:211][900]Cmd: TRANSACTION UNDO
+[2019.02.26-20.22.09:211][900]LogEditorTransaction: Undo Edit Branch Direction
+[2019.02.26-20.22.11:990][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.22.14:777][220]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad40.
+[2019.02.26-20.22.14:777][220]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad41.
+[2019.02.26-20.22.14:777][220]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad42.
+[2019.02.26-20.22.14:777][220]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad43.
+[2019.02.26-20.22.14:777][220]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad44.
+[2019.02.26-20.22.16:817][220]LogSlate: Window 'Message' being destroyed
+[2019.02.26-20.22.16:830][220]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.22.16:831][220]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad45.
+[2019.02.26-20.22.16:831][220]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad46.
+[2019.02.26-20.22.16:831][220]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad47.
+[2019.02.26-20.22.16:831][220]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad48.
+[2019.02.26-20.22.16:831][220]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad49.
+[2019.02.26-20.22.16:834][220]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.22.16:835][220]LogEditorActor: Actor CheckerObj10 is referenced by MyRoad50.
+[2019.02.26-20.22.16:835][220]LogEditorActor: Actor CheckerObj10 is referenced by MyRoad51.
+[2019.02.26-20.22.16:835][220]LogEditorActor: Actor CheckerObj10 is referenced by MyRoad52.
+[2019.02.26-20.22.16:835][220]LogEditorActor: Actor CheckerObj10 is referenced by MyRoad53.
+[2019.02.26-20.22.16:835][220]LogEditorActor: Actor CheckerObj10 is referenced by MyRoad54.
+[2019.02.26-20.22.16:839][220]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.22.16:901][220]LogEditorActor: Deleted 3 Actors (2.137 secs)
+[2019.02.26-20.22.18:050][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.22.24:329][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:330][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:331][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:332][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:332][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:334][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:334][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:336][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:336][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:337][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:339][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:341][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:341][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:342][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:343][645]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.22.24:378][645]LogEditorActor: Deleted 15 Actors (0.063 secs)
+[2019.02.26-20.22.26:761][784]LogEditorViewport: Clicking on Actor (LMB): MyBranch_C (MyBranch)
+[2019.02.26-20.22.28:339][874]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.22.35:755][289]LogEditorViewport: Clicking on Actor (LMB): CheckerObj_C (CheckerObj13)
+[2019.02.26-20.22.38:721][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.25.39:381][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.25.39:653][522]Candidate modules for hot reload:
+[2019.02.26-20.25.39:653][522]  ProcGenCity
+[2019.02.26-20.25.39:654][522]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,3466 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.25.39:658][522]Warning: Starting HotReload took  0.1s.
+[2019.02.26-20.25.44:110][711]LogEditorActor: Actor CheckerObj11 is referenced by MyBranch.
+[2019.02.26-20.25.44:111][711]LogEditorActor: Actor CheckerObj11 is referenced by MyRoad55.
+[2019.02.26-20.25.44:111][711]LogEditorActor: Actor CheckerObj11 is referenced by MyRoad56.
+[2019.02.26-20.25.44:111][711]LogEditorActor: Actor CheckerObj11 is referenced by MyRoad57.
+[2019.02.26-20.25.44:111][711]LogEditorActor: Actor CheckerObj11 is referenced by MyRoad58.
+[2019.02.26-20.25.44:111][711]LogEditorActor: Actor CheckerObj11 is referenced by MyRoad59.
+[2019.02.26-20.25.45:943][711]LogSlate: Window 'Message' being destroyed
+[2019.02.26-20.25.45:973][711]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.25.45:975][711]LogEditorActor: Actor CheckerObj12 is referenced by MyBranch.
+[2019.02.26-20.25.45:975][711]LogEditorActor: Actor CheckerObj12 is referenced by MyRoad60.
+[2019.02.26-20.25.45:975][711]LogEditorActor: Actor CheckerObj12 is referenced by MyRoad61.
+[2019.02.26-20.25.45:975][711]LogEditorActor: Actor CheckerObj12 is referenced by MyRoad62.
+[2019.02.26-20.25.45:975][711]LogEditorActor: Actor CheckerObj12 is referenced by MyRoad63.
+[2019.02.26-20.25.45:975][711]LogEditorActor: Actor CheckerObj12 is referenced by MyRoad64.
+[2019.02.26-20.25.45:981][711]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.25.45:984][711]LogEditorActor: Actor CheckerObj13 is referenced by MyBranch.
+[2019.02.26-20.25.45:984][711]LogEditorActor: Actor CheckerObj13 is referenced by MyRoad65.
+[2019.02.26-20.25.45:985][711]LogEditorActor: Actor CheckerObj13 is referenced by MyRoad66.
+[2019.02.26-20.25.45:985][711]LogEditorActor: Actor CheckerObj13 is referenced by MyRoad67.
+[2019.02.26-20.25.45:985][711]LogEditorActor: Actor CheckerObj13 is referenced by MyRoad68.
+[2019.02.26-20.25.45:985][711]LogEditorActor: Actor CheckerObj13 is referenced by MyRoad69.
+[2019.02.26-20.25.45:990][711]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.25.45:991][711]LogEditorActor: Actor CheckerObj14 is referenced by MyBranch.
+[2019.02.26-20.25.45:992][711]LogEditorActor: Actor CheckerObj14 is referenced by MyRoad70.
+[2019.02.26-20.25.45:992][711]LogEditorActor: Actor CheckerObj14 is referenced by MyRoad71.
+[2019.02.26-20.25.45:992][711]LogEditorActor: Actor CheckerObj14 is referenced by MyRoad72.
+[2019.02.26-20.25.45:992][711]LogEditorActor: Actor CheckerObj14 is referenced by MyRoad73.
+[2019.02.26-20.25.45:992][711]LogEditorActor: Actor CheckerObj14 is referenced by MyRoad74.
+[2019.02.26-20.25.46:002][711]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.25.46:004][711]LogEditorActor: Actor MyBranch is referenced by CheckerObj11.
+[2019.02.26-20.25.46:005][711]LogEditorActor: Actor MyBranch is referenced by CheckerObj12.
+[2019.02.26-20.25.46:005][711]LogEditorActor: Actor MyBranch is referenced by CheckerObj13.
+[2019.02.26-20.25.46:005][711]LogEditorActor: Actor MyBranch is referenced by CheckerObj14.
+[2019.02.26-20.25.46:005][711]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.25.46:006][711]LogEditorActor: Actor MyRoad55 is referenced by CheckerObj11.
+[2019.02.26-20.25.46:006][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:007][711]LogEditorActor: Actor MyRoad56 is referenced by CheckerObj11.
+[2019.02.26-20.25.46:008][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:009][711]LogEditorActor: Actor MyRoad57 is referenced by CheckerObj11.
+[2019.02.26-20.25.46:009][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:009][711]LogEditorActor: Actor MyRoad58 is referenced by CheckerObj11.
+[2019.02.26-20.25.46:010][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:011][711]LogEditorActor: Actor MyRoad59 is referenced by CheckerObj11.
+[2019.02.26-20.25.46:011][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:012][711]LogEditorActor: Actor MyRoad60 is referenced by CheckerObj12.
+[2019.02.26-20.25.46:012][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:014][711]LogEditorActor: Actor MyRoad61 is referenced by CheckerObj12.
+[2019.02.26-20.25.46:014][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:016][711]LogEditorActor: Actor MyRoad62 is referenced by CheckerObj12.
+[2019.02.26-20.25.46:017][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:019][711]LogEditorActor: Actor MyRoad63 is referenced by CheckerObj12.
+[2019.02.26-20.25.46:019][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:021][711]LogEditorActor: Actor MyRoad64 is referenced by CheckerObj12.
+[2019.02.26-20.25.46:021][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:023][711]LogEditorActor: Actor MyRoad65 is referenced by CheckerObj13.
+[2019.02.26-20.25.46:023][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:025][711]LogEditorActor: Actor MyRoad66 is referenced by CheckerObj13.
+[2019.02.26-20.25.46:025][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:027][711]LogEditorActor: Actor MyRoad67 is referenced by CheckerObj13.
+[2019.02.26-20.25.46:027][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:029][711]LogEditorActor: Actor MyRoad68 is referenced by CheckerObj13.
+[2019.02.26-20.25.46:030][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:033][711]LogEditorActor: Actor MyRoad69 is referenced by CheckerObj13.
+[2019.02.26-20.25.46:033][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:035][711]LogEditorActor: Actor MyRoad70 is referenced by CheckerObj14.
+[2019.02.26-20.25.46:035][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:037][711]LogEditorActor: Actor MyRoad71 is referenced by CheckerObj14.
+[2019.02.26-20.25.46:037][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:038][711]LogEditorActor: Actor MyRoad72 is referenced by CheckerObj14.
+[2019.02.26-20.25.46:039][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:039][711]LogEditorActor: Actor MyRoad73 is referenced by CheckerObj14.
+[2019.02.26-20.25.46:039][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:041][711]LogEditorActor: Actor MyRoad74 is referenced by CheckerObj14.
+[2019.02.26-20.25.46:041][711]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.25.46:102][711]LogEditorActor: Deleted 25 Actors (2.023 secs)
+[2019.02.26-20.26.14:791][178]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:26:14
+[2019.02.26-20.26.14:791][178]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.26.14:791][178]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.26.14:791][178]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.02.26-20.26.14:791][178]CompilerResultsLog:   [1/4] Checker.cpp
+[2019.02.26-20.26.14:791][178]CompilerResultsLog:   [2/4] Branch.cpp
+[2019.02.26-20.26.14:791][178]CompilerResultsLog:   [3/4] UE4Editor-ProcGenCity-3466.lib
+[2019.02.26-20.26.14:791][178]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3466.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3466.exp
+[2019.02.26-20.26.14:791][178]CompilerResultsLog:   [4/4] UE4Editor-ProcGenCity-3466.dll
+[2019.02.26-20.26.14:791][178]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3466.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3466.suppressed.exp
+[2019.02.26-20.26.14:792][178]CompilerResultsLog: Total build time: 34.28 seconds (Parallel executor: 25.45 seconds)
+[2019.02.26-20.26.14:792][178]LogMainFrame: MainFrame: Module compiling took 35.151 seconds
+[2019.02.26-20.26.14:984][178]LogClass: EBranchState HotReload.
+[2019.02.26-20.26.15:008][178]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0016 seconds. Added 11 classes and 2 folders.
+[2019.02.26-20.26.15:015][178]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.26-20.26.15:133][178]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2584 classes and 607 folders.
+[2019.02.26-20.26.15:133][178]Display: HotReload took 35.6s.
+[2019.02.26-20.26.17:509][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.26.18:729][185]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto24CFC3FF44A46ECFB3DE0F69616514508.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2019.02.26-20.26.18:741][185]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.143
+[2019.02.26-20.26.18:741][185]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.143
+[2019.02.26-20.26.19:520][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.26.23:165][386]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.26.29:792][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.26.29:959][728]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/CheckerObj.CheckerObj
+[2019.02.26-20.26.32:137][728]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
+[2019.02.26-20.26.37:255][821]LogSlate: Window 'CheckerObj' being destroyed
+[2019.02.26-20.26.37:503][821]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.26.37:529][821]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/CheckerObj.CheckerObj
+[2019.02.26-20.26.38:804][821]LogSlate: Took 0.013461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.26-20.26.45:861][988]BlueprintLog: New page: Compile CheckerObj
+[2019.02.26-20.26.47:246][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/CheckerObj" FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/BP/CheckerObj.uasset" SILENT=true
+[2019.02.26-20.26.47:354][  4]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/CheckerObj652647F84B5DD4518C91C0A9D8138195.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/BP/CheckerObj.uasset'
+[2019.02.26-20.26.48:287][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.26.49:613][ 74]LogSlate: Window 'CheckerObj' being destroyed
+[2019.02.26-20.26.50:533][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.26.56:309][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.27.06:227][906]LogEditorActor: Actor MyRoad234 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:158][906]LogSlate: Window 'Message' being destroyed
+[2019.02.26-20.27.08:172][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyBranch.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad75.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad76.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad77.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad78.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad79.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad95.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad96.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad97.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad98.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad99.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyBranch12.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad115.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad116.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad117.
+[2019.02.26-20.27.08:174][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad118.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad119.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyBranch16.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad135.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad136.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad137.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad138.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad139.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad155.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad156.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad157.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad158.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad159.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad175.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad176.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad177.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad178.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad179.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad195.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad196.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad197.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad198.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad199.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad215.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad216.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad217.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad218.
+[2019.02.26-20.27.08:175][906]LogEditorActor: Actor CheckerObj15 is referenced by MyRoad219.
+[2019.02.26-20.27.08:198][906]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyBranch.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad80.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad81.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad82.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad83.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad84.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad100.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad101.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad102.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad103.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad104.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyBranch13.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad120.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad121.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad122.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad123.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad124.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyBranch17.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad140.
+[2019.02.26-20.27.08:200][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad141.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad142.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad143.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad144.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad160.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad161.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad162.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad163.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad164.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad180.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad181.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad182.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad183.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad184.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad200.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad201.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad202.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad203.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad204.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad220.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad221.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad222.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad223.
+[2019.02.26-20.27.08:201][906]LogEditorActor: Actor CheckerObj16 is referenced by MyRoad224.
+[2019.02.26-20.27.08:231][906]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyBranch.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad85.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad86.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad87.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad88.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad89.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad105.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad106.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad107.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad108.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad109.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyBranch14.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad125.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad126.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad127.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad128.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad129.
+[2019.02.26-20.27.08:233][906]LogEditorActor: Actor CheckerObj17 is referenced by MyBranch18.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad145.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad146.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad147.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad148.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad149.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad165.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad166.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad167.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad168.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad169.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad185.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad186.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad187.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad188.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad189.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad205.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad206.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad207.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad208.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad209.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad225.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad226.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad227.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad228.
+[2019.02.26-20.27.08:234][906]LogEditorActor: Actor CheckerObj17 is referenced by MyRoad229.
+[2019.02.26-20.27.08:267][906]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyBranch.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad90.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad91.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad92.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad93.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad94.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad110.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad111.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad112.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad113.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad114.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyBranch15.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad130.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad131.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad132.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad133.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad134.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyBranch19.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad150.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad151.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad152.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad153.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad154.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad170.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad171.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad172.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad173.
+[2019.02.26-20.27.08:268][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad174.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad190.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad191.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad192.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad193.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad194.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad210.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad211.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad212.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad213.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad214.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad230.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad231.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad232.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad233.
+[2019.02.26-20.27.08:269][906]LogEditorActor: Actor CheckerObj18 is referenced by MyRoad234.
+[2019.02.26-20.27.08:293][906]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.27.08:294][906]LogEditorActor: Actor MyBranch is referenced by CheckerObj15.
+[2019.02.26-20.27.08:294][906]LogEditorActor: Actor MyBranch is referenced by CheckerObj16.
+[2019.02.26-20.27.08:294][906]LogEditorActor: Actor MyBranch is referenced by CheckerObj17.
+[2019.02.26-20.27.08:294][906]LogEditorActor: Actor MyBranch is referenced by CheckerObj18.
+[2019.02.26-20.27.08:294][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:294][906]LogEditorActor: Actor MyBranch12 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:294][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:295][906]LogEditorActor: Actor MyBranch13 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:295][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:295][906]LogEditorActor: Actor MyBranch14 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:295][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:296][906]LogEditorActor: Actor MyBranch15 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:296][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:296][906]LogEditorActor: Actor MyBranch16 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:296][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:297][906]LogEditorActor: Actor MyBranch17 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:297][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:298][906]LogEditorActor: Actor MyBranch18 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:298][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:299][906]LogEditorActor: Actor MyBranch19 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:299][906]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.27.08:300][906]LogEditorActor: Actor MyRoad75 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:300][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:301][906]LogEditorActor: Actor MyRoad76 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:301][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:302][906]LogEditorActor: Actor MyRoad77 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:302][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:303][906]LogEditorActor: Actor MyRoad78 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:303][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:304][906]LogEditorActor: Actor MyRoad79 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:304][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:306][906]LogEditorActor: Actor MyRoad80 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:306][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:307][906]LogEditorActor: Actor MyRoad81 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:307][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:308][906]LogEditorActor: Actor MyRoad82 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:308][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:309][906]LogEditorActor: Actor MyRoad83 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:309][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:309][906]LogEditorActor: Actor MyRoad84 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:310][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:310][906]LogEditorActor: Actor MyRoad85 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:310][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:311][906]LogEditorActor: Actor MyRoad86 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:311][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:312][906]LogEditorActor: Actor MyRoad87 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:312][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:313][906]LogEditorActor: Actor MyRoad88 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:313][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:315][906]LogEditorActor: Actor MyRoad89 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:315][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:316][906]LogEditorActor: Actor MyRoad90 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:316][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:317][906]LogEditorActor: Actor MyRoad91 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:317][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:318][906]LogEditorActor: Actor MyRoad92 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:318][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:319][906]LogEditorActor: Actor MyRoad93 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:319][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:320][906]LogEditorActor: Actor MyRoad94 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:320][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:321][906]LogEditorActor: Actor MyRoad95 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:321][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:322][906]LogEditorActor: Actor MyRoad96 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:322][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:323][906]LogEditorActor: Actor MyRoad97 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:323][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:324][906]LogEditorActor: Actor MyRoad98 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:324][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:324][906]LogEditorActor: Actor MyRoad99 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:324][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:325][906]LogEditorActor: Actor MyRoad100 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:325][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:326][906]LogEditorActor: Actor MyRoad101 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:326][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:327][906]LogEditorActor: Actor MyRoad102 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:327][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:327][906]LogEditorActor: Actor MyRoad103 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:327][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:328][906]LogEditorActor: Actor MyRoad104 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:328][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:329][906]LogEditorActor: Actor MyRoad105 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:329][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:330][906]LogEditorActor: Actor MyRoad106 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:330][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:331][906]LogEditorActor: Actor MyRoad107 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:331][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:332][906]LogEditorActor: Actor MyRoad108 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:332][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:333][906]LogEditorActor: Actor MyRoad109 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:333][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:334][906]LogEditorActor: Actor MyRoad110 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:334][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:335][906]LogEditorActor: Actor MyRoad111 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:335][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:336][906]LogEditorActor: Actor MyRoad112 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:336][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:337][906]LogEditorActor: Actor MyRoad113 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:337][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:337][906]LogEditorActor: Actor MyRoad114 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:338][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:338][906]LogEditorActor: Actor MyRoad115 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:338][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:339][906]LogEditorActor: Actor MyRoad116 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:339][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:339][906]LogEditorActor: Actor MyRoad117 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:339][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:341][906]LogEditorActor: Actor MyRoad118 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:341][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:341][906]LogEditorActor: Actor MyRoad119 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:341][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:342][906]LogEditorActor: Actor MyRoad120 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:342][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:343][906]LogEditorActor: Actor MyRoad121 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:343][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:344][906]LogEditorActor: Actor MyRoad122 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:344][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:345][906]LogEditorActor: Actor MyRoad123 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:345][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:345][906]LogEditorActor: Actor MyRoad124 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:345][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:347][906]LogEditorActor: Actor MyRoad125 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:347][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:347][906]LogEditorActor: Actor MyRoad126 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:347][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:348][906]LogEditorActor: Actor MyRoad127 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:348][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:349][906]LogEditorActor: Actor MyRoad128 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:349][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:351][906]LogEditorActor: Actor MyRoad129 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:351][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:351][906]LogEditorActor: Actor MyRoad130 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:351][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:352][906]LogEditorActor: Actor MyRoad131 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:352][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:353][906]LogEditorActor: Actor MyRoad132 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:353][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:354][906]LogEditorActor: Actor MyRoad133 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:354][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:355][906]LogEditorActor: Actor MyRoad134 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:355][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:356][906]LogEditorActor: Actor MyRoad135 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:356][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:356][906]LogEditorActor: Actor MyRoad136 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:356][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:357][906]LogEditorActor: Actor MyRoad137 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:357][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:359][906]LogEditorActor: Actor MyRoad138 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:359][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:360][906]LogEditorActor: Actor MyRoad139 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:360][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:361][906]LogEditorActor: Actor MyRoad140 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:361][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:361][906]LogEditorActor: Actor MyRoad141 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:361][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:362][906]LogEditorActor: Actor MyRoad142 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:362][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:363][906]LogEditorActor: Actor MyRoad143 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:363][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:364][906]LogEditorActor: Actor MyRoad144 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:364][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:365][906]LogEditorActor: Actor MyRoad145 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:365][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:366][906]LogEditorActor: Actor MyRoad146 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:366][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:366][906]LogEditorActor: Actor MyRoad147 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:367][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:367][906]LogEditorActor: Actor MyRoad148 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:367][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:368][906]LogEditorActor: Actor MyRoad149 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:368][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:369][906]LogEditorActor: Actor MyRoad150 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:369][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:370][906]LogEditorActor: Actor MyRoad151 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:370][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:370][906]LogEditorActor: Actor MyRoad152 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:370][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:371][906]LogEditorActor: Actor MyRoad153 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:371][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:372][906]LogEditorActor: Actor MyRoad154 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:372][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:373][906]LogEditorActor: Actor MyRoad155 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:373][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:373][906]LogEditorActor: Actor MyRoad156 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:373][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:374][906]LogEditorActor: Actor MyRoad157 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:374][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:375][906]LogEditorActor: Actor MyRoad158 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:375][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:375][906]LogEditorActor: Actor MyRoad159 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:376][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:376][906]LogEditorActor: Actor MyRoad160 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:376][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:377][906]LogEditorActor: Actor MyRoad161 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:377][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:378][906]LogEditorActor: Actor MyRoad162 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:378][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:379][906]LogEditorActor: Actor MyRoad163 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:379][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:380][906]LogEditorActor: Actor MyRoad164 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:380][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:381][906]LogEditorActor: Actor MyRoad165 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:381][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:382][906]LogEditorActor: Actor MyRoad166 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:382][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:382][906]LogEditorActor: Actor MyRoad167 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:383][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:383][906]LogEditorActor: Actor MyRoad168 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:383][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:384][906]LogEditorActor: Actor MyRoad169 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:384][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:385][906]LogEditorActor: Actor MyRoad170 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:385][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:385][906]LogEditorActor: Actor MyRoad171 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:385][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:386][906]LogEditorActor: Actor MyRoad172 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:386][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:387][906]LogEditorActor: Actor MyRoad173 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:387][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:387][906]LogEditorActor: Actor MyRoad174 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:387][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:388][906]LogEditorActor: Actor MyRoad175 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:388][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:389][906]LogEditorActor: Actor MyRoad176 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:389][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:389][906]LogEditorActor: Actor MyRoad177 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:390][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:390][906]LogEditorActor: Actor MyRoad178 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:390][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:391][906]LogEditorActor: Actor MyRoad179 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:391][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:392][906]LogEditorActor: Actor MyRoad180 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:392][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:393][906]LogEditorActor: Actor MyRoad181 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:393][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:393][906]LogEditorActor: Actor MyRoad182 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:393][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:394][906]LogEditorActor: Actor MyRoad183 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:394][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:395][906]LogEditorActor: Actor MyRoad184 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:395][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:395][906]LogEditorActor: Actor MyRoad185 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:395][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:396][906]LogEditorActor: Actor MyRoad186 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:396][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:397][906]LogEditorActor: Actor MyRoad187 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:398][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:398][906]LogEditorActor: Actor MyRoad188 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:398][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:398][906]LogEditorActor: Actor MyRoad189 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:398][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:400][906]LogEditorActor: Actor MyRoad190 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:400][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:401][906]LogEditorActor: Actor MyRoad191 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:401][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:402][906]LogEditorActor: Actor MyRoad192 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:402][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:402][906]LogEditorActor: Actor MyRoad193 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:402][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:403][906]LogEditorActor: Actor MyRoad194 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:403][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:404][906]LogEditorActor: Actor MyRoad195 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:404][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:404][906]LogEditorActor: Actor MyRoad196 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:404][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:405][906]LogEditorActor: Actor MyRoad197 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:405][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:406][906]LogEditorActor: Actor MyRoad198 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:406][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:406][906]LogEditorActor: Actor MyRoad199 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:406][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:407][906]LogEditorActor: Actor MyRoad200 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:407][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:408][906]LogEditorActor: Actor MyRoad201 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:408][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:409][906]LogEditorActor: Actor MyRoad202 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:409][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:409][906]LogEditorActor: Actor MyRoad203 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:410][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:410][906]LogEditorActor: Actor MyRoad204 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:410][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:411][906]LogEditorActor: Actor MyRoad205 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:411][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:412][906]LogEditorActor: Actor MyRoad206 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:412][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:413][906]LogEditorActor: Actor MyRoad207 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:413][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:413][906]LogEditorActor: Actor MyRoad208 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:413][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:414][906]LogEditorActor: Actor MyRoad209 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:414][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:415][906]LogEditorActor: Actor MyRoad210 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:415][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:415][906]LogEditorActor: Actor MyRoad211 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:416][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:416][906]LogEditorActor: Actor MyRoad212 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:416][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:417][906]LogEditorActor: Actor MyRoad213 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:417][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:418][906]LogEditorActor: Actor MyRoad214 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:418][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:419][906]LogEditorActor: Actor MyRoad215 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:419][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:419][906]LogEditorActor: Actor MyRoad216 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:419][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:420][906]LogEditorActor: Actor MyRoad217 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:420][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:421][906]LogEditorActor: Actor MyRoad218 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:421][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:422][906]LogEditorActor: Actor MyRoad219 is referenced by CheckerObj15.
+[2019.02.26-20.27.08:422][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:423][906]LogEditorActor: Actor MyRoad220 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:423][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:423][906]LogEditorActor: Actor MyRoad221 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:424][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:424][906]LogEditorActor: Actor MyRoad222 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:424][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:425][906]LogEditorActor: Actor MyRoad223 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:425][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:426][906]LogEditorActor: Actor MyRoad224 is referenced by CheckerObj16.
+[2019.02.26-20.27.08:426][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:426][906]LogEditorActor: Actor MyRoad225 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:426][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:427][906]LogEditorActor: Actor MyRoad226 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:427][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:428][906]LogEditorActor: Actor MyRoad227 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:428][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:429][906]LogEditorActor: Actor MyRoad228 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:429][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:429][906]LogEditorActor: Actor MyRoad229 is referenced by CheckerObj17.
+[2019.02.26-20.27.08:430][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:430][906]LogEditorActor: Actor MyRoad230 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:430][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:431][906]LogEditorActor: Actor MyRoad231 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:431][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:432][906]LogEditorActor: Actor MyRoad232 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:432][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:432][906]LogEditorActor: Actor MyRoad233 is referenced by CheckerObj18.
+[2019.02.26-20.27.08:432][906]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.27.08:503][906]LogEditorActor: Deleted 173 Actors (2.417 secs)
+[2019.02.26-20.27.46:665][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.27.50:780][320]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.27.57:749][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.28.00:259][878]LogEditorActor: Actor CheckerObj19 is referenced by MyBranch.
+[2019.02.26-20.28.00:259][878]LogEditorActor: Actor CheckerObj19 is referenced by MyRoad235.
+[2019.02.26-20.28.00:259][878]LogEditorActor: Actor CheckerObj19 is referenced by MyRoad236.
+[2019.02.26-20.28.00:259][878]LogEditorActor: Actor CheckerObj19 is referenced by MyRoad237.
+[2019.02.26-20.28.00:259][878]LogEditorActor: Actor CheckerObj19 is referenced by MyRoad238.
+[2019.02.26-20.28.00:259][878]LogEditorActor: Actor CheckerObj19 is referenced by MyRoad239.
+[2019.02.26-20.28.00:259][878]LogEditorActor: Actor CheckerObj19 is referenced by MyBranch23.
+[2019.02.26-20.28.02:449][878]LogSlate: Window 'Message' being destroyed
+[2019.02.26-20.28.02:465][878]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.28.02:467][878]LogEditorActor: Actor CheckerObj20 is referenced by MyBranch.
+[2019.02.26-20.28.02:467][878]LogEditorActor: Actor CheckerObj20 is referenced by MyRoad240.
+[2019.02.26-20.28.02:467][878]LogEditorActor: Actor CheckerObj20 is referenced by MyRoad241.
+[2019.02.26-20.28.02:467][878]LogEditorActor: Actor CheckerObj20 is referenced by MyRoad242.
+[2019.02.26-20.28.02:467][878]LogEditorActor: Actor CheckerObj20 is referenced by MyRoad243.
+[2019.02.26-20.28.02:467][878]LogEditorActor: Actor CheckerObj20 is referenced by MyRoad244.
+[2019.02.26-20.28.02:467][878]LogEditorActor: Actor CheckerObj20 is referenced by MyBranch24.
+[2019.02.26-20.28.02:471][878]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.28.02:472][878]LogEditorActor: Actor CheckerObj21 is referenced by MyBranch.
+[2019.02.26-20.28.02:472][878]LogEditorActor: Actor CheckerObj21 is referenced by MyRoad245.
+[2019.02.26-20.28.02:472][878]LogEditorActor: Actor CheckerObj21 is referenced by MyRoad246.
+[2019.02.26-20.28.02:472][878]LogEditorActor: Actor CheckerObj21 is referenced by MyRoad247.
+[2019.02.26-20.28.02:472][878]LogEditorActor: Actor CheckerObj21 is referenced by MyRoad248.
+[2019.02.26-20.28.02:472][878]LogEditorActor: Actor CheckerObj21 is referenced by MyRoad249.
+[2019.02.26-20.28.02:472][878]LogEditorActor: Actor CheckerObj21 is referenced by MyBranch25.
+[2019.02.26-20.28.02:475][878]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.28.02:476][878]LogEditorActor: Actor CheckerObj22 is referenced by MyBranch.
+[2019.02.26-20.28.02:476][878]LogEditorActor: Actor CheckerObj22 is referenced by MyRoad250.
+[2019.02.26-20.28.02:476][878]LogEditorActor: Actor CheckerObj22 is referenced by MyRoad251.
+[2019.02.26-20.28.02:476][878]LogEditorActor: Actor CheckerObj22 is referenced by MyRoad252.
+[2019.02.26-20.28.02:476][878]LogEditorActor: Actor CheckerObj22 is referenced by MyRoad253.
+[2019.02.26-20.28.02:477][878]LogEditorActor: Actor CheckerObj22 is referenced by MyRoad254.
+[2019.02.26-20.28.02:477][878]LogEditorActor: Actor CheckerObj22 is referenced by MyBranch26.
+[2019.02.26-20.28.02:480][878]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.28.02:481][878]LogEditorActor: Actor MyBranch is referenced by CheckerObj19.
+[2019.02.26-20.28.02:481][878]LogEditorActor: Actor MyBranch is referenced by CheckerObj20.
+[2019.02.26-20.28.02:481][878]LogEditorActor: Actor MyBranch is referenced by CheckerObj21.
+[2019.02.26-20.28.02:481][878]LogEditorActor: Actor MyBranch is referenced by CheckerObj22.
+[2019.02.26-20.28.02:482][878]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.28.02:482][878]LogEditorActor: Actor MyBranch23 is referenced by CheckerObj19.
+[2019.02.26-20.28.02:482][878]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.28.02:483][878]LogEditorActor: Actor MyBranch24 is referenced by CheckerObj20.
+[2019.02.26-20.28.02:483][878]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.28.02:483][878]LogEditorActor: Actor MyBranch25 is referenced by CheckerObj21.
+[2019.02.26-20.28.02:483][878]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.28.02:483][878]LogEditorActor: Actor MyBranch26 is referenced by CheckerObj22.
+[2019.02.26-20.28.02:483][878]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.28.02:484][878]LogEditorActor: Actor MyRoad235 is referenced by CheckerObj19.
+[2019.02.26-20.28.02:484][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:484][878]LogEditorActor: Actor MyRoad236 is referenced by CheckerObj19.
+[2019.02.26-20.28.02:484][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:485][878]LogEditorActor: Actor MyRoad237 is referenced by CheckerObj19.
+[2019.02.26-20.28.02:485][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:486][878]LogEditorActor: Actor MyRoad238 is referenced by CheckerObj19.
+[2019.02.26-20.28.02:486][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:487][878]LogEditorActor: Actor MyRoad239 is referenced by CheckerObj19.
+[2019.02.26-20.28.02:487][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:487][878]LogEditorActor: Actor MyRoad240 is referenced by CheckerObj20.
+[2019.02.26-20.28.02:487][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:488][878]LogEditorActor: Actor MyRoad241 is referenced by CheckerObj20.
+[2019.02.26-20.28.02:488][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:489][878]LogEditorActor: Actor MyRoad242 is referenced by CheckerObj20.
+[2019.02.26-20.28.02:489][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:490][878]LogEditorActor: Actor MyRoad243 is referenced by CheckerObj20.
+[2019.02.26-20.28.02:490][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:490][878]LogEditorActor: Actor MyRoad244 is referenced by CheckerObj20.
+[2019.02.26-20.28.02:490][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:491][878]LogEditorActor: Actor MyRoad245 is referenced by CheckerObj21.
+[2019.02.26-20.28.02:491][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:492][878]LogEditorActor: Actor MyRoad246 is referenced by CheckerObj21.
+[2019.02.26-20.28.02:492][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:493][878]LogEditorActor: Actor MyRoad247 is referenced by CheckerObj21.
+[2019.02.26-20.28.02:493][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:493][878]LogEditorActor: Actor MyRoad248 is referenced by CheckerObj21.
+[2019.02.26-20.28.02:494][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:494][878]LogEditorActor: Actor MyRoad249 is referenced by CheckerObj21.
+[2019.02.26-20.28.02:494][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:495][878]LogEditorActor: Actor MyRoad250 is referenced by CheckerObj22.
+[2019.02.26-20.28.02:495][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:496][878]LogEditorActor: Actor MyRoad251 is referenced by CheckerObj22.
+[2019.02.26-20.28.02:496][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:497][878]LogEditorActor: Actor MyRoad252 is referenced by CheckerObj22.
+[2019.02.26-20.28.02:497][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:498][878]LogEditorActor: Actor MyRoad253 is referenced by CheckerObj22.
+[2019.02.26-20.28.02:498][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:499][878]LogEditorActor: Actor MyRoad254 is referenced by CheckerObj22.
+[2019.02.26-20.28.02:499][878]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.28.02:542][878]LogEditorActor: Deleted 29 Actors (2.302 secs)
+[2019.02.26-20.30.03:255][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.30.03:543][721]Candidate modules for hot reload:
+[2019.02.26-20.30.03:543][721]  ProcGenCity
+[2019.02.26-20.30.03:544][721]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,6159 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.30.03:551][721]Warning: Starting HotReload took  0.1s.
+[2019.02.26-20.30.31:823][208]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:30:31
+[2019.02.26-20.30.31:823][208]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.30.31:823][208]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.30.31:823][208]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.26-20.30.31:823][208]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.02.26-20.30.31:823][208]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(125) : error C4060: switch statement contains no 'case' or 'default' labels
+[2019.02.26-20.30.31:824][208]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-6159.dll
+[2019.02.26-20.30.31:824][208]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.26-20.30.31:824][208]CompilerResultsLog: Total build time: 27.27 seconds (Parallel executor: 0.00 seconds)
+[2019.02.26-20.30.31:824][208]LogMainFrame: MainFrame: Module compiling took 28.296 seconds
+[2019.02.26-20.30.31:824][208]Warning: HotReload failed, recompile failed
+[2019.02.26-20.30.37:140][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.30.38:539][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.30.50:149][749]Candidate modules for hot reload:
+[2019.02.26-20.30.50:149][749]  ProcGenCity
+[2019.02.26-20.30.50:149][749]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2840 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.02.26-20.30.50:153][749]Warning: Starting HotReload took  0.1s.
+[2019.02.26-20.31.21:061][847]CompilerResultsLog: New page: Compilation - 26 Feb 2019 20:31:21
+[2019.02.26-20.31.21:061][847]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.26-20.31.21:061][847]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.26-20.31.21:061][847]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.26-20.31.21:061][847]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.02.26-20.31.21:061][847]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-2840.lib
+[2019.02.26-20.31.21:061][847]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2840.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2840.exp
+[2019.02.26-20.31.21:061][847]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-2840.dll
+[2019.02.26-20.31.21:061][847]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2840.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2840.suppressed.exp
+[2019.02.26-20.31.21:061][847]CompilerResultsLog: Total build time: 29.86 seconds (Parallel executor: 21.65 seconds)
+[2019.02.26-20.31.21:061][847]LogMainFrame: MainFrame: Module compiling took 30.922 seconds
+[2019.02.26-20.31.21:160][847]LogClass: EBranchState HotReload.
+[2019.02.26-20.31.21:178][847]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0010 seconds. Added 11 classes and 2 folders.
+[2019.02.26-20.31.21:183][847]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.26-20.31.21:954][847]LogContentBrowser: Native class hierarchy populated in 0.0461 seconds. Added 2584 classes and 607 folders.
+[2019.02.26-20.31.21:954][847]Display: HotReload took 31.9s.
+[2019.02.26-20.31.29:133][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.31.38:209][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-20.31.45:915][924]LogEditorViewport: Clicking on Actor (LMB): MyBranch_C (MyBranch31)
+[2019.02.26-20.31.53:440][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.31.57:364][599]LogEditorActor: Actor CheckerObj23 is referenced by MyBranch.
+[2019.02.26-20.31.57:364][599]LogEditorActor: Actor CheckerObj23 is referenced by MyRoad255.
+[2019.02.26-20.31.57:364][599]LogEditorActor: Actor CheckerObj23 is referenced by MyRoad256.
+[2019.02.26-20.31.57:364][599]LogEditorActor: Actor CheckerObj23 is referenced by MyRoad257.
+[2019.02.26-20.31.57:364][599]LogEditorActor: Actor CheckerObj23 is referenced by MyRoad258.
+[2019.02.26-20.31.57:364][599]LogEditorActor: Actor CheckerObj23 is referenced by MyRoad259.
+[2019.02.26-20.31.57:364][599]LogEditorActor: Actor CheckerObj23 is referenced by MyBranch30.
+[2019.02.26-20.32.00:315][599]LogSlate: Window 'Message' being destroyed
+[2019.02.26-20.32.00:336][599]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.32.00:337][599]LogEditorActor: Actor CheckerObj24 is referenced by MyBranch.
+[2019.02.26-20.32.00:337][599]LogEditorActor: Actor CheckerObj24 is referenced by MyRoad260.
+[2019.02.26-20.32.00:337][599]LogEditorActor: Actor CheckerObj24 is referenced by MyRoad261.
+[2019.02.26-20.32.00:337][599]LogEditorActor: Actor CheckerObj24 is referenced by MyRoad262.
+[2019.02.26-20.32.00:337][599]LogEditorActor: Actor CheckerObj24 is referenced by MyRoad263.
+[2019.02.26-20.32.00:337][599]LogEditorActor: Actor CheckerObj24 is referenced by MyRoad264.
+[2019.02.26-20.32.00:337][599]LogEditorActor: Actor CheckerObj24 is referenced by MyBranch31.
+[2019.02.26-20.32.00:341][599]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.32.00:342][599]LogEditorActor: Actor CheckerObj25 is referenced by MyBranch.
+[2019.02.26-20.32.00:342][599]LogEditorActor: Actor CheckerObj25 is referenced by MyRoad265.
+[2019.02.26-20.32.00:342][599]LogEditorActor: Actor CheckerObj25 is referenced by MyRoad266.
+[2019.02.26-20.32.00:342][599]LogEditorActor: Actor CheckerObj25 is referenced by MyRoad267.
+[2019.02.26-20.32.00:342][599]LogEditorActor: Actor CheckerObj25 is referenced by MyRoad268.
+[2019.02.26-20.32.00:342][599]LogEditorActor: Actor CheckerObj25 is referenced by MyRoad269.
+[2019.02.26-20.32.00:342][599]LogEditorActor: Actor CheckerObj25 is referenced by MyBranch32.
+[2019.02.26-20.32.00:346][599]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.32.00:347][599]LogEditorActor: Actor CheckerObj26 is referenced by MyBranch.
+[2019.02.26-20.32.00:347][599]LogEditorActor: Actor CheckerObj26 is referenced by MyRoad270.
+[2019.02.26-20.32.00:347][599]LogEditorActor: Actor CheckerObj26 is referenced by MyRoad271.
+[2019.02.26-20.32.00:347][599]LogEditorActor: Actor CheckerObj26 is referenced by MyRoad272.
+[2019.02.26-20.32.00:347][599]LogEditorActor: Actor CheckerObj26 is referenced by MyRoad273.
+[2019.02.26-20.32.00:347][599]LogEditorActor: Actor CheckerObj26 is referenced by MyRoad274.
+[2019.02.26-20.32.00:347][599]LogEditorActor: Actor CheckerObj26 is referenced by MyBranch33.
+[2019.02.26-20.32.00:350][599]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.02.26-20.32.00:352][599]LogEditorActor: Actor MyBranch is referenced by CheckerObj23.
+[2019.02.26-20.32.00:352][599]LogEditorActor: Actor MyBranch is referenced by CheckerObj24.
+[2019.02.26-20.32.00:352][599]LogEditorActor: Actor MyBranch is referenced by CheckerObj25.
+[2019.02.26-20.32.00:352][599]LogEditorActor: Actor MyBranch is referenced by CheckerObj26.
+[2019.02.26-20.32.00:352][599]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.32.00:354][599]LogEditorActor: Actor MyBranch30 is referenced by CheckerObj23.
+[2019.02.26-20.32.00:354][599]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.32.00:355][599]LogEditorActor: Actor MyBranch31 is referenced by CheckerObj24.
+[2019.02.26-20.32.00:355][599]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.32.00:355][599]LogEditorActor: Actor MyBranch32 is referenced by CheckerObj25.
+[2019.02.26-20.32.00:356][599]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.32.00:356][599]LogEditorActor: Actor MyBranch33 is referenced by CheckerObj26.
+[2019.02.26-20.32.00:356][599]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.02.26-20.32.00:356][599]LogEditorActor: Actor MyRoad255 is referenced by CheckerObj23.
+[2019.02.26-20.32.00:357][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:357][599]LogEditorActor: Actor MyRoad256 is referenced by CheckerObj23.
+[2019.02.26-20.32.00:358][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:358][599]LogEditorActor: Actor MyRoad257 is referenced by CheckerObj23.
+[2019.02.26-20.32.00:358][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:359][599]LogEditorActor: Actor MyRoad258 is referenced by CheckerObj23.
+[2019.02.26-20.32.00:359][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:360][599]LogEditorActor: Actor MyRoad259 is referenced by CheckerObj23.
+[2019.02.26-20.32.00:360][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:361][599]LogEditorActor: Actor MyRoad260 is referenced by CheckerObj24.
+[2019.02.26-20.32.00:361][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:361][599]LogEditorActor: Actor MyRoad261 is referenced by CheckerObj24.
+[2019.02.26-20.32.00:362][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:363][599]LogEditorActor: Actor MyRoad262 is referenced by CheckerObj24.
+[2019.02.26-20.32.00:363][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:364][599]LogEditorActor: Actor MyRoad263 is referenced by CheckerObj24.
+[2019.02.26-20.32.00:364][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:364][599]LogEditorActor: Actor MyRoad264 is referenced by CheckerObj24.
+[2019.02.26-20.32.00:364][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:365][599]LogEditorActor: Actor MyRoad265 is referenced by CheckerObj25.
+[2019.02.26-20.32.00:365][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:366][599]LogEditorActor: Actor MyRoad266 is referenced by CheckerObj25.
+[2019.02.26-20.32.00:366][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:367][599]LogEditorActor: Actor MyRoad267 is referenced by CheckerObj25.
+[2019.02.26-20.32.00:367][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:369][599]LogEditorActor: Actor MyRoad268 is referenced by CheckerObj25.
+[2019.02.26-20.32.00:369][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:370][599]LogEditorActor: Actor MyRoad269 is referenced by CheckerObj25.
+[2019.02.26-20.32.00:370][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:371][599]LogEditorActor: Actor MyRoad270 is referenced by CheckerObj26.
+[2019.02.26-20.32.00:371][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:372][599]LogEditorActor: Actor MyRoad271 is referenced by CheckerObj26.
+[2019.02.26-20.32.00:372][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:373][599]LogEditorActor: Actor MyRoad272 is referenced by CheckerObj26.
+[2019.02.26-20.32.00:373][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:374][599]LogEditorActor: Actor MyRoad273 is referenced by CheckerObj26.
+[2019.02.26-20.32.00:374][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:374][599]LogEditorActor: Actor MyRoad274 is referenced by CheckerObj26.
+[2019.02.26-20.32.00:374][599]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.02.26-20.32.00:449][599]LogEditorActor: Deleted 29 Actors (3.109 secs)
+[2019.02.26-20.32.06:438][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-20.32.06:614][949]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MyBranch.MyBranch
+[2019.02.26-20.32.09:248][ 53]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MyBranch.MyBranch
+[2019.02.26-20.32.13:510][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:510][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:511][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:511][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:511][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:511][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:512][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:512][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:512][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:512][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''
+[2019.02.26-20.32.13:512][225]LogClass: Warning: In asset 'None', there is an enum property of type 'EBranchState' with an invalid value of ''

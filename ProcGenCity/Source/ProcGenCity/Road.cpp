@@ -17,6 +17,8 @@ ARoad::ARoad()
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> meshObj(TEXT("/Game/StarterContent/Architecture/Floor_400x400"));
 	mesh->SetStaticMesh(meshObj.Object);
 
+	RootComponent = mesh;
+
 	boxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
 
 }
