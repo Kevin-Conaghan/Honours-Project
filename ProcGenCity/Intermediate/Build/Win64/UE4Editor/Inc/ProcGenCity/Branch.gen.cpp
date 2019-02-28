@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeBranch() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBranchState(EBranchState_StaticEnum, TEXT("/Script/ProcGenCity"), TEXT("EBranchState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ProcGenCity_EBranchState_CRC() { return 1223732049U; }
+	uint32 Get_Z_Construct_UEnum_ProcGenCity_EBranchState_CRC() { return 4241931366U; }
 	UEnum* Z_Construct_UEnum_ProcGenCity_EBranchState()
 	{
 #if WITH_HOT_RELOAD
@@ -44,22 +44,20 @@ void EmptyLinkFunctionForGeneratedCodeBranch() {}
 		if (!ReturnEnum)
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
-				{ "EBranchState::EB_NULL", (int64)EBranchState::EB_NULL },
-				{ "EBranchState::EB_INIT", (int64)EBranchState::EB_INIT },
 				{ "EBranchState::EB_Up", (int64)EBranchState::EB_Up },
 				{ "EBranchState::EB_DOWN", (int64)EBranchState::EB_DOWN },
 				{ "EBranchState::EB_LEFT", (int64)EBranchState::EB_LEFT },
 				{ "EBranchState::EB_RIGHT", (int64)EBranchState::EB_RIGHT },
+				{ "EBranchState::EB_INIT", (int64)EBranchState::EB_INIT },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
-				{ "EB_DOWN.DisplayName", "Down-Direction" },
+				{ "EB_DOWN.DisplayeName", "Down-Direction" },
 				{ "EB_INIT.DisplayName", "Initial-Branch" },
-				{ "EB_LEFT.DisplayName", "Left-Direction" },
-				{ "EB_NULL.DisplayName", "Null-Branch" },
-				{ "EB_RIGHT.DisplayName", "Right-Direction" },
-				{ "EB_Up.DisplayName", "Up-Direction" },
+				{ "EB_LEFT.DisplayeName", "Left-Direction" },
+				{ "EB_RIGHT.DisplayeName", "Right-Direction" },
+				{ "EB_Up.DisplayeName", "Up-Direction" },
 				{ "ModuleRelativePath", "Branch.h" },
 			};
 #endif

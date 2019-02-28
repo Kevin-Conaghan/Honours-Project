@@ -168,6 +168,26 @@ void ANewProcMesh::ConcaveEarMethod()
 		 if no triangles were made in the above for loop
 			break;
 	*/
+
+	Algo::Reverse(roofVerts);
+
+	for (int i = 0; i < roofVerts.Max(); i++)
+	{	
+		if(i != 0)
+			FVector pPrev = roofVerts[i - 1];
+		else
+			FVector pPrev = roofVerts[i];
+
+		FVector pCur = roofVerts[i];
+		FVector pNext = roofVerts[i + 1];
+
+
+
+	}
+
+
+
+
 }
 
 void ANewProcMesh::DrawRoof()

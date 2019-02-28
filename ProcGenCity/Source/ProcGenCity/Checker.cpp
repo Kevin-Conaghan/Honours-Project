@@ -11,11 +11,6 @@ AChecker::AChecker()
 
 	timer = 0.0f;
 	maxTime = 5.0f;
-
-	upBranchNum = 0;
-	downBranchNum = 0;
-	leftBranchNum = 0;
-	rightBranchNum = 0;
 }
 
 void AChecker::OnConstruction(const FTransform & transform)
@@ -31,31 +26,7 @@ bool AChecker::LocalRestraints()
 		2. If reaches a boundary cut off road.
 		3. If the road is close to an intersection extend road to meet intersection.
 	*/
-	condition = false;
-	Branches();
-
-	if (upBranchNum < maxHeight)
-	{
-		condition = true;
-	}
-	if (downBranchNum < maxHeight)
-	{
-		condition = true;
-	}
-	if (leftBranchNum < maxWidth)
-	{
-		condition = true;
-	}
-	if (rightBranchNum < maxWidth)
-	{
-		condition = true;
-	}
-	else
-	{
-		condition = false;
-	}
-
-	return condition;
+	return true;
 }
 
 void AChecker::GlobalGoals()
@@ -71,87 +42,50 @@ void AChecker::GlobalGoals()
 	spawnParams.Owner = this;
 	spawnParams.Instigator = Instigator;
 
+
 	FVector forwardVector = this->GetActorForwardVector();
 	FVector offsetVector = forwardVector * roadLength;
 
-	if (LocalRestraints() == true)
+	for (int i = 0; i < numOfRoads; i++)
 	{
-		for (int i = 0; i < numOfRoads; i++)
-		{
-			if (GetWorld() != NULL)
-			{
-				roadList.Add(GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation(), FRotator(0.0f, 0.0f, 0.0f), spawnParams));
-				this->SetActorLocation(this->GetActorLocation() + offsetVector);
-			}
-		}
-		SpawnBranch();
+		roadList.Add(GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation(), FRotator(0.0f, 0.0f, 0.0f), spawnParams));
+		this->SetActorLocation(this->GetActorLocation() + offsetVector);
 	}
+
+	SpawnBranch();
 }
 
 void AChecker::SpawnBranch()
 {
+
 	//Set the spawn parameters of the blueprint 
 	FActorSpawnParameters spawnParams;
 	spawnParams.Owner = this;
 	spawnParams.Instigator = Instigator;
 
-	branch = GetWorld()->SpawnActor<ABranch>(bpBranch, this->GetActorLocation(), this->GetActorRotation(), spawnParams);
+	FVector forwardVector = this->GetActorForwardVector();
+	FVector offsetVector = forwardVector * roadLength;
+
+	branch = GetWorld()->SpawnActor<ABranch>(bpBranch, this->GetActorLocation() + offsetVector, this->GetActorRotation(), spawnParams);
 	SetNewBranchDirection();
 }
 
 void AChecker::SetNewBranchDirection()
 {
-	if (branch != NULL)
+	if (this->GetActorRotation().Yaw > -180 && this->GetActorRotation().Yaw < -90.0f)
 	{
-		if (this->GetActorRotation().Yaw > -180 && this->GetActorRotation().Yaw < -90.0f)
-		{
-			branch->SetBranchDir(EBranchState::EB_RIGHT);
-			branch->SpawnRight();
-		}
-		else if (this->GetActorRotation().Yaw < 90 && this->GetActorRotation().Yaw > 0.0f)
-		{
-			branch->SetBranchDir(EBranchState::EB_Up);
-			branch->SpawnUp();
-		}
-		else if (this->GetActorRotation().Yaw > -90 && this->GetActorRotation().Yaw < 0.0f)
-		{
-			branch->SetBranchDir(EBranchState::EB_DOWN);
-			branch->SpawnDown();
-		}
-		else if (this->GetActorRotation().Yaw == 0.0f)
-		{
-			branch->SetBranchDir(EBranchState::EB_LEFT);
-			branch->SpawnLeft();
-		}
+		branch->SetBranchDir(EBranchState::EB_RIGHT);
 	}
-}
-
-void AChecker::Branches()
-{
-	ABranch* numOfBranches;
-	
-	for (TActorIterator<ABranch> actorItr(GetWorld()); actorItr; ++actorItr)
+	else if (this->GetActorRotation().Yaw < 90 && this->GetActorRotation().Yaw > 0.0f)
 	{
-		if (actorItr)
-		{
-			numOfBranches = *actorItr;
-
-			if (numOfBranches->GetBranchDir() == EBranchState::EB_Up)
-			{
-				upBranchNum++;
-			}
-			if (numOfBranches->GetBranchDir() == EBranchState::EB_DOWN)
-			{
-				downBranchNum++;
-			}
-			if (numOfBranches->GetBranchDir() == EBranchState::EB_LEFT)
-			{
-				leftBranchNum++;
-			}
-			if (numOfBranches->GetBranchDir() == EBranchState::EB_RIGHT)
-			{
-				rightBranchNum++;
-			}
-		}
+		branch->SetBranchDir(EBranchState::EB_Up);
+	}
+	else if (this->GetActorRotation().Yaw > -90 && this->GetActorRotation().Yaw < 0.0f)
+	{
+		branch->SetBranchDir(EBranchState::EB_DOWN);
+	}
+	else if (this->GetActorRotation().Yaw == 0.0f)
+	{
+		branch->SetBranchDir(EBranchState::EB_LEFT);
 	}
 }
