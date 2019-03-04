@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProcGenCity.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{03CDD808-9ABE-41F0-BD08-06FC28FF02D4}</UniqueIdentifier>
+      <UniqueIdentifier>{6E6385E2-F73D-4468-8ADF-7E39EF79827C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProcGenCity.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6E4493C4-01CA-49C4-8D4E-AC7E90674AD6}</UniqueIdentifier>
+      <UniqueIdentifier>{B37B5B49-F072-4808-888B-03E4BBA0F4B4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,26 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ProcGenCity">
-      <UniqueIdentifier>{EDAC33D1-6FDB-4B92-B9E0-ED4DAC768087}</UniqueIdentifier>
+      <UniqueIdentifier>{ACA7D44E-20AE-4E34-AA9D-A6444693EFD1}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ProcGenCity\Boundary.cpp">
+      <Filter>Source\ProcGenCity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProcGenCity\Boundary.h">
+      <Filter>Source\ProcGenCity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProcGenCity\Branch.cpp">
+      <Filter>Source\ProcGenCity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProcGenCity\Branch.h">
+      <Filter>Source\ProcGenCity</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProcGenCity\Checker.cpp">
+      <Filter>Source\ProcGenCity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProcGenCity\Checker.h">
+      <Filter>Source\ProcGenCity</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ProcGenCity\LotCalculator.cpp">
       <Filter>Source\ProcGenCity</Filter>
     </ClCompile>
@@ -85,24 +103,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\ProcGenCity\Checker.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ProcGenCity\Branch.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ProcGenCity\Boundary.h">
+    <ClInclude Include="..\..\Source\ProcGenCity\Manager.h">
       <Filter>Source\ProcGenCity</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\ProcGenCity\Checker.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ProcGenCity\Branch.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ProcGenCity\Boundary.cpp">
+    <ClCompile Include="..\..\Source\ProcGenCity\Manager.cpp">
       <Filter>Source\ProcGenCity</Filter>
     </ClCompile>
   </ItemGroup>

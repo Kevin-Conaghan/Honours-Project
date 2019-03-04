@@ -4,8 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Boundary.h"
 #include "Branch.h"
 #include "Road.h"
+#include "Engine.h"
+#include "EngineUtils.h"
 #include "Checker.generated.h"
 
 UCLASS()
@@ -26,31 +29,45 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objects")
 		TSubclassOf<class ARoad> bpRoad;
 
-	UPROPERTY(VisibleAnywhere, Category = "Objects")
-		TArray<ARoad*> roadList;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		int roadLength;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		int numOfRoads;
 
-	UPROPERTY(VisibleAnywhere, Category = "New Branch")
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		bool condition;
+
+	UPROPERTY(VisibleAnywhere, Category = "Actors")
+		TArray<ARoad*> roadList;
+
+	UPROPERTY(VisibleAnywhere, Category = "Actors")
 		ABranch* branch;
 
-	
+
+
 protected:
 	float timer;
 	float maxTime;
 
+	bool heightBound;
+	bool widthBound;
 
+	bool isComplete;
 public:	
 
 	virtual void OnConstruction(const FTransform& transform) override;
 
 	bool LocalRestraints();
+
 	void GlobalGoals();
 
-	void SpawnBranch();
 	void SetNewBranchDirection();
+	bool GetIsCompleted();
+	bool GetHeightBound();
+	bool GetWidthBound();
+
+	class ABoundary* FindBoundary();
+	bool HeightBoundaryCheck(ABoundary* bound);
+	bool WidthBoundaryCheck(ABoundary* bound);
 };

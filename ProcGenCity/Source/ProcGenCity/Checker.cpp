@@ -15,9 +15,19 @@ AChecker::AChecker()
 
 void AChecker::OnConstruction(const FTransform & transform)
 {
-	GlobalGoals();
 }
 
+class ABoundary* AChecker::FindBoundary()
+{
+
+	class ABoundary* currBoundary = NULL;
+	for (TActorIterator<ABoundary> actorItr(GetWorld()); actorItr; ++actorItr)
+	{
+		currBoundary = *actorItr;
+	}
+
+	return currBoundary;
+}
 
 bool AChecker::LocalRestraints()
 {
@@ -26,7 +36,36 @@ bool AChecker::LocalRestraints()
 		2. If reaches a boundary cut off road.
 		3. If the road is close to an intersection extend road to meet intersection.
 	*/
-	return true;
+
+	class ABoundary* boundary = FindBoundary();
+
+	if (boundary != NULL)
+	{
+		boundary->CalcBoundary();
+		heightBound = HeightBoundaryCheck(boundary);
+		widthBound = WidthBoundaryCheck(boundary);
+
+		if (!heightBound && !widthBound)
+		{
+			condition = true;
+		}
+		else
+		{
+			condition = false;
+		}
+	}
+
+	return condition;
+}
+
+bool AChecker::HeightBoundaryCheck(ABoundary* bound)
+{	 
+	return bound->GetBoundingHeight();
+}
+
+bool AChecker::WidthBoundaryCheck(ABoundary* bound)
+{
+	return bound->GetBoundingWidth();
 }
 
 void AChecker::GlobalGoals()
@@ -52,22 +91,7 @@ void AChecker::GlobalGoals()
 		this->SetActorLocation(this->GetActorLocation() + offsetVector);
 	}
 
-	SpawnBranch();
-}
-
-void AChecker::SpawnBranch()
-{
-
-	//Set the spawn parameters of the blueprint 
-	FActorSpawnParameters spawnParams;
-	spawnParams.Owner = this;
-	spawnParams.Instigator = Instigator;
-
-	FVector forwardVector = this->GetActorForwardVector();
-	FVector offsetVector = forwardVector * roadLength;
-
-	branch = GetWorld()->SpawnActor<ABranch>(bpBranch, this->GetActorLocation() + offsetVector, this->GetActorRotation(), spawnParams);
-	SetNewBranchDirection();
+	isComplete = true;
 }
 
 void AChecker::SetNewBranchDirection()
@@ -89,3 +113,19 @@ void AChecker::SetNewBranchDirection()
 		branch->SetBranchDir(EBranchState::EB_LEFT);
 	}
 }
+
+bool AChecker::GetIsCompleted()
+{
+	return isComplete;
+}
+
+bool AChecker::GetHeightBound()
+{
+	return heightBound;
+}
+
+bool AChecker::GetWidthBound()
+{
+	return widthBound;
+}
+

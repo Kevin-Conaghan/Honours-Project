@@ -1,0 +1,907 @@
+﻿Log file open, 03/04/19 14:02:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProcGenCity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.345540
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.295s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.013s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.04-14.02.39:450][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.04-14.02.39:450][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.04-14.02.39:474][  0]LogHAL: Display: Platform has ~ 16 GB [17058729984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.04-14.02.39:474][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.04-14.02.39:474][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.04-14.02.39:475][  0]LogInit: Computer: LAPTOP-TLBN2SQS
+[2019.03.04-14.02.39:476][  0]LogInit: User: kevin
+[2019.03.04-14.02.39:476][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.04-14.02.39:476][  0]LogInit: High frequency timer resolution =1.945312 MHz
+[2019.03.04-14.02.39:477][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.04-14.02.39:477][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.04-14.02.39:477][  0]LogMemory: Process Physical Memory: 101.91 MB used, 101.91 MB peak
+[2019.03.04-14.02.39:477][  0]LogMemory: Process Virtual Memory: 94.22 MB used, 94.22 MB peak
+[2019.03.04-14.02.39:477][  0]LogMemory: Physical Memory: 8175.80 MB used,  8092.68 MB free, 16268.47 MB total
+[2019.03.04-14.02.39:477][  0]LogMemory: Virtual Memory: 4655.32 MB used,  8092.68 MB free, 134217728.00 MB total
+[2019.03.04-14.02.39:516][  0]LogInit: Using OS detected language (en-GB).
+[2019.03.04-14.02.39:516][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.04-14.02.39:519][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.03.04-14.02.40:305][  0]LogStreaming: Display: Took  0.789s to InitEngineTextLocalization.
+[2019.03.04-14.02.40:305][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.04-14.02.40:507][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.04-14.02.40:508][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.04-14.02.41:077][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.03.04-14.02.41:077][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.04-14.02.41:220][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.03.04-14.02.41:220][  0]LogD3D11RHI:       4027/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.04-14.02.41:250][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.03.04-14.02.41:251][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.04-14.02.41:254][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.04-14.02.41:254][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.04-14.02.41:254][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.04-14.02.41:327][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.04-14.02.41:327][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.04-14.02.41:327][  0]LogWindows: EnumDisplayDevices:
+[2019.03.04-14.02.41:328][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.03.04-14.02.41:329][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.03.04-14.02.41:330][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.03.04-14.02.41:332][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.04-14.02.41:332][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.03.04-14.02.41:332][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.04-14.02.41:332][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.04-14.02.41:332][  0]LogRHI: Texture pool is 2819 MB (70% of 4027 MB)
+[2019.03.04-14.02.41:423][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.04-14.02.41:481][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 5)
+[2019.03.04-14.02.41:511][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Intermediate/Shaders/WorkingDirectory/27008/).
+[2019.03.04-14.02.41:513][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/12302BCD49AAABE816604DBC043015EF/'.
+[2019.03.04-14.02.42:165][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.04-14.02.42:210][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.04-14.02.42:253][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.04-14.02.42:312][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.04-14.02.42:356][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.04-14.02.42:405][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.04-14.02.42:447][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.04-14.02.42:491][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.04-14.02.42:508][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:687][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-14.02.42:692][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.04-14.02.42:844][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.04-14.02.42:844][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.04-14.02.42:908][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.04-14.02.42:908][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.04-14.02.42:945][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.04-14.02.42:983][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.04-14.02.43:021][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.04-14.02.43:054][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.04-14.02.43:076][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.04-14.02.43:078][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.04-14.02.43:234][  0]LogXGEController: Cleaning working directory: C:/Users/kevin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.04-14.02.43:235][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.04-14.02.43:235][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.04-14.02.43:235][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.04-14.02.45:032][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.04-14.02.45:137][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.04-14.02.45:137][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.04-14.02.45:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.04-14.02.45:137][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.04-14.02.45:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.04-14.02.45:137][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.04-14.02.45:160][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.04-14.02.45:174][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.04-14.02.45:174][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.04-14.02.45:174][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.04-14.02.45:207][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.04-14.02.45:210][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.04-14.02.45:211][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.04-14.02.45:335][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2019.03.04-14.02.46:107][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.04-14.02.46:451][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.04-14.02.46:460][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.04-14.02.46:460][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.04-14.02.46:460][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.04-14.02.46:460][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.04-14.02.46:488][  0]LogNetVersion: ProcGenCity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2895139612)
+[2019.03.04-14.02.47:690][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.250761 seconds
+[2019.03.04-14.02.47:703][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.04-14.02.47:703][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.04-14.02.47:703][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.04-14.02.49:883][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.04-14.02.49:899][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.04-14.02.50:226][  0]SourceControl: Source control is disabled
+[2019.03.04-14.02.50:227][  0]SourceControl: Source control is disabled
+[2019.03.04-14.02.50:230][  0]SourceControl: Source control is disabled
+[2019.03.04-14.02.50:232][  0]SourceControl: Source control is disabled
+[2019.03.04-14.02.50:479][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.04-14.02.50:582][  0]LogOcInput: OculusInput pre-init called
+[2019.03.04-14.02.50:744][  0]LogEngine: Initializing Engine...
+[2019.03.04-14.02.50:746][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.03.04-14.02.50:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.04-14.02.50:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.04-14.02.50:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.04-14.02.50:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.04-14.02.51:188][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.04-14.02.51:220][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.04-14.02.51:352][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.04-14.02.51:396][  0]LogInit: FAudioDevice initialized.
+[2019.03.04-14.02.51:397][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.04-14.02.51:531][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.04-14.02.51:554][  0]LogInit: Texture streaming: Enabled
+[2019.03.04-14.02.51:606][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.04-14.02.51:606][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={98555383-44E3-7886-B356-1CA0873454E8}
+[2019.03.04-14.02.51:648][  0]LogInit: Transaction tracking system initialized
+[2019.03.04-14.02.51:716][  0]BlueprintLog: New page: Editor Load
+[2019.03.04-14.02.51:891][  0]LocalizationService: Localization service is disabled
+[2019.03.04-14.02.53:368][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.04-14.02.53:368][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.04-14.02.53:368][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.04-14.02.53:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.04-14.02.53:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.04-14.02.53:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.04-14.02.53:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.04-14.02.53:694][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/' took 0.02s
+[2019.03.04-14.02.53:694][  0]SourceControl: Source control is disabled
+[2019.03.04-14.02.53:695][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.04-14.02.53:697][  0]LightingResults: New page: Lighting Build
+[2019.03.04-14.02.53:708][  0]MapCheck: New page: Map Check
+[2019.03.04-14.02.53:708][  0]LightingResults: New page: Lighting Build
+[2019.03.04-14.02.54:606][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.04-14.02.54:670][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.04-14.02.54:726][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.04-14.02.54:842][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.902ms to complete.
+[2019.03.04-14.02.54:842][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.148
+[2019.03.04-14.02.54:998][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-14.02.55:010][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-14.02.55:023][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-14.02.55:038][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-14.02.55:050][  0]LogCollectionManager: Loaded 0 collections in 0.003867 seconds
+[2019.03.04-14.02.55:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Collections/' took 0.01s
+[2019.03.04-14.02.55:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Developers/kevin/Collections/' took 0.01s
+[2019.03.04-14.02.55:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Collections/' took 0.01s
+[2019.03.04-14.02.55:100][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.04-14.02.55:120][  0]LogContentBrowser: Native class hierarchy populated in 0.0201 seconds. Added 2583 classes and 605 folders.
+[2019.03.04-14.02.55:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2019.03.04-14.02.55:252][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.03.04-14.02.55:263][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.03.04-14.02.55:290][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.04-14.02.55:297][  0]LogSlate: Took 0.000515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.04-14.02.55:306][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.04-14.02.55:526][  0]LogRenderer: Reallocating scene render targets to support 1284x576 Format 9 NumSamples 1 (Frame:1).
+[2019.03.04-14.02.56:025][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.03.04-14.02.56:025][  0]LogLoad: (Engine Initialization) Total time: 22.17 seconds
+[2019.03.04-14.02.56:025][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.04-14.02.56:076][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.03.04-14.02.56:135][  0]LogSlate: Took 0.000551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.04-14.02.56:186][  1]LogActor: Warning: MyRoad_C /Engine/Transient.World_0:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.02.56:407][  3]LogAssetRegistry: Asset discovery search completed in 11.0939 seconds
+[2019.03.04-14.02.56:410][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.04-14.02.56:410][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2019.03.04-14.02.57:413][  6]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.04-14.03.06:048][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-14.03.06:327][112]Candidate modules for hot reload:
+[2019.03.04-14.03.06:328][112]  ProcGenCity
+[2019.03.04-14.03.06:329][112]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2508 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.03.04-14.03.06:337][112]Warning: Starting HotReload took  0.1s.
+[2019.03.04-14.03.48:808][585]CompilerResultsLog: New page: Compilation - 4 Mar 2019 14:03:48
+[2019.03.04-14.03.48:808][585]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.04-14.03.48:808][585]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.04-14.03.48:808][585]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.04-14.03.48:808][585]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.03.04-14.03.48:808][585]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-2508.lib
+[2019.03.04-14.03.48:808][585]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2508.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2508.exp
+[2019.03.04-14.03.48:809][585]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-2508.dll
+[2019.03.04-14.03.48:809][585]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2508.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2508.suppressed.exp
+[2019.03.04-14.03.48:809][585]CompilerResultsLog: Total build time: 41.42 seconds (Parallel executor: 31.40 seconds)
+[2019.03.04-14.03.48:809][585]LogMainFrame: MainFrame: Module compiling took 42.500 seconds
+[2019.03.04-14.03.48:940][585]LogClass: EBranchState HotReload.
+[2019.03.04-14.03.48:955][585]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0009 seconds. Added 11 classes and 2 folders.
+[2019.03.04-14.03.48:958][585]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.04-14.03.49:172][585]LogContentBrowser: Native class hierarchy populated in 0.0369 seconds. Added 2584 classes and 607 folders.
+[2019.03.04-14.03.49:177][585]Display: HotReload took 42.9s.
+[2019.03.04-14.03.58:196][ 76]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.03.04-14.03.58:255][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-14.04.04:562][418]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Boundary.Boundary
+[2019.03.04-14.04.06:468][418]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 116 classes and 0 folders.
+[2019.03.04-14.04.15:490][653]BlueprintLog: New page: Compile Boundary
+[2019.03.04-14.04.17:435][704]LogSlate: Window 'Boundary*' being destroyed
+[2019.03.04-14.04.17:968][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-14.04.21:743][928]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.03.04-14.04.21:784][928]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-14.04.24:693][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:695][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:696][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:697][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:699][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:700][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:702][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:703][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:704][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:706][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:707][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:709][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:711][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:712][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:714][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:718][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:720][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:721][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:723][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:724][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:725][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:727][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:728][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:730][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:731][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:733][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:734][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:735][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:737][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:738][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:745][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:747][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:748][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:750][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:751][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:753][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:754][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:756][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:758][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:759][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:760][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:762][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:763][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:764][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:766][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:768][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:769][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:770][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:772][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:773][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:778][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:779][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:781][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:782][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:784][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:785][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:786][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:788][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:789][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:790][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:792][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:793][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:795][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:797][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:799][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:800][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:801][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:803][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:804][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:805][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:809][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:811][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:812][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:813][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:815][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:816][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:817][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:819][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:820][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:821][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:823][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:824][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:825][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:827][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:828][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:833][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:834][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:836][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:838][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:839][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:840][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:842][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:843][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:844][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:845][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:847][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:848][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:848][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:849][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:851][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:852][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_100 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:855][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_101 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:855][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_102 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:856][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_103 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:858][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_104 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:864][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_105 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:867][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_106 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:868][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_107 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:870][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_108 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:871][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_109 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:872][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_110 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:873][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_111 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:874][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:877][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:880][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:881][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_115 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:882][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:883][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_117 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:884][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:885][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_119 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:890][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:891][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_121 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:893][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:894][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_123 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:896][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:897][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_125 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:898][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:899][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_127 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:900][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:901][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_129 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:905][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:906][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:909][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:910][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_133 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:912][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:913][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_135 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:914][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:915][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_137 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:916][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:917][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_139 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:918][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:919][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_141 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:920][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:921][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_143 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:922][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:923][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_145 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:924][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:925][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_147 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:927][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:929][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_149 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:933][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:934][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_151 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:935][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:936][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_153 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:937][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:938][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_155 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:939][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:940][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:942][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:943][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:945][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:946][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_161 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:947][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:948][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_163 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:949][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:954][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_165 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:955][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:958][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_167 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:959][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:960][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_169 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:961][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:964][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_171 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:966][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_172 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:968][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_173 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:969][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:970][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_175 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:972][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:973][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_177 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:975][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:977][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_179 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:978][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:979][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_181 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:981][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:982][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_183 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:983][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:986][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_185 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:989][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:990][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_187 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:991][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:992][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_189 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:994][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:995][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_191 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:997][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.24:999][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_193 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:001][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_194 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:004][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_195 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:005][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_196 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:006][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_197 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:008][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_198 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:010][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_199 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:011][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_200 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:013][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_201 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:014][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_202 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:015][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_203 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:016][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_204 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:017][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_205 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:019][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_206 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:020][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_207 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:021][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_208 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:022][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_209 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:028][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_210 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:030][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_211 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:031][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_212 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:033][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_213 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:034][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_214 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:035][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_215 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:037][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_216 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:038][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_217 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:040][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_218 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:042][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_219 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:043][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_220 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:046][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_221 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:047][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_222 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:050][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_223 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:052][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_224 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:058][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_225 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:060][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_226 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:061][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_227 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:063][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_228 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:064][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_229 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:065][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_230 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:066][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_231 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:067][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_232 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:070][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_233 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:071][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_234 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:073][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_235 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:075][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:077][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_237 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:079][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_238 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:080][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_239 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:086][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_240 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:087][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_241 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:088][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_242 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:089][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_243 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:091][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_244 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:092][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_245 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:094][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_246 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:095][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_247 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:096][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_248 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:098][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_249 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:098][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_250 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:100][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_251 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:101][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:102][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_253 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:104][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_254 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:105][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_255 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:106][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_256 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:107][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_257 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:108][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_258 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:109][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_259 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:113][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_260 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:115][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_261 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:116][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_262 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:117][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_263 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:118][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_264 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:120][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_265 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:121][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_266 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:122][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_267 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:124][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_268 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:125][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_269 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:126][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_270 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:128][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_271 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:130][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_272 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:131][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_273 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:132][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_274 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:136][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_275 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:137][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_276 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:138][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_277 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:139][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_278 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:141][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_279 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:143][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_280 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:144][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_281 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:145][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_282 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:146][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_283 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:148][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_284 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:149][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_285 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:150][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_286 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:151][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_287 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:153][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_288 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:154][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_289 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:155][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_290 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:156][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_291 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:157][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_292 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:159][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_293 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:160][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_294 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:164][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_295 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:165][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_296 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:166][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_297 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:167][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_298 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:168][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_299 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:169][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_300 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:171][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_301 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:172][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_302 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:173][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_303 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:174][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_304 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:180][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_305 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:182][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_306 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:183][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_307 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:185][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_308 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:186][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_309 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:187][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_310 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:189][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_311 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:190][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_312 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:191][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_313 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:193][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_314 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:195][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_315 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:196][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_316 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:197][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_317 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:198][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_318 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:200][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_319 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:202][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_320 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:204][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_321 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:205][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_322 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:206][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_323 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:207][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_324 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:213][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_325 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:215][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_326 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:216][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_327 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:217][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_328 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:219][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_329 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:220][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_330 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:222][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_331 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:223][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_332 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:224][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_333 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:227][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_334 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:229][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_335 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:229][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_336 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:233][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_337 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:235][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_338 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:236][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_339 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:238][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_340 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:240][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_341 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:242][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_342 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:244][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_343 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:247][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_344 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:252][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_345 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:253][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_346 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:255][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_347 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:257][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_348 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:258][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_349 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:261][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_350 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:262][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_351 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:264][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_352 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:265][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_353 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:267][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_354 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:268][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_355 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:270][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_356 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:271][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_357 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:272][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_358 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:273][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_359 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:275][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_360 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:276][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_361 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:278][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_362 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:280][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_363 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:282][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_364 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:285][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_365 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:286][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_366 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:287][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_367 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:290][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_368 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:292][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_369 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:294][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_370 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:295][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_371 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:296][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_372 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:298][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_373 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:300][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_374 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:306][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_375 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:308][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_376 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:309][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_377 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:311][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_378 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:313][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_379 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:314][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_380 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:315][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_381 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:317][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_382 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:318][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_383 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:319][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_384 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:321][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_385 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:322][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_386 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:324][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_387 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:326][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_388 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:327][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_389 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:329][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_390 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:330][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_391 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:332][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_392 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:333][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_393 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:335][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_394 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:338][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_395 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:339][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_396 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:341][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_397 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:342][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_398 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:343][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_399 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:345][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_400 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:346][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_401 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:347][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_402 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:348][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_403 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:349][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_404 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:353][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_405 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:354][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_406 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:355][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_407 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:356][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_408 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:357][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_409 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:364][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_410 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:366][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_411 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:367][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_412 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:369][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_413 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:369][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_414 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:370][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_415 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:371][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_416 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:372][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_417 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:374][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_418 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:376][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_419 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:379][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_420 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:380][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_421 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:381][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_422 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:382][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_423 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:383][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_424 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:385][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_425 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:386][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_426 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:387][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_427 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:388][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_428 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:389][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_429 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:393][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_430 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:395][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_431 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:396][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_432 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:398][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_433 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:399][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_434 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:400][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_435 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:401][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_436 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:402][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_437 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:403][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_438 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:404][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_439 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:405][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_440 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:406][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_441 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:407][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_442 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:408][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_443 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:410][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_444 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:413][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_445 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:415][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_446 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:416][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_447 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:417][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_448 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:418][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_449 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:419][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_450 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:420][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_451 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:421][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_452 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:422][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_453 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.25:423][ 86]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_454 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.04-14.04.50:120][479]Cmd: TRANSACTION UNDO
+[2019.03.04-14.04.50:120][479]LogEditorTransaction: Undo Create Actor
+[2019.03.04-14.04.51:433][482]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.03.04-14.04.55:106][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-14.04.57:164][745]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.03.04-14.04.57:165][745]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.03.04-14.04.57:166][745]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.03.04-14.04.57:222][745]LogEditorActor: Deleted 3 Actors (0.084 secs)
+[2019.03.04-14.12.59:837][842]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto1AD718B474CB1376AB548D4870E77035F.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.03.04-14.12.59:870][842]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 3.645
+[2019.03.04-14.12.59:870][842]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.645
+[2019.03.04-14.12.59:889][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Boundary] ([1] browsable assets)...
+[2019.03.04-14.12.59:889][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Boundary]
+[2019.03.04-14.13.00:052][842]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Boundary_Auto190236D7248CD89165F88B59C74043FCD.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/BP/Boundary_Auto1.uasset'
+[2019.03.04-14.13.00:058][842]LogFileHelpers: Auto-saving content packages took 0.173
+[2019.03.04-14.42.44:745][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-14.42.45:057][457]Candidate modules for hot reload:
+[2019.03.04-14.42.45:057][457]  ProcGenCity
+[2019.03.04-14.42.45:057][457]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,1870 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.03.04-14.42.45:062][457]Warning: Starting HotReload took  0.1s.
+[2019.03.04-14.43.44:722][650]CompilerResultsLog: New page: Compilation - 4 Mar 2019 14:43:44
+[2019.03.04-14.43.44:722][650]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.04-14.43.44:722][650]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.04-14.43.44:722][650]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.03.04-14.43.44:722][650]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.04-14.43.44:722][650]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h!
+[2019.03.04-14.43.44:722][650]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.03.04-14.43.44:723][650]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 21.782951 seconds
+[2019.03.04-14.43.44:723][650]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:   [1/8] Branch.cpp
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:    C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.cpp(56) : error C3867: 'AChecker::WidthBoundaryCheck': non-standard syntax; use '&' to create a pointer to member
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:   [2/8] Boundary.gen.cpp
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:   [3/8] Branch.gen.cpp
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:   [4/8] Checker.gen.cpp
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:   [5/8] Checker.cpp
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:   [6/8] Boundary.cpp
+[2019.03.04-14.43.44:723][650]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-1870.dll
+[2019.03.04-14.43.44:723][650]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.04-14.43.44:723][650]CompilerResultsLog: Total build time: 58.59 seconds (Parallel executor: 0.00 seconds)
+[2019.03.04-14.43.44:723][650]LogMainFrame: MainFrame: Module compiling took 59.675 seconds
+[2019.03.04-14.43.44:723][650]Warning: HotReload failed, recompile failed
+[2019.03.04-14.43.57:169][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-14.44.09:728][ 54]Candidate modules for hot reload:
+[2019.03.04-14.44.09:728][ 54]  ProcGenCity
+[2019.03.04-14.44.09:729][ 54]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,3139 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.03.04-14.44.09:739][ 54]Warning: Starting HotReload took  0.1s.
+[2019.03.04-14.44.44:002][157]CompilerResultsLog: New page: Compilation - 4 Mar 2019 14:44:44
+[2019.03.04-14.44.44:003][157]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.04-14.44.44:003][157]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.04-14.44.44:003][157]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.04-14.44.44:003][157]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.03.04-14.44.44:003][157]CompilerResultsLog:   c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\branch.cpp(56) : warning C4701: potentially uninitialized local variable 'prevChecker' used
+[2019.03.04-14.44.44:003][157]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\branch.cpp(56)  : error C4703: potentially uninitialized local pointer variable 'prevChecker' used
+[2019.03.04-14.44.44:004][157]CompilerResultsLog:   c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\branch.cpp(69) : warning C4701: potentially uninitialized local variable 'randNum' used
+[2019.03.04-14.44.44:004][157]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-3139.dll
+[2019.03.04-14.44.44:004][157]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.04-14.44.44:004][157]CompilerResultsLog: Total build time: 33.32 seconds (Parallel executor: 0.00 seconds)
+[2019.03.04-14.44.44:004][157]LogMainFrame: MainFrame: Module compiling took 34.292 seconds
+[2019.03.04-14.44.44:004][157]Warning: HotReload failed, recompile failed
+[2019.03.04-14.44.48:400][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-14.45.46:836][923]Candidate modules for hot reload:
+[2019.03.04-14.45.46:836][923]  ProcGenCity
+[2019.03.04-14.45.46:836][923]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,3480 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.03.04-14.45.46:842][923]Warning: Starting HotReload took  0.1s.
+[2019.03.04-14.46.27:809][307]CompilerResultsLog: New page: Compilation - 4 Mar 2019 14:46:27
+[2019.03.04-14.46.27:809][307]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.04-14.46.27:809][307]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.04-14.46.27:810][307]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.04-14.46.27:810][307]CompilerResultsLog:   [1/3] Branch.cpp
+[2019.03.04-14.46.27:811][307]CompilerResultsLog:   c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\branch.cpp(69) : warning C4701: potentially uninitialized local variable 'randNum' used
+[2019.03.04-14.46.27:811][307]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-3480.lib
+[2019.03.04-14.46.27:811][307]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3480.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3480.exp
+[2019.03.04-14.46.27:811][307]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-3480.dll
+[2019.03.04-14.46.27:811][307]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3480.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3480.suppressed.exp
+[2019.03.04-14.46.27:811][307]CompilerResultsLog: Total build time: 40.12 seconds (Parallel executor: 30.65 seconds)
+[2019.03.04-14.46.27:811][307]LogMainFrame: MainFrame: Module compiling took 40.989 seconds
+[2019.03.04-14.46.27:953][307]LogClass: EBranchState HotReload.
+[2019.03.04-14.46.27:964][307]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0010 seconds. Added 11 classes and 2 folders.
+[2019.03.04-14.46.27:971][307]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.04-14.46.28:848][307]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2584 classes and 607 folders.
+[2019.03.04-14.46.28:849][307]Display: HotReload took 42.1s.
+[2019.03.04-14.46.33:056][526]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.03.04-14.46.33:143][526]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-14.46.36:620][663]LogWindows: Windows GetLastError: The operation completed successfully. (0)

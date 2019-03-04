@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Checker.h"
+#include "Engine.h"
 #include "Branch.generated.h"
 
 UENUM(BlueprintType)
@@ -32,6 +33,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Object BP")
 		TSubclassOf<class AChecker> bpChecker;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Object BP")
+		TSubclassOf<class ABranch> bpBranch;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objects")
 		TArray<AChecker*> checkerObjs;
 
@@ -41,20 +45,31 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		bool isGenerating;
 
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enum")
 		EBranchState branchDirection;
 
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		bool isComplete;
+
 protected:
+	bool isReady;
+	ABranch* branch;
+	class ABoundary* bound;
 
+	bool isHeightBound;
+	bool isWidthBound;
 
-
+	int oldNum;
 
 
 public:	
+
 	virtual void OnConstruction(const FTransform& transform) override;
 	
 
 	void InitCheckers(FActorSpawnParameters spawnParams);
+	void SpawnRoads();
 	void SetBranchDir(EBranchState branchDir);
+	void SpawnBranch(FVector checkerLoc, FRotator checkerRot);
+
 };

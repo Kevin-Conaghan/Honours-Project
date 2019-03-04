@@ -2,12 +2,13 @@
 
 #include "Branch.h"
 
-
 // Sets default values
 ABranch::ABranch()
 {
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	RootComponent = mesh;
+
+	oldNum = 0;
 }
 
 void ABranch::OnConstruction(const FTransform & transform)
@@ -17,108 +18,69 @@ void ABranch::OnConstruction(const FTransform & transform)
 	spawnParams.Owner = this;
 	spawnParams.Instigator = Instigator;
 
-	if (isGenerating)
-	{
-		//initialise and spawn the checker objects 
-		InitCheckers(spawnParams);
-	}
+	//initialise and spawn the checker objects 
+	InitCheckers(spawnParams);
 }
 
 void ABranch::InitCheckers(FActorSpawnParameters spawnParams)
 {
-	switch (branchDirection)
+	if (checkerObjs.Num() < 4)
 	{
-		case EBranchState::EB_INIT:
+		TArray<FVector> dirList;
+		TArray<FRotator> dirAngList;
+		dirList.Add(this->GetActorLocation() + FVector(0.0f, roadLength, 0.0f));			//UP
+		dirList.Add(this->GetActorLocation() + FVector(0.0f, -roadLength, 0.0f));			//DOWN
+		dirList.Add(this->GetActorLocation() + FVector(-roadLength, 0.0f, 0.0f));			//LEFT
+		dirList.Add(this->GetActorLocation() + FVector(roadLength, 0.0f, 0.0f));			//RIGHT
+
+		dirAngList.Add(FRotator(0.0f, 90.0f, 0.0f));		//UP
+		dirAngList.Add(FRotator(0.0f, -90.0f, 0.0f));		//DOWN
+		dirAngList.Add(FRotator(0.0f, 0.0f, 0.0f));			//LEFT
+		dirAngList.Add(FRotator(0.0f, 180.0f, 0.0f));		//RIGHT
+
+
+		for (int i = 0; i < dirList.Num(); ++i)
 		{
-
-			FVector up = this->GetActorLocation() + FVector(0.0f, roadLength, 0.0f);			//positive y-axis
-			FVector down = this->GetActorLocation() + FVector(0.0f, -roadLength, 0.0f);			//negative y-axis
-			FVector right = this->GetActorLocation() + FVector(-roadLength, 0.0f, 0.0f);		//negative x-axis
-			FVector left = this->GetActorLocation() + FVector(roadLength, 0.0f, 0.0f);			//positive x-axis
-
-			FRotator rightAngle = FRotator(0.0f, 180.0f, 0.0f);		//right direction
-			FRotator upAngle = FRotator(0.0f, 90.0f, 0.0f);			//up direction
-			FRotator downAngle = FRotator(0.0f, -90.0f, 0.0f);		//down direction
-
-
 			//spawn four checkers a roads with away in all four directions
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, up, upAngle, spawnParams));							//Up
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, down, downAngle, spawnParams));						//Down
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, right, rightAngle, spawnParams));					//Right
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, left, FRotator(0.0f, 0.0f, 0.0f), spawnParams));	//Left
+			AChecker* check1 = GetWorld()->SpawnActor<AChecker>(bpChecker, dirList[i], dirAngList[i], spawnParams);
+			
+			checkerObjs.Add(check1);
 		}
-		case EBranchState::EB_Up:
-		{
-
-			FVector up = this->GetActorLocation() + FVector(0.0f, roadLength, 0.0f);			//positive y-axis
-			FVector right = this->GetActorLocation() + FVector(-roadLength, 0.0f, 0.0f);		//negative x-axis
-			FVector left = this->GetActorLocation() + FVector(roadLength, 0.0f, 0.0f);			//positive x-axis
-
-			FRotator rightAngle = FRotator(0.0f, 180.0f, 0.0f);		//right direction
-			FRotator upAngle = FRotator(0.0f, 90.0f, 0.0f);			//up direction
-
-
-			//spawn four checkers a roads with away in all four directions
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, up, upAngle, spawnParams));							//Up
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, right, rightAngle, spawnParams));					//Right
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, left, FRotator(0.0f, 0.0f, 0.0f), spawnParams));	//Left
-		}
-		case EBranchState::EB_DOWN:
-		{
-			FVector down = this->GetActorLocation() + FVector(0.0f, -roadLength, 0.0f);			//negative y-axis
-			FVector right = this->GetActorLocation() + FVector(-roadLength, 0.0f, 0.0f);		//negative x-axis
-			FVector left = this->GetActorLocation() + FVector(roadLength, 0.0f, 0.0f);			//positive x-axis
-
-			FRotator rightAngle = FRotator(0.0f, 180.0f, 0.0f);		//right direction
-			FRotator downAngle = FRotator(0.0f, -90.0f, 0.0f);		//down direction
-
-
-			//spawn four checkers a roads with away in all four directions
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, down, downAngle, spawnParams));						//Down
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, right, rightAngle, spawnParams));					//Right
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, left, FRotator(0.0f, 0.0f, 0.0f), spawnParams));	//Left
-		}
-		case EBranchState::EB_LEFT:
-		{
-
-			FVector up = this->GetActorLocation() + FVector(0.0f, roadLength, 0.0f);			//positive y-axis
-			FVector down = this->GetActorLocation() + FVector(0.0f, -roadLength, 0.0f);			//negative y-axis
-			FVector left = this->GetActorLocation() + FVector(roadLength, 0.0f, 0.0f);			//positive x-axis
-
-			FRotator upAngle = FRotator(0.0f, 90.0f, 0.0f);			//up direction
-			FRotator downAngle = FRotator(0.0f, -90.0f, 0.0f);		//down direction
-
-
-			//spawn four checkers a roads with away in all four directions
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, up, upAngle, spawnParams));							//Up
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, down, downAngle, spawnParams));						//Down
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, left, FRotator(0.0f, 0.0f, 0.0f), spawnParams));	//Left
-		}
-		case EBranchState::EB_RIGHT:
-		{
-
-			FVector up = this->GetActorLocation() + FVector(0.0f, roadLength, 0.0f);			//positive y-axis
-			FVector down = this->GetActorLocation() + FVector(0.0f, -roadLength, 0.0f);			//negative y-axis
-			FVector right = this->GetActorLocation() + FVector(-roadLength, 0.0f, 0.0f);		//negative x-axis
-
-			FRotator rightAngle = FRotator(0.0f, 180.0f, 0.0f);		//right direction
-			FRotator upAngle = FRotator(0.0f, 90.0f, 0.0f);			//up direction
-			FRotator downAngle = FRotator(0.0f, -90.0f, 0.0f);		//down direction
-
-
-			//spawn four checkers a roads with away in all four directions
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, up, upAngle, spawnParams));							//Up
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, down, downAngle, spawnParams));						//Down
-			checkerObjs.Add(GetWorld()->SpawnActor<AChecker>(bpChecker, right, rightAngle, spawnParams));					//Right
-		}
-		
 	}
-
 }
 
+void ABranch::SpawnRoads()
+{
+	//this function could turn into a threaded process for performance benefit
+	for (int i = 0; i < checkerObjs.Num(); i++)
+	{
+		if (checkerObjs[i]->LocalRestraints() == true)
+		{
+			checkerObjs[i]->GlobalGoals();
+		}
+	}
+
+	if (checkerObjs[checkerObjs.Num() - 1]->GetIsCompleted() == true)
+	{
+		for(int i = 0; i < checkerObjs.Num(); ++i)
+		{
+			SpawnBranch(checkerObjs[i]->GetActorLocation(), checkerObjs[i]->GetActorRotation());
+		}
+	}
+}
+
+void ABranch::SpawnBranch(FVector checkerLoc, FRotator checkerRot)
+{
+	//Set the spawn parameters of the blueprint 
+	FActorSpawnParameters spawnParams;
+	spawnParams.Owner = this;
+	spawnParams.Instigator = Instigator;
+
+	branch = GetWorld()->SpawnActor<ABranch>(bpBranch, checkerLoc, checkerRot, spawnParams);
+	GEngine->AddOnScreenDebugMessage(1, 15.0f, FColor::Red, "Hit");
+}
 
 void ABranch::SetBranchDir(EBranchState branchDir)
 {
 	branchDirection = branchDir;
 }
-

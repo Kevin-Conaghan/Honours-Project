@@ -417,12 +417,12 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <ClCompile Include="..\..\Source\ProcGenCity\Boundary.cpp" />
-    <ClCompile Include="..\..\Source\ProcGenCity\Branch.cpp" />
-    <ClCompile Include="..\..\Source\ProcGenCity\Checker.cpp" />
-    <ClCompile Include="..\..\Source\ProcGenCity\LotCalculator.cpp" />
     <ClInclude Include="..\..\Source\ProcGenCity\Boundary.h" />
+    <ClCompile Include="..\..\Source\ProcGenCity\Branch.cpp" />
     <ClInclude Include="..\..\Source\ProcGenCity\Branch.h" />
+    <ClCompile Include="..\..\Source\ProcGenCity\Checker.cpp" />
     <ClInclude Include="..\..\Source\ProcGenCity\Checker.h" />
+    <ClCompile Include="..\..\Source\ProcGenCity\LotCalculator.cpp" />
     <ClInclude Include="..\..\Source\ProcGenCity\LotCalculator.h" />
     <ClCompile Include="..\..\Source\ProcGenCity\LotDesigner.cpp" />
     <ClInclude Include="..\..\Source\ProcGenCity\LotDesigner.h" />
@@ -430,7 +430,9 @@
     <ClInclude Include="..\..\Source\ProcGenCity\LotPlacement.h" />
     <ClCompile Include="..\..\Source\ProcGenCity\LRoad.cpp" />
     <ClInclude Include="..\..\Source\ProcGenCity\LRoad.h" />
+    <ClCompile Include="..\..\Source\ProcGenCity\Manager.cpp" />
     <ClCompile Include="..\..\Source\ProcGenCity\MyProcMesh.cpp" />
+    <ClInclude Include="..\..\Source\ProcGenCity\Manager.h" />
     <ClInclude Include="..\..\Source\ProcGenCity\MyProcMesh.h" />
     <ClCompile Include="..\..\Source\ProcGenCity\NewProcMesh.cpp" />
     <ClInclude Include="..\..\Source\ProcGenCity\NewProcMesh.h" />
