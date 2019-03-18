@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Branch.h"
+#include "Road.h"
+#include "Checker.h"
 #include "Components/BoxComponent.h"
 #include "EngineUtils.h"
 #include "Boundary.generated.h"
@@ -28,8 +30,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		int maxHeight;
 
-	UPROPERTY(VisibleAnywhere, Category = "Actors")
-		TArray<class ABranch*> branches;
 
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		bool isBoundingWidth;
@@ -37,8 +37,15 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		bool isBoundingHeight;
 
-	class ABranch* oldBranch;
+	UPROPERTY(VisibleAnywhere, Category = "Actors")
+		TArray<class ABranch*> branches;
+
+	UPROPERTY(VisibleAnywhere, Category = "Road Data")
+		TArray<FVector> roadPositions;
+
 protected:
+	class ABranch* oldBranch;
+	class ARoad* oldRoad;
 
 public:	
 	virtual void OnConstruction(const FTransform& Transform) override;
@@ -50,7 +57,6 @@ public:
 	bool GetBoundingHeight();
 
 	void CalcBoundary();
-
 	void FindNumBranches();
 	
 };

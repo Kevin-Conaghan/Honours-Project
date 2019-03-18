@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
 	PROCGENCITY_API UClass* Z_Construct_UClass_ABranch_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	PROCGENCITY_API UClass* Z_Construct_UClass_ARoad_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -39,6 +40,11 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_branch_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_branch;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_overlappingActors_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_overlappingActors;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_overlappingActors_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_roadList_MetaData[];
 #endif
@@ -90,6 +96,14 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_branch = { UE4CodeGen_Private::EPropertyClass::Object, "branch", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AChecker, branch), Z_Construct_UClass_ABranch_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_branch_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_branch_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors_MetaData[] = {
+		{ "Category", "Actors" },
+		{ "ModuleRelativePath", "Checker.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors = { UE4CodeGen_Private::EPropertyClass::Array, "overlappingActors", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AChecker, overlappingActors), METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "overlappingActors", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_roadList_MetaData[] = {
 		{ "Category", "Actors" },
@@ -147,6 +161,8 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_mesh = { UE4CodeGen_Private::EPropertyClass::Object, "mesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AChecker, mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AChecker_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_branch,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_roadList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_roadList_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_condition,
@@ -179,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChecker, 3314020775);
+	IMPLEMENT_CLASS(AChecker, 1974075809);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AChecker(Z_Construct_UClass_AChecker, &AChecker::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("AChecker"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AChecker);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

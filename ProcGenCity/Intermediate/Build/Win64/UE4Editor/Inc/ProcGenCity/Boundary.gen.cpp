@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 	PROCGENCITY_API UClass* Z_Construct_UClass_ABoundary();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PROCGENCITY_API UClass* Z_Construct_UClass_ABranch_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
@@ -34,6 +35,16 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_roadPositions_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_roadPositions;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_roadPositions_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_branches_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_branches;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_branches_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isBoundingHeight_MetaData[];
 #endif
 		static void NewProp_isBoundingHeight_SetBit(void* Obj);
@@ -43,11 +54,6 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 #endif
 		static void NewProp_isBoundingWidth_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isBoundingWidth;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_branches_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_branches;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_branches_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxHeight_MetaData[];
 #endif
@@ -75,6 +81,22 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_roadPositions_MetaData[] = {
+		{ "Category", "Road Data" },
+		{ "ModuleRelativePath", "Boundary.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_roadPositions = { UE4CodeGen_Private::EPropertyClass::Array, "roadPositions", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ABoundary, roadPositions), METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_roadPositions_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_roadPositions_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_roadPositions_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "roadPositions", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_branches_MetaData[] = {
+		{ "Category", "Actors" },
+		{ "ModuleRelativePath", "Boundary.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_branches = { UE4CodeGen_Private::EPropertyClass::Array, "branches", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ABoundary, branches), METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_branches_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_branches_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_branches_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "branches", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_ABranch_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingHeight_MetaData[] = {
 		{ "Category", "Values" },
 		{ "ModuleRelativePath", "Boundary.h" },
@@ -96,14 +118,6 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 		((ABoundary*)Obj)->isBoundingWidth = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth = { UE4CodeGen_Private::EPropertyClass::Bool, "isBoundingWidth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABoundary), &Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_branches_MetaData[] = {
-		{ "Category", "Actors" },
-		{ "ModuleRelativePath", "Boundary.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_branches = { UE4CodeGen_Private::EPropertyClass::Array, "branches", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ABoundary, branches), METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_branches_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_branches_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_branches_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "branches", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_ABranch_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_maxHeight_MetaData[] = {
 		{ "Category", "Values" },
@@ -127,10 +141,12 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_boundaryBox = { UE4CodeGen_Private::EPropertyClass::Object, "boundaryBox", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ABoundary, boundaryBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_boundaryBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_boundaryBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABoundary_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingHeight,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_roadPositions,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_roadPositions_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_branches,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_branches_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingHeight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_maxHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_maxWidth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_boundaryBox,
@@ -158,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABoundary, 4016943881);
+	IMPLEMENT_CLASS(ABoundary, 2733585516);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABoundary(Z_Construct_UClass_ABoundary, &ABoundary::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ABoundary"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABoundary);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

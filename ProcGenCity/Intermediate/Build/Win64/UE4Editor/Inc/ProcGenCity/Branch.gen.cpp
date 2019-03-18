@@ -13,70 +13,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBranch() {}
 // Cross Module References
-	PROCGENCITY_API UEnum* Z_Construct_UEnum_ProcGenCity_EBranchState();
-	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
 	PROCGENCITY_API UClass* Z_Construct_UClass_ABranch_NoRegister();
 	PROCGENCITY_API UClass* Z_Construct_UClass_ABranch();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
 	PROCGENCITY_API UClass* Z_Construct_UClass_AChecker_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
-	static UEnum* EBranchState_StaticEnum()
-	{
-		static UEnum* Singleton = nullptr;
-		if (!Singleton)
-		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_ProcGenCity_EBranchState, Z_Construct_UPackage__Script_ProcGenCity(), TEXT("EBranchState"));
-		}
-		return Singleton;
-	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBranchState(EBranchState_StaticEnum, TEXT("/Script/ProcGenCity"), TEXT("EBranchState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ProcGenCity_EBranchState_CRC() { return 4241931366U; }
-	UEnum* Z_Construct_UEnum_ProcGenCity_EBranchState()
-	{
-#if WITH_HOT_RELOAD
-		UPackage* Outer = Z_Construct_UPackage__Script_ProcGenCity();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EBranchState"), 0, Get_Z_Construct_UEnum_ProcGenCity_EBranchState_CRC(), false);
-#else
-		static UEnum* ReturnEnum = nullptr;
-#endif // WITH_HOT_RELOAD
-		if (!ReturnEnum)
-		{
-			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
-				{ "EBranchState::EB_Up", (int64)EBranchState::EB_Up },
-				{ "EBranchState::EB_DOWN", (int64)EBranchState::EB_DOWN },
-				{ "EBranchState::EB_LEFT", (int64)EBranchState::EB_LEFT },
-				{ "EBranchState::EB_RIGHT", (int64)EBranchState::EB_RIGHT },
-				{ "EBranchState::EB_INIT", (int64)EBranchState::EB_INIT },
-			};
-#if WITH_METADATA
-			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
-				{ "BlueprintType", "true" },
-				{ "EB_DOWN.DisplayeName", "Down-Direction" },
-				{ "EB_INIT.DisplayName", "Initial-Branch" },
-				{ "EB_LEFT.DisplayeName", "Left-Direction" },
-				{ "EB_RIGHT.DisplayeName", "Right-Direction" },
-				{ "EB_Up.DisplayeName", "Up-Direction" },
-				{ "ModuleRelativePath", "Branch.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FEnumParams EnumParams = {
-				(UObject*(*)())Z_Construct_UPackage__Script_ProcGenCity,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"EBranchState",
-				RF_Public|RF_Transient|RF_MarkAsNative,
-				nullptr,
-				(uint8)UEnum::ECppForm::EnumClass,
-				"EBranchState",
-				Enumerators,
-				ARRAY_COUNT(Enumerators),
-				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
-			};
-			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
-		}
-		return ReturnEnum;
-	}
 	void ABranch::StaticRegisterNativesABranch()
 	{
 	}
@@ -95,11 +39,6 @@ void EmptyLinkFunctionForGeneratedCodeBranch() {}
 #endif
 		static void NewProp_isComplete_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isComplete;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_branchDirection_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_branchDirection;
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_branchDirection_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isGenerating_MetaData[];
 #endif
@@ -152,14 +91,6 @@ void EmptyLinkFunctionForGeneratedCodeBranch() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABranch_Statics::NewProp_isComplete = { UE4CodeGen_Private::EPropertyClass::Bool, "isComplete", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABranch), &Z_Construct_UClass_ABranch_Statics::NewProp_isComplete_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABranch_Statics::NewProp_isComplete_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABranch_Statics::NewProp_isComplete_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABranch_Statics::NewProp_branchDirection_MetaData[] = {
-		{ "Category", "Enum" },
-		{ "ModuleRelativePath", "Branch.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABranch_Statics::NewProp_branchDirection = { UE4CodeGen_Private::EPropertyClass::Enum, "branchDirection", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABranch, branchDirection), Z_Construct_UEnum_ProcGenCity_EBranchState, METADATA_PARAMS(Z_Construct_UClass_ABranch_Statics::NewProp_branchDirection_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABranch_Statics::NewProp_branchDirection_MetaData)) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABranch_Statics::NewProp_branchDirection_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABranch_Statics::NewProp_isGenerating_MetaData[] = {
 		{ "Category", "Values" },
 		{ "ModuleRelativePath", "Branch.h" },
@@ -209,8 +140,6 @@ void EmptyLinkFunctionForGeneratedCodeBranch() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABranch_Statics::NewProp_mesh = { UE4CodeGen_Private::EPropertyClass::Object, "mesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(ABranch, mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABranch_Statics::NewProp_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABranch_Statics::NewProp_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABranch_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABranch_Statics::NewProp_isComplete,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABranch_Statics::NewProp_branchDirection,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABranch_Statics::NewProp_branchDirection_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABranch_Statics::NewProp_isGenerating,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABranch_Statics::NewProp_roadLength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABranch_Statics::NewProp_checkerObjs,
@@ -242,7 +171,7 @@ void EmptyLinkFunctionForGeneratedCodeBranch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABranch, 3133674259);
+	IMPLEMENT_CLASS(ABranch, 1864505902);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABranch(Z_Construct_UClass_ABranch, &ABranch::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ABranch"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABranch);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -42,9 +42,11 @@ public:
 		TArray<ARoad*> roadList;
 
 	UPROPERTY(VisibleAnywhere, Category = "Actors")
+		TArray<AActor*> overlappingActors;
+
+
+	UPROPERTY(VisibleAnywhere, Category = "Actors")
 		ABranch* branch;
-
-
 
 protected:
 	float timer;
@@ -62,11 +64,11 @@ public:
 
 	void GlobalGoals();
 
-	void SetNewBranchDirection();
 	bool GetIsCompleted();
 	bool GetHeightBound();
 	bool GetWidthBound();
 
+	bool OverlapCheck();
 	class ABoundary* FindBoundary();
 	bool HeightBoundaryCheck(ABoundary* bound);
 	bool WidthBoundaryCheck(ABoundary* bound);

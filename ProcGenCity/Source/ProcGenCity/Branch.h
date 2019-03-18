@@ -8,16 +8,6 @@
 #include "Engine.h"
 #include "Branch.generated.h"
 
-UENUM(BlueprintType)
-enum class EBranchState : uint8
-{
-	EB_Up		UMETA(DisplayeName = "Up-Direction"),
-	EB_DOWN		UMETA(DisplayeName = "Down-Direction"),
-	EB_LEFT		UMETA(DisplayeName = "Left-Direction"),
-	EB_RIGHT	UMETA(DisplayeName = "Right-Direction"),
-	EB_INIT		UMETA(DisplayName  = "Initial-Branch")
-};
-
 UCLASS()
 class PROCGENCITY_API ABranch : public AActor
 {
@@ -45,9 +35,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		bool isGenerating;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enum")
-		EBranchState branchDirection;
-
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		bool isComplete;
 
@@ -68,8 +55,7 @@ public:
 	
 
 	void InitCheckers(FActorSpawnParameters spawnParams);
-	void SpawnRoads();
-	void SetBranchDir(EBranchState branchDir);
+	void SpawnRoads(ABoundary* bound);
 	void SpawnBranch(FVector checkerLoc, FRotator checkerRot);
 
 };

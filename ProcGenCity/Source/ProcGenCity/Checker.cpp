@@ -15,11 +15,31 @@ AChecker::AChecker()
 
 void AChecker::OnConstruction(const FTransform & transform)
 {
+
+}
+
+bool AChecker::OverlapCheck()
+{
+
+	//TArray<AActor*> actors;
+	this->GetOverlappingActors(overlappingActors, TSubclassOf<ARoad>());
+
+	if (overlappingActors.Num() > 0)
+	{
+		return true;	
+	}
+	else if (overlappingActors.Num() == 0)
+	{
+		return false;
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, "FALSE");
+	}
+
+	return true;
 }
 
 class ABoundary* AChecker::FindBoundary()
 {
-
+	//find the boundary in the current scene
 	class ABoundary* currBoundary = NULL;
 	for (TActorIterator<ABoundary> actorItr(GetWorld()); actorItr; ++actorItr)
 	{
@@ -36,9 +56,8 @@ bool AChecker::LocalRestraints()
 		2. If reaches a boundary cut off road.
 		3. If the road is close to an intersection extend road to meet intersection.
 	*/
-
 	class ABoundary* boundary = FindBoundary();
-
+	
 	if (boundary != NULL)
 	{
 		boundary->CalcBoundary();
@@ -81,37 +100,22 @@ void AChecker::GlobalGoals()
 	spawnParams.Owner = this;
 	spawnParams.Instigator = Instigator;
 
-
+	//get the forward vector of the checker and offset it so it can spawn more road objects
 	FVector forwardVector = this->GetActorForwardVector();
 	FVector offsetVector = forwardVector * roadLength;
 
 	for (int i = 0; i < numOfRoads; i++)
 	{
-		roadList.Add(GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation(), FRotator(0.0f, 0.0f, 0.0f), spawnParams));
-		this->SetActorLocation(this->GetActorLocation() + offsetVector);
+		if (!OverlapCheck())
+		{
+			roadList.Add(GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation(), FRotator(0.0f, 0.0f, 0.0f), spawnParams));
+			this->SetActorLocation(this->GetActorLocation() + offsetVector);
+			this->UpdateComponentTransforms();
+			this->UpdateOverlaps();
+		}
 	}
 
 	isComplete = true;
-}
-
-void AChecker::SetNewBranchDirection()
-{
-	if (this->GetActorRotation().Yaw > -180 && this->GetActorRotation().Yaw < -90.0f)
-	{
-		branch->SetBranchDir(EBranchState::EB_RIGHT);
-	}
-	else if (this->GetActorRotation().Yaw < 90 && this->GetActorRotation().Yaw > 0.0f)
-	{
-		branch->SetBranchDir(EBranchState::EB_Up);
-	}
-	else if (this->GetActorRotation().Yaw > -90 && this->GetActorRotation().Yaw < 0.0f)
-	{
-		branch->SetBranchDir(EBranchState::EB_DOWN);
-	}
-	else if (this->GetActorRotation().Yaw == 0.0f)
-	{
-		branch->SetBranchDir(EBranchState::EB_LEFT);
-	}
 }
 
 bool AChecker::GetIsCompleted()
@@ -128,4 +132,5 @@ bool AChecker::GetWidthBound()
 {
 	return widthBound;
 }
+
 

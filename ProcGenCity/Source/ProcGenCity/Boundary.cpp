@@ -37,8 +37,10 @@ bool ABoundary::GetBoundingHeight()
 
 void ABoundary::CalcBoundary()
 {
+	//find the number of brances currently in the scene
 	FindNumBranches();
 
+	//the condition will return true and this method will stop the road network from spawning more
 	if (branches.Num() < maxWidth)
 	{
 		isBoundingWidth = false;
@@ -60,6 +62,7 @@ void ABoundary::CalcBoundary()
 
 void ABoundary::FindNumBranches()
 {
+	//empty the current branch list so we can get all the new branches in the scene
 	if (branches.Num() > 0)
 	{	
 		branches.Empty();

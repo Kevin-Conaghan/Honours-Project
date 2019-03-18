@@ -25,18 +25,21 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Object BP")
 		TSubclassOf<class ABranch> bpBranch;
 
-
 	UPROPERTY(VisibleAnywhere, Category = "Objects")
 		TArray<AChecker*> checkerObjs;
 
 	UPROPERTY(VisibleAnywhere, Category = "Objects")
 		TArray<ABranch*> branches;
+
 	UPROPERTY(EditAnywhere, Category = "Values")
 		bool isGenerating;
 
 protected:
 	ABranch* initialBranch;
 	ABranch* oldBranch;
+
+
+	TArray<ABranch*> oldBranches;
 	ABoundary* bound;
 	bool hasSpawned;
 public:	
@@ -44,6 +47,7 @@ public:
 
 	
 	void FindBranches();
+	bool CheckBranches(ABranch* currBranch);
 	void SpawnInitialBranch();
 	void SpawnIntersections();
 

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROCGENCITY_Branch_generated_h
 
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_RPC_WRAPPERS
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_RPC_WRAPPERS_NO_PURE_DECLS
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_INCLASS_NO_PURE_DECLS \
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_RPC_WRAPPERS
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABranch(); \
 	friend struct Z_Construct_UClass_ABranch_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ABranch)
 
 
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_INCLASS \
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesABranch(); \
 	friend struct Z_Construct_UClass_ABranch_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ABranch)
 
 
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_STANDARD_CONSTRUCTORS \
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABranch(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABranch) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_ENHANCED_CONSTRUCTORS \
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABranch(ABranch&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABranch); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABranch)
 
 
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_PRIVATE_PROPERTY_OFFSET
-#define ProcGenCity_Source_ProcGenCity_Branch_h_21_PROLOG
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_GENERATED_BODY_LEGACY \
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_PRIVATE_PROPERTY_OFFSET
+#define ProcGenCity_Source_ProcGenCity_Branch_h_11_PROLOG
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_PRIVATE_PROPERTY_OFFSET \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_RPC_WRAPPERS \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_INCLASS \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_STANDARD_CONSTRUCTORS \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_PRIVATE_PROPERTY_OFFSET \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_RPC_WRAPPERS \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_INCLASS \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ProcGenCity_Source_ProcGenCity_Branch_h_24_GENERATED_BODY \
+#define ProcGenCity_Source_ProcGenCity_Branch_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_PRIVATE_PROPERTY_OFFSET \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_INCLASS_NO_PURE_DECLS \
-	ProcGenCity_Source_ProcGenCity_Branch_h_24_ENHANCED_CONSTRUCTORS \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_PRIVATE_PROPERTY_OFFSET \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_INCLASS_NO_PURE_DECLS \
+	ProcGenCity_Source_ProcGenCity_Branch_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -85,10 +85,4 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID ProcGenCity_Source_ProcGenCity_Branch_h
 
 
-#define FOREACH_ENUM_EBRANCHSTATE(op) \
-	op(EBranchState::EB_Up) \
-	op(EBranchState::EB_DOWN) \
-	op(EBranchState::EB_LEFT) \
-	op(EBranchState::EB_RIGHT) \
-	op(EBranchState::EB_INIT) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

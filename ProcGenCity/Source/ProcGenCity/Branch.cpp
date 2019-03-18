@@ -26,8 +26,8 @@ void ABranch::InitCheckers(FActorSpawnParameters spawnParams)
 {
 	if (checkerObjs.Num() < 4)
 	{
-		TArray<FVector> dirList;
-		TArray<FRotator> dirAngList;
+		TArray<FVector> dirList;		//an array for each direction
+		TArray<FRotator> dirAngList;	//an array for each angle for the checker objects
 		dirList.Add(this->GetActorLocation() + FVector(0.0f, roadLength, 0.0f));			//UP
 		dirList.Add(this->GetActorLocation() + FVector(0.0f, -roadLength, 0.0f));			//DOWN
 		dirList.Add(this->GetActorLocation() + FVector(-roadLength, 0.0f, 0.0f));			//LEFT
@@ -49,18 +49,24 @@ void ABranch::InitCheckers(FActorSpawnParameters spawnParams)
 	}
 }
 
-void ABranch::SpawnRoads()
+void ABranch::SpawnRoads(ABoundary* bound)
 {
-	//this function could turn into a threaded process for performance benefit
-	for (int i = 0; i < checkerObjs.Num(); i++)
+	//for the number of checker objects in the scene currently invoke the global goals method which will spawn the roads
+	for (int i = 0; i < checkerObjs.Num(); ++i)
 	{
-		if (checkerObjs[i]->LocalRestraints() == true)
+		//it will only invoke the global goals method if it meets the requirements of the local restraints
+		if (checkerObjs[i]->LocalRestraints() == true && checkerObjs[i]->OverlapCheck() != true)
 		{
 			checkerObjs[i]->GlobalGoals();
 		}
+		else
+		{
+			break;
+		}
 	}
 
-	if (checkerObjs[checkerObjs.Num() - 1]->GetIsCompleted() == true)
+	//once the checker objects have spawned the roads then spawn the branches for the intersections
+	if (checkerObjs[checkerObjs.Num() - 1]->GetIsCompleted() == true && checkerObjs[checkerObjs.Num() - 1]->OverlapCheck() != true)
 	{
 		for(int i = 0; i < checkerObjs.Num(); ++i)
 		{
@@ -76,11 +82,6 @@ void ABranch::SpawnBranch(FVector checkerLoc, FRotator checkerRot)
 	spawnParams.Owner = this;
 	spawnParams.Instigator = Instigator;
 
+	//spawn a branch at the checker objects location
 	branch = GetWorld()->SpawnActor<ABranch>(bpBranch, checkerLoc, checkerRot, spawnParams);
-	GEngine->AddOnScreenDebugMessage(1, 15.0f, FColor::Red, "Hit");
-}
-
-void ABranch::SetBranchDir(EBranchState branchDir)
-{
-	branchDirection = branchDir;
 }
