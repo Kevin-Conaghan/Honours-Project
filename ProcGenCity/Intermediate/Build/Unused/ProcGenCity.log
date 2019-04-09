@@ -1,27 +1,53 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading ProcGenCityEditor (modules to compile have changed)
-  Compiling game modules for hot reload
+﻿  Cleaning ProcGenCityEditor Binaries...
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for ProcGenCityEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] Boundary.gen.cpp
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(46): error C2143: syntax error: missing ';' before '*'
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(46): error C2238: unexpected token(s) preceding ';'
-    [2/6] Branch.cpp
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Boundary.h(32): error C2065: 'ABranch': undeclared identifier
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Boundary.h(32): error C2059: syntax error: '>'
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Boundary.h(32): error C2976: 'TArray': too few template arguments
-    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(278): note: see declaration of 'TArray'
-    [3/6] Boundary.cpp
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(46): error C2143: syntax error: missing ';' before '*'
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Checker.h(46): error C2238: unexpected token(s) preceding ';'
-    [4/6] Branch.gen.cpp
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Boundary.h(32): error C2065: 'ABranch': undeclared identifier
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Boundary.h(32): error C2059: syntax error: '>'
-c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Boundary.h(32): error C2976: 'TArray': too few template arguments
-    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(278): note: see declaration of 'TArray'
-UnrealBuildTool : error : UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-3281.dll
-                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-  Total build time: 8.57 seconds (Parallel executor: 0.00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" ProcGenCityEditor Win64 Development "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+  Parsing headers for ProcGenCityEditor
+    Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+LogCompile : error : Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h!
+LogCompile : error : Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+LogCompile : error : Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+LogCompile : error : Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.h!
+LogCompile : error : Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h!
+  Reflection code generated for ProcGenCityEditor in 10.5940965 seconds
+  Building 33 actions with 8 processes...
+    [1/33] PCLaunch.rc
+    [2/33] SharedPCH.Engine.cpp
+    [3/33] ProcGenCity.init.gen.cpp
+    [4/33] NewProcMesh.gen.cpp
+    [5/33] MyProcMesh.gen.cpp
+    [6/33] LotPlacement.gen.cpp
+    [7/33] LotDesigner.gen.cpp
+    [8/33] SplineNetwork.cpp
+    [9/33] Road.gen.cpp
+    [10/33] Manager.gen.cpp
+    [11/33] LRoad.gen.cpp
+    [12/33] Placement.gen.cpp
+    [13/33] ProcGenCity.cpp
+    [14/33] Checker.gen.cpp
+    [15/33] Branch.gen.cpp
+    [16/33] NewProcMesh.cpp
+    [17/33] LotCalculator.gen.cpp
+    [18/33] MyProcMesh.cpp
+    [19/33] LotPlacement.cpp
+    [20/33] Boundary.gen.cpp
+    [21/33] Globals.cpp
+    [22/33] Placement.cpp
+    [23/33] LotDesigner.cpp
+    [24/33] SplineNetwork.gen.cpp
+    [25/33] Road.cpp
+    [26/33] LRoad.cpp
+    [27/33] Manager.cpp
+    [28/33] LotCalculator.cpp
+    [29/33] Checker.cpp
+    [30/33] Branch.cpp
+    [31/33] Boundary.cpp
+    [32/33] UE4Editor-ProcGenCity.lib
+       Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.exp
+    [33/33] UE4Editor-ProcGenCity.dll
+       Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity.suppressed.exp
+  Deploying ProcGenCityEditor Win64 Development...
+  Total build time: 90.10 seconds (Parallel executor: 72.79 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" ProcGenCityEditor Win64 Development "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" -WaitMutex -FromMsBuild" exited with code -1.

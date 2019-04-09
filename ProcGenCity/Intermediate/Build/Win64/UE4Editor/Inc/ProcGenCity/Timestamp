@@ -1,6 +1,7 @@
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.h
+C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Globals.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\LotCalculator.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\LotDesigner.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\LotPlacement.h
@@ -8,5 +9,6 @@ C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\L
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Manager.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\MyProcMesh.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\NewProcMesh.h
+C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Placement.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Road.h
 C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\SplineNetwork.h

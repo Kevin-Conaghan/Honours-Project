@@ -1,0 +1,513 @@
+﻿Log file open, 04/08/19 16:48:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProcGenCity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.334477
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.193s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.019s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.08-15.48.59:950][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.08-15.48.59:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.08-15.48.59:992][  0]LogHAL: Display: Platform has ~ 16 GB [17058729984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.08-15.48.59:993][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.08-15.48.59:993][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.08-15.48.59:994][  0]LogInit: Computer: LAPTOP-TLBN2SQS
+[2019.04.08-15.48.59:994][  0]LogInit: User: kevin
+[2019.04.08-15.48.59:994][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.08-15.48.59:994][  0]LogInit: High frequency timer resolution =1.945310 MHz
+[2019.04.08-15.48.59:995][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.08-15.48.59:995][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.08-15.48.59:995][  0]LogMemory: Process Physical Memory: 102.01 MB used, 102.01 MB peak
+[2019.04.08-15.48.59:995][  0]LogMemory: Process Virtual Memory: 94.13 MB used, 94.13 MB peak
+[2019.04.08-15.48.59:995][  0]LogMemory: Physical Memory: 6538.30 MB used,  9730.18 MB free, 16268.47 MB total
+[2019.04.08-15.48.59:995][  0]LogMemory: Virtual Memory: 4655.32 MB used,  9730.18 MB free, 134217728.00 MB total
+[2019.04.08-15.49.00:033][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.08-15.49.00:033][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.08-15.49.00:035][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.08-15.49.00:580][  0]LogStreaming: Display: Took  0.547s to InitEngineTextLocalization.
+[2019.04.08-15.49.00:580][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.08-15.49.00:679][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.08-15.49.00:679][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.08-15.49.01:049][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.08-15.49.01:049][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.08-15.49.01:886][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.04.08-15.49.01:886][  0]LogD3D11RHI:       4027/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.08-15.49.01:913][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.04.08-15.49.01:913][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.08-15.49.01:917][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.08-15.49.01:917][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.08-15.49.01:917][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.08-15.49.01:975][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.08-15.49.01:975][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.08-15.49.01:975][  0]LogWindows: EnumDisplayDevices:
+[2019.04.08-15.49.01:975][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.04.08-15.49.01:976][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.08-15.49.01:977][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.08-15.49.01:978][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.08-15.49.01:978][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.04.08-15.49.01:978][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.08-15.49.01:978][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.08-15.49.01:978][  0]LogRHI: Texture pool is 2819 MB (70% of 4027 MB)
+[2019.04.08-15.49.02:061][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.08-15.49.02:083][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.08-15.49.02:083][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Intermediate/Shaders/WorkingDirectory/8684/).
+[2019.04.08-15.49.02:085][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/443276124125DD6DFD44A185800EB53A/'.
+[2019.04.08-15.49.02:514][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.08-15.49.02:537][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.08-15.49.02:564][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.08-15.49.02:587][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.08-15.49.02:607][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.08-15.49.02:626][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.08-15.49.02:645][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.08-15.49.02:664][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.08-15.49.02:673][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:795][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-15.49.02:798][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.08-15.49.02:885][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.08-15.49.02:885][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.08-15.49.02:929][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.08-15.49.02:929][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.08-15.49.02:948][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.08-15.49.02:967][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.08-15.49.02:984][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.08-15.49.03:005][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.08-15.49.03:018][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.08-15.49.03:018][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.08-15.49.03:134][  0]LogXGEController: Cleaning working directory: C:/Users/kevin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.08-15.49.03:135][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.08-15.49.03:135][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.08-15.49.03:135][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.08-15.49.04:207][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.08-15.49.04:280][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.08-15.49.04:281][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.08-15.49.04:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.08-15.49.04:281][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.08-15.49.04:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.08-15.49.04:281][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.08-15.49.04:305][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.08-15.49.04:319][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.08-15.49.04:319][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.08-15.49.04:319][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.08-15.49.04:349][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.08-15.49.04:353][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.08-15.49.04:354][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.08-15.49.04:466][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2019.04.08-15.49.05:030][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.08-15.49.05:245][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.08-15.49.05:253][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.08-15.49.05:253][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.08-15.49.05:253][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.08-15.49.05:253][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.08-15.49.05:278][  0]LogNetVersion: ProcGenCity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2895139612)
+[2019.04.08-15.49.06:265][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.225222 seconds
+[2019.04.08-15.49.06:277][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.08-15.49.06:277][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.08-15.49.06:277][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.08-15.49.07:649][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.08-15.49.07:664][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.08-15.49.07:897][  0]SourceControl: Source control is disabled
+[2019.04.08-15.49.07:897][  0]SourceControl: Source control is disabled
+[2019.04.08-15.49.07:901][  0]SourceControl: Source control is disabled
+[2019.04.08-15.49.07:903][  0]SourceControl: Source control is disabled
+[2019.04.08-15.49.08:125][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.08-15.49.08:203][  0]LogOcInput: OculusInput pre-init called
+[2019.04.08-15.49.08:311][  0]LogEngine: Initializing Engine...
+[2019.04.08-15.49.08:313][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.08-15.49.08:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.08-15.49.08:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.08-15.49.08:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.08-15.49.08:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.08-15.49.08:652][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.08-15.49.08:681][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.08-15.49.08:693][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.08-15.49.09:505][  0]LogInit: FAudioDevice initialized.
+[2019.04.08-15.49.09:505][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.08-15.49.09:635][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.08-15.49.09:667][  0]LogInit: Texture streaming: Enabled
+[2019.04.08-15.49.09:698][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.08-15.49.09:698][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={C293733C-4999-3E8E-E7B1-1FAC77289322}
+[2019.04.08-15.49.09:723][  0]LogInit: Transaction tracking system initialized
+[2019.04.08-15.49.09:780][  0]BlueprintLog: New page: Editor Load
+[2019.04.08-15.49.09:932][  0]LocalizationService: Localization service is disabled
+[2019.04.08-15.49.10:997][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.08-15.49.10:998][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.08-15.49.10:998][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.08-15.49.10:998][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.08-15.49.10:998][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.08-15.49.10:998][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.08-15.49.10:998][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.08-15.49.11:265][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/' took 0.03s
+[2019.04.08-15.49.11:265][  0]SourceControl: Source control is disabled
+[2019.04.08-15.49.11:265][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.08-15.49.11:266][  0]LightingResults: New page: Lighting Build
+[2019.04.08-15.49.11:274][  0]MapCheck: New page: Map Check
+[2019.04.08-15.49.11:274][  0]LightingResults: New page: Lighting Build
+[2019.04.08-15.49.12:129][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.08-15.49.12:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.08-15.49.12:211][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.08-15.49.12:321][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.635ms to complete.
+[2019.04.08-15.49.12:322][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.056
+[2019.04.08-15.49.12:485][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-15.49.12:500][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-15.49.12:514][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-15.49.12:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-15.49.12:541][  0]LogCollectionManager: Loaded 0 collections in 0.003464 seconds
+[2019.04.08-15.49.12:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Collections/' took 0.01s
+[2019.04.08-15.49.12:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Developers/kevin/Collections/' took 0.01s
+[2019.04.08-15.49.12:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Collections/' took 0.01s
+[2019.04.08-15.49.12:590][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.08-15.49.12:607][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2585 classes and 605 folders.
+[2019.04.08-15.49.12:619][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.04.08-15.49.12:747][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.08-15.49.12:757][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.08-15.49.12:787][  0]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.08-15.49.12:800][  0]LogSlate: Took 0.000691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.08-15.49.12:814][  0]LogSlate: Took 0.000699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.08-15.49.13:097][  0]LogRenderer: Reallocating scene render targets to support 1276x576 Format 9 NumSamples 1 (Frame:1).
+[2019.04.08-15.49.13:224][  0]LogSlate: Took 0.000590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.08-15.49.13:488][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2019.04.08-15.49.13:488][  0]LogLoad: (Engine Initialization) Total time: 17.27 seconds
+[2019.04.08-15.49.13:488][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.08-15.49.13:511][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.08-15.49.13:548][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.04.08-15.49.13:647][  1]LogActor: Warning: LRoad /Engine/Transient.World_1:PersistentLevel.LRoad_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.08-15.49.13:888][  2]LogActor: Warning: LotPlacement /Engine/Transient.World_2:PersistentLevel.LotPlacement_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.08-15.49.13:940][  3]LogAssetRegistry: Asset discovery search completed in 9.4963 seconds
+[2019.04.08-15.49.13:943][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.08-15.49.13:943][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2019.04.08-15.49.16:079][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-15.49.16:303][110]Candidate modules for hot reload:
+[2019.04.08-15.49.16:303][110]  ProcGenCity
+[2019.04.08-15.49.16:304][110]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,1980 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.08-15.49.16:339][110]Warning: Starting HotReload took  0.1s.
+[2019.04.08-15.49.23:968][317]CompilerResultsLog: New page: Compilation - 8 Apr 2019 17:49:23
+[2019.04.08-15.49.23:968][317]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.08-15.49.23:969][317]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.08-15.49.23:969][317]CompilerResultsLog: Target is up to date
+[2019.04.08-15.49.23:969][317]CompilerResultsLog: Total build time: 6.56 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.04.08-15.49.23:969][317]LogMainFrame: MainFrame: Module compiling took 7.676 seconds
+[2019.04.08-15.49.24:059][317]LogContentBrowser: Native class hierarchy populated in 0.0331 seconds. Added 2586 classes and 607 folders.
+[2019.04.08-15.49.24:063][317]Display: HotReload took  7.8s.
+[2019.04.08-15.49.37:123][425]Candidate modules for hot reload:
+[2019.04.08-15.49.37:123][425]  ProcGenCity
+[2019.04.08-15.49.37:123][425]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,122 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.08-15.49.37:131][425]Warning: Starting HotReload took  0.1s.
+[2019.04.08-15.50.12:514][540]CompilerResultsLog: New page: Compilation - 8 Apr 2019 17:50:12
+[2019.04.08-15.50.12:514][540]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.08-15.50.12:514][540]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.08-15.50.12:514][540]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.08-15.50.12:514][540]CompilerResultsLog:   [1/3] Manager.cpp
+[2019.04.08-15.50.12:514][540]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-122.lib
+[2019.04.08-15.50.12:514][540]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-122.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-122.exp
+[2019.04.08-15.50.12:514][540]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-122.dll
+[2019.04.08-15.50.12:514][540]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-122.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-122.suppressed.exp
+[2019.04.08-15.50.12:514][540]CompilerResultsLog: Total build time: 34.57 seconds (Parallel executor: 27.37 seconds)
+[2019.04.08-15.50.12:514][540]LogMainFrame: MainFrame: Module compiling took 35.401 seconds
+[2019.04.08-15.50.12:610][540]LogClass: EBranchDirection HotReload.
+[2019.04.08-15.50.12:623][540]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0016 seconds. Added 13 classes and 2 folders.
+[2019.04.08-15.50.12:628][540]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.08-15.50.12:789][540]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2586 classes and 607 folders.
+[2019.04.08-15.50.12:789][540]Display: HotReload took 35.7s.
+[2019.04.08-15.50.18:228][676]LogEnum: Warning: EnumRedirect for enum EBranchDirection maps 'EBranchState::EB_INIT' to invalid value 'EBranchDirection::EB_INIT'!
+[2019.04.08-15.50.21:719][870]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.08-15.50.26:545][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-15.50.29:412][261]LogEditorActor: Deleted Actor: Boundary_C
+[2019.04.08-15.50.29:413][261]LogEditorActor: Actor MyManager is referenced by MyPlacement14.
+[2019.04.08-15.50.29:413][261]LogEditorActor: Actor MyManager is referenced by MyPlacement15.
+[2019.04.08-15.50.29:413][261]LogEditorActor: Actor MyManager is referenced by MyPlacement16.
+[2019.04.08-15.50.29:413][261]LogEditorActor: Actor MyManager is referenced by MyPlacement17.
+[2019.04.08-15.50.31:524][261]LogSlate: Window 'Message' being destroyed
+[2019.04.08-15.50.31:534][261]LogEditorActor: Deleted Actor: MyManager_C
+[2019.04.08-15.50.31:534][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:535][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:535][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:536][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:536][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:536][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:537][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:537][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:537][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:537][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:538][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:538][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:538][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:539][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:539][261]LogEditorActor: Actor MyPlacement14 is referenced by MyManager.
+[2019.04.08-15.50.31:539][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:539][261]LogEditorActor: Actor MyPlacement15 is referenced by MyManager.
+[2019.04.08-15.50.31:540][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:540][261]LogEditorActor: Actor MyPlacement16 is referenced by MyManager.
+[2019.04.08-15.50.31:540][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:540][261]LogEditorActor: Actor MyPlacement17 is referenced by MyManager.
+[2019.04.08-15.50.31:540][261]LogEditorActor: Deleted Actor: MyPlacement_C
+[2019.04.08-15.50.31:583][261]LogEditorActor: Deleted 20 Actors (2.229 secs)
+[2019.04.08-15.50.41:760][412]Candidate modules for hot reload:
+[2019.04.08-15.50.41:760][412]  ProcGenCity
+[2019.04.08-15.50.41:760][412]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,671 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.08-15.50.41:767][412]Warning: Starting HotReload took  0.0s.
+[2019.04.08-15.51.08:149][504]CompilerResultsLog: New page: Compilation - 8 Apr 2019 17:51:08
+[2019.04.08-15.51.08:150][504]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.08-15.51.08:150][504]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.08-15.51.08:150][504]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.08-15.51.08:150][504]CompilerResultsLog:   [1/3] Manager.cpp
+[2019.04.08-15.51.08:150][504]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-671.lib
+[2019.04.08-15.51.08:150][504]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-671.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-671.exp
+[2019.04.08-15.51.08:150][504]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-671.dll
+[2019.04.08-15.51.08:150][504]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-671.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-671.suppressed.exp
+[2019.04.08-15.51.08:150][504]CompilerResultsLog: Total build time: 25.60 seconds (Parallel executor: 21.18 seconds)
+[2019.04.08-15.51.08:150][504]LogMainFrame: MainFrame: Module compiling took 26.399 seconds
+[2019.04.08-15.51.08:281][504]LogClass: EBranchDirection HotReload.
+[2019.04.08-15.51.08:290][504]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0008 seconds. Added 13 classes and 2 folders.
+[2019.04.08-15.51.08:294][504]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.08-15.51.08:390][504]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2586 classes and 607 folders.
+[2019.04.08-15.51.08:390][504]Display: HotReload took 26.7s.
+[2019.04.08-15.59.04:558][923]LogSlate: Took 0.000941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.08-15.59.16:200][950]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto10957AB0C4FD46D61303BC38AFB08E49F.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.04.08-15.59.16:211][950]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 2.560
+[2019.04.08-15.59.16:211][950]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.560
+[2019.04.08-16.01.32:463][464]Candidate modules for hot reload:
+[2019.04.08-16.01.32:463][464]  ProcGenCity
+[2019.04.08-16.01.32:463][464]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,1972 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.08-16.01.32:472][464]Warning: Starting HotReload took  0.1s.
+[2019.04.08-16.02.10:241][699]CompilerResultsLog: New page: Compilation - 8 Apr 2019 18:02:10
+[2019.04.08-16.02.10:242][699]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.08-16.02.10:242][699]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.08-16.02.10:242][699]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.08-16.02.10:242][699]CompilerResultsLog:   [1/3] Placement.cpp
+[2019.04.08-16.02.10:242][699]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-1972.lib
+[2019.04.08-16.02.10:242][699]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1972.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1972.exp
+[2019.04.08-16.02.10:242][699]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-1972.dll
+[2019.04.08-16.02.10:243][699]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1972.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-1972.suppressed.exp
+[2019.04.08-16.02.10:243][699]CompilerResultsLog: Total build time: 36.85 seconds (Parallel executor: 29.30 seconds)
+[2019.04.08-16.02.10:243][699]LogMainFrame: MainFrame: Module compiling took 37.793 seconds
+[2019.04.08-16.02.10:375][699]LogClass: EBranchDirection HotReload.
+[2019.04.08-16.02.10:387][699]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0010 seconds. Added 13 classes and 2 folders.
+[2019.04.08-16.02.10:390][699]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.08-16.02.10:502][699]LogContentBrowser: Native class hierarchy populated in 0.0208 seconds. Added 2586 classes and 607 folders.
+[2019.04.08-16.02.10:502][699]Display: HotReload took 38.1s.
+[2019.04.08-16.02.15:258][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-16.02.21:308][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-16.02.22:029][231]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.432 s
+[2019.04.08-16.02.22:029][231]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.08-16.02.22:029][231]LogOutputDevice: Error: 
+[2019.04.08-16.02.22:029][231]LogOutputDevice: Error: Ensure condition failed: !RotationQuat.ContainsNaN() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Math\UnrealMath.cpp] [Line: 448]
+[2019.04.08-16.02.22:029][231]LogOutputDevice: Error: Invalid input to FRotator::Quaternion - generated NaN output: X=nan Y=nan Z=nan W=-nan(ind)
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: Stack: 
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc66ed71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc66c10c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc66c2b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc66c3036c UE4Editor-Core.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc3704fc6c UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc6fa8f495 UE4Editor-ProcGenCity-1972.dll!APlacement::AllocatePoint() [c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\placement.cpp:83]
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc6fa8fd00 UE4Editor-ProcGenCity-1972.dll!APlacement::GetCurrentCheckers() [c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\placement.cpp:50]
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc366e4eff UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc366e87c4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc367076f3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc3704f646 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc3704fc87 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc6fa85b14 UE4Editor-ProcGenCity-1972.dll!AManager::OnConstruction() [c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\manager.cpp:44]
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc366e4eff UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc367171f1 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc36704e8e UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc6667cf73 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc521169a6 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc5210a699 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc5210ac2d UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc5210a8ce UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc52153e1a UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc5220817e UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc521ea779 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc66069ddd UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc65e594c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc65ef1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc65ed7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc65ecb25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.08-16.02.22:030][231]LogOutputDevice: Error: [Callstack] 0x00007ffc811dd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffc811d0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffc811df4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffc811cc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffca4de6d41 USER32.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffca4de6713 USER32.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffc811e0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ff77b8d54e5 UE4Editor.exe!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ff77b8e5b3c UE4Editor.exe!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ff77b8e5bba UE4Editor.exe!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ff77b8f3dac UE4Editor.exe!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ff77b8f5aaa UE4Editor.exe!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffca4893dc4 KERNEL32.DLL!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: [Callstack] 0x00007ffca54d3691 ntdll.dll!UnknownFunction []
+[2019.04.08-16.02.22:031][231]LogOutputDevice: Error: 
+[2019.04.08-16.02.22:034][231]LogStats:                SubmitErrorReport -  0.000 s
+[2019.04.08-16.02.22:701][231]LogStats:                    SendNewReport -  0.668 s
+[2019.04.08-16.02.22:701][231]LogStats:             FDebug::EnsureFailed -  1.104 s
+[2019.04.08-16.02.22:701][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogSpawn: Warning: SpawnActor failed because the given transform (150.000000,3920.000000,520.000000|-90.000000,0.000000,-0.000000|1.000000,1.000000,1.000000) is invalid
+[2019.04.08-16.02.22:702][231]LogWindows: Windows GetLastError: The operation completed successfully. (0)

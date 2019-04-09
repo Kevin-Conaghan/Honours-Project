@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeManager() {}
 	PROCGENCITY_API UClass* Z_Construct_UClass_ABranch_NoRegister();
 	PROCGENCITY_API UClass* Z_Construct_UClass_AChecker_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	PROCGENCITY_API UClass* Z_Construct_UClass_APlacement_NoRegister();
 // End Cross Module References
 	void AManager::StaticRegisterNativesAManager()
 	{
@@ -49,6 +50,10 @@ void EmptyLinkFunctionForGeneratedCodeManager() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_checkerObjs;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_checkerObjs_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpPlacement_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_bpPlacement;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpBranch_MetaData[];
 #endif
@@ -99,6 +104,13 @@ void EmptyLinkFunctionForGeneratedCodeManager() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AManager_Statics::NewProp_checkerObjs = { UE4CodeGen_Private::EPropertyClass::Array, "checkerObjs", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AManager, checkerObjs), METADATA_PARAMS(Z_Construct_UClass_AManager_Statics::NewProp_checkerObjs_MetaData, ARRAY_COUNT(Z_Construct_UClass_AManager_Statics::NewProp_checkerObjs_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AManager_Statics::NewProp_checkerObjs_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "checkerObjs", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_AChecker_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AManager_Statics::NewProp_bpPlacement_MetaData[] = {
+		{ "Category", "Object BP" },
+		{ "ModuleRelativePath", "Manager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AManager_Statics::NewProp_bpPlacement = { UE4CodeGen_Private::EPropertyClass::Class, "bpPlacement", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(AManager, bpPlacement), Z_Construct_UClass_APlacement_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AManager_Statics::NewProp_bpPlacement_MetaData, ARRAY_COUNT(Z_Construct_UClass_AManager_Statics::NewProp_bpPlacement_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AManager_Statics::NewProp_bpBranch_MetaData[] = {
 		{ "Category", "Object BP" },
 		{ "ModuleRelativePath", "Manager.h" },
@@ -118,6 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeManager() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AManager_Statics::NewProp_branches_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AManager_Statics::NewProp_checkerObjs,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AManager_Statics::NewProp_checkerObjs_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AManager_Statics::NewProp_bpPlacement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AManager_Statics::NewProp_bpBranch,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AManager_Statics::NewProp_bpChecker,
 	};
@@ -144,7 +157,7 @@ void EmptyLinkFunctionForGeneratedCodeManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AManager, 3359893165);
+	IMPLEMENT_CLASS(AManager, 1832010714);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AManager(Z_Construct_UClass_AManager, &AManager::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("AManager"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AManager);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

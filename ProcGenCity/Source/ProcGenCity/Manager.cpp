@@ -13,6 +13,11 @@ AManager::AManager()
 
 void AManager::OnConstruction(const FTransform & transform)
 {
+	//Set the spawn parameters of the blueprint 
+	FActorSpawnParameters spawnParams;
+	spawnParams.Owner = this;
+	spawnParams.Instigator = Instigator;
+
 	//if the user has turned on the generation bool then spawn the initial branch which will always have 4 directions
 	if (isGenerating)
 	{
@@ -35,6 +40,10 @@ void AManager::OnConstruction(const FTransform & transform)
 		{
 			SpawnIntersections();
 		}
+
+		APlacement* placer = GetWorld()->SpawnActor<APlacement>(bpPlacement, this->GetActorLocation(), this->GetActorRotation(), spawnParams);
+
+		placer->GetCurrentCheckers();
 	}
 }
 
@@ -87,6 +96,7 @@ void AManager::SpawnInitialBranch()
 
 	//spawn the initial branch and invoke the road method to spawn the intial road networks
 	initialBranch = GetWorld()->SpawnActor<ABranch>(bpBranch, this->GetActorLocation(), this->GetActorRotation(), spawnParams);
+	initialBranch->InitCheckers(spawnParams);
 	initialBranch->SpawnRoads(bound);
 	FindBranches();
 	hasSpawned = true;	
@@ -95,12 +105,17 @@ void AManager::SpawnInitialBranch()
 
 void AManager::SpawnIntersections()
 {
+	//Set the spawn parameters of the blueprint 
+	FActorSpawnParameters spawnParams;
+	spawnParams.Owner = this;
+	spawnParams.Instigator = Instigator;
 	//iterate through the branches and spawn more roads to create the grid network
 	for (int i = 0; i < branches.Num(); ++i)
 	{
+		branches[i]->InitCheckers(spawnParams);
 		branches[i]->SpawnRoads(bound);
 		oldBranches.Add(branches[i]);
-	}	
+	}
 
 	//empty the current branches in the list
 	branches.Empty();

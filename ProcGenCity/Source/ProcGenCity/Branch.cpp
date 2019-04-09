@@ -9,6 +9,16 @@ ABranch::ABranch()
 	RootComponent = mesh;
 
 	oldNum = 0;
+
+	dirAngList.Add(FRotator(0.0f, 90.0f, 0.0f));		//UP
+	dirAngList.Add(FRotator(0.0f, -90.0f, 0.0f));		//DOWN
+	dirAngList.Add(FRotator(0.0f, 0.0f, 0.0f));			//LEFT
+	dirAngList.Add(FRotator(0.0f, 180.0f, 0.0f));		//RIGHT
+
+	branchDirs.Add(EBranchDirection::EB_UP);			//UP
+	branchDirs.Add(EBranchDirection::EB_DOWN);			//DOWN
+	branchDirs.Add(EBranchDirection::EB_LEFT);			//LEFT
+	branchDirs.Add(EBranchDirection::EB_RIGHT);			//RIGHT
 }
 
 void ABranch::OnConstruction(const FTransform & transform)
@@ -19,32 +29,36 @@ void ABranch::OnConstruction(const FTransform & transform)
 	spawnParams.Instigator = Instigator;
 
 	//initialise and spawn the checker objects 
-	InitCheckers(spawnParams);
+	//InitCheckers(spawnParams);
+}
+
+EBranchDirection ABranch::GetDirection()
+{
+	return branchDirection;
+}
+
+void ABranch::SetDirection(EBranchDirection branchDir)
+{
+	branchDirection = branchDir;
 }
 
 void ABranch::InitCheckers(FActorSpawnParameters spawnParams)
 {
 	if (checkerObjs.Num() < 4)
 	{
-		TArray<FVector> dirList;		//an array for each direction
-		TArray<FRotator> dirAngList;	//an array for each angle for the checker objects
-		dirList.Add(this->GetActorLocation() + FVector(0.0f, roadLength, 0.0f));			//UP
-		dirList.Add(this->GetActorLocation() + FVector(0.0f, -roadLength, 0.0f));			//DOWN
-		dirList.Add(this->GetActorLocation() + FVector(-roadLength, 0.0f, 0.0f));			//LEFT
-		dirList.Add(this->GetActorLocation() + FVector(roadLength, 0.0f, 0.0f));			//RIGHT
-
-		dirAngList.Add(FRotator(0.0f, 90.0f, 0.0f));		//UP
-		dirAngList.Add(FRotator(0.0f, -90.0f, 0.0f));		//DOWN
-		dirAngList.Add(FRotator(0.0f, 0.0f, 0.0f));			//LEFT
-		dirAngList.Add(FRotator(0.0f, 180.0f, 0.0f));		//RIGHT
-
-
-		for (int i = 0; i < dirList.Num(); ++i)
+		for (int i = 0; i < 4; ++i)
 		{
 			//spawn four checkers a roads with away in all four directions
-			AChecker* check1 = GetWorld()->SpawnActor<AChecker>(bpChecker, dirList[i], dirAngList[i], spawnParams);
-			
-			checkerObjs.Add(check1);
+			AChecker* check1 = GetWorld()->SpawnActor<AChecker>(bpChecker, this->GetActorLocation(), dirAngList[i], spawnParams);
+			check1->SetBranchDirection(branchDirs[i]);
+			if (check1->LocalRestraints() == true)
+			{
+				checkerObjs.Add(check1);
+			}
+			else
+			{
+				Destroy(check1);
+			}
 		}
 	}
 }
@@ -55,22 +69,25 @@ void ABranch::SpawnRoads(ABoundary* bound)
 	for (int i = 0; i < checkerObjs.Num(); ++i)
 	{
 		//it will only invoke the global goals method if it meets the requirements of the local restraints
-		if (checkerObjs[i]->LocalRestraints() == true && checkerObjs[i]->OverlapCheck() != true)
-		{
-			checkerObjs[i]->GlobalGoals();
-		}
-		else
-		{
-			break;
-		}
+		checkerObjs[i]->GlobalGoals();
 	}
 
 	//once the checker objects have spawned the roads then spawn the branches for the intersections
-	if (checkerObjs[checkerObjs.Num() - 1]->GetIsCompleted() == true && checkerObjs[checkerObjs.Num() - 1]->OverlapCheck() != true)
+	if (checkerObjs.Num() > 0)
 	{
-		for(int i = 0; i < checkerObjs.Num(); ++i)
+		if (checkerObjs[checkerObjs.Num() - 1]->GetIsCompleted() == true && checkerObjs[checkerObjs.Num() - 1]->OverlapCheck() != true)
 		{
-			SpawnBranch(checkerObjs[i]->GetActorLocation(), checkerObjs[i]->GetActorRotation());
+			for (int i = 0; i < checkerObjs.Num(); ++i)
+			{
+				if (!checkerObjs[i]->OverlapCheck() && checkerObjs[i]->LocalRestraints() == true)
+				{
+					SpawnBranch(checkerObjs[i]->GetActorLocation(), checkerObjs[i]->GetActorRotation());
+				}
+				else
+				{
+					continue;
+				}
+			}
 		}
 	}
 }
@@ -84,4 +101,5 @@ void ABranch::SpawnBranch(FVector checkerLoc, FRotator checkerRot)
 
 	//spawn a branch at the checker objects location
 	branch = GetWorld()->SpawnActor<ABranch>(bpBranch, checkerLoc, checkerRot, spawnParams);
+	branch->InitCheckers(spawnParams);
 }

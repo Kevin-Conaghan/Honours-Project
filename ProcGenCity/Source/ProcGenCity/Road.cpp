@@ -16,9 +16,33 @@ ARoad::ARoad()
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> meshObj(TEXT("/Game/StarterContent/Architecture/Floor_400x400"));
 	mesh->SetStaticMesh(meshObj.Object);
+	
+	onMaterial = CreateDefaultSubobject<UMaterial>(TEXT("Material"));
+	mesh->SetMaterial(0, onMaterial);
 
-	boxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
 
+	RootComponent = mesh;
+
+	maxPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Point"));
+	maxPoint->SetupAttachment(mesh);
+
+	maxPoint->SetWorldLocation(this->GetActorLocation() + FVector(400.0f, 400.0f, 0.0f));
 }
 
+
+void ARoad::SetDirection(bool direction, int stateDirection)
+{
+	dir = direction;
+	stateDir = stateDirection;
+}
+
+bool ARoad::GetDirection()
+{
+	return dir;
+}
+
+float ARoad::GetRoadLength()
+{
+	return roadLength;
+}
 

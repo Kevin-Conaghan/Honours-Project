@@ -1,0 +1,827 @@
+﻿Log file open, 04/04/19 11:47:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProcGenCity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.391495
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.482s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.010s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.04-10.47.17:088][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-10.47.17:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.04-10.47.17:155][  0]LogHAL: Display: Platform has ~ 16 GB [17058729984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.04-10.47.17:155][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.04-10.47.17:155][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.04-10.47.17:156][  0]LogInit: Computer: LAPTOP-TLBN2SQS
+[2019.04.04-10.47.17:156][  0]LogInit: User: kevin
+[2019.04.04-10.47.17:156][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.04-10.47.17:156][  0]LogInit: High frequency timer resolution =1.945316 MHz
+[2019.04.04-10.47.17:157][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.04-10.47.17:157][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.04-10.47.17:157][  0]LogMemory: Process Physical Memory: 101.93 MB used, 101.93 MB peak
+[2019.04.04-10.47.17:157][  0]LogMemory: Process Virtual Memory: 93.98 MB used, 93.98 MB peak
+[2019.04.04-10.47.17:157][  0]LogMemory: Physical Memory: 7208.42 MB used,  9060.05 MB free, 16268.47 MB total
+[2019.04.04-10.47.17:157][  0]LogMemory: Virtual Memory: 4655.32 MB used,  9060.05 MB free, 134217728.00 MB total
+[2019.04.04-10.47.17:212][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.04-10.47.17:212][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.04-10.47.17:215][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.04-10.47.18:203][  0]LogStreaming: Display: Took  0.991s to InitEngineTextLocalization.
+[2019.04.04-10.47.18:203][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.04-10.47.18:324][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.04-10.47.18:324][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.04-10.47.22:576][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.04-10.47.22:576][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.04-10.47.22:605][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.04.04-10.47.22:605][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.04.04-10.47.22:738][  0]LogD3D11RHI:    1. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.04.04-10.47.22:738][  0]LogD3D11RHI:       4027/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2019.04.04-10.47.22:741][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.04-10.47.22:741][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.04-10.47.22:741][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2019.04.04-10.47.22:751][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.04-10.47.22:751][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.04-10.47.22:751][  0]LogWindows: EnumDisplayDevices:
+[2019.04.04-10.47.22:751][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.04.04-10.47.22:752][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.04-10.47.22:752][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.04-10.47.22:753][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.04-10.47.22:753][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.04.04-10.47.22:753][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.04-10.47.22:753][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.04-10.47.22:753][  0]LogRHI: Texture pool is 2819 MB (70% of 4027 MB)
+[2019.04.04-10.47.22:817][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.04-10.47.22:839][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.04-10.47.22:840][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Intermediate/Shaders/WorkingDirectory/3832/).
+[2019.04.04-10.47.22:840][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/3F5E5D1F4A4CDBEBDBD63598982A890E/'.
+[2019.04.04-10.47.23:453][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.04-10.47.23:477][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.04-10.47.23:508][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.04-10.47.23:548][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.04-10.47.23:589][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.04-10.47.23:617][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.04-10.47.23:644][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.04-10.47.23:700][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.04-10.47.23:731][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.04-10.47.24:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-10.47.24:145][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.04-10.47.24:326][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-10.47.24:326][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-10.47.24:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-10.47.24:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-10.47.24:439][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.04-10.47.24:461][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.04-10.47.24:484][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.04-10.47.24:515][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.04-10.47.24:534][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.04-10.47.24:534][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.04-10.47.24:678][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.04-10.47.24:678][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.04-10.47.24:678][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.04-10.47.30:587][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.04-10.47.31:237][  0]LogDerivedDataCache: Loaded boot cache 0.65s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.04-10.47.31:238][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.04-10.47.31:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.04-10.47.31:238][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.04-10.47.31:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.04-10.47.31:238][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.04-10.47.31:273][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.04-10.47.31:287][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.04-10.47.31:287][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.04-10.47.31:287][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.04-10.47.31:324][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.04-10.47.31:327][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.04-10.47.31:345][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.04-10.47.31:920][  0]LogAssetRegistry: FAssetRegistry took 0.0326 seconds to start up
+[2019.04.04-10.47.32:648][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-10.47.32:965][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.04-10.47.32:981][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.04-10.47.32:981][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.04-10.47.32:981][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.04-10.47.32:981][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.04-10.47.33:040][  0]LogNetVersion: ProcGenCity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2895139612)
+[2019.04.04-10.47.34:933][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.308281 seconds
+[2019.04.04-10.47.34:964][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.04-10.47.34:964][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.04-10.47.34:964][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.04-10.47.44:177][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.04-10.47.44:195][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.04-10.47.44:753][  0]SourceControl: Source control is disabled
+[2019.04.04-10.47.44:753][  0]SourceControl: Source control is disabled
+[2019.04.04-10.47.44:764][  0]SourceControl: Source control is disabled
+[2019.04.04-10.47.44:770][  0]SourceControl: Source control is disabled
+[2019.04.04-10.47.45:239][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.04-10.47.45:402][  0]LogOcInput: OculusInput pre-init called
+[2019.04.04-10.47.45:656][  0]LogEngine: Initializing Engine...
+[2019.04.04-10.47.45:662][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.04-10.47.45:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-10.47.45:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-10.47.45:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-10.47.45:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-10.47.46:472][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.04-10.47.46:514][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.04-10.47.46:532][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.04-10.47.46:568][  0]LogInit: FAudioDevice initialized.
+[2019.04.04-10.47.46:568][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.04-10.47.46:732][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.04-10.47.46:762][  0]LogInit: Texture streaming: Enabled
+[2019.04.04-10.47.46:848][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.04-10.47.46:922][  0]LogInit: Transaction tracking system initialized
+[2019.04.04-10.47.47:080][  0]BlueprintLog: New page: Editor Load
+[2019.04.04-10.47.47:364][  0]LocalizationService: Localization service is disabled
+[2019.04.04-10.47.49:435][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.04-10.47.49:435][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.04-10.47.49:435][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.04-10.47.49:435][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-10.47.49:435][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-10.47.49:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-10.47.49:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-10.47.49:850][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/' took 0.03s
+[2019.04.04-10.47.50:144][  0]SourceControl: Source control is disabled
+[2019.04.04-10.47.50:145][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.04-10.47.50:147][  0]LightingResults: New page: Lighting Build
+[2019.04.04-10.47.50:161][  0]MapCheck: New page: Map Check
+[2019.04.04-10.47.50:161][  0]LightingResults: New page: Lighting Build
+[2019.04.04-10.47.51:317][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.04-10.47.51:356][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.04-10.47.51:404][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.04-10.47.51:542][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 136.828ms to complete.
+[2019.04.04-10.47.51:542][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.397
+[2019.04.04-10.47.51:716][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-10.47.51:733][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-10.47.51:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-10.47.51:771][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-10.47.51:794][  0]LogCollectionManager: Loaded 0 collections in 0.005078 seconds
+[2019.04.04-10.47.51:844][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Collections/' took 0.01s
+[2019.04.04-10.47.51:844][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Developers/kevin/Collections/' took 0.01s
+[2019.04.04-10.47.51:844][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Collections/' took 0.01s
+[2019.04.04-10.47.51:844][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.04-10.47.51:863][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2584 classes and 605 folders.
+[2019.04.04-10.47.51:879][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.04-10.47.52:486][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.04-10.47.52:497][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.04.04-10.47.52:533][  0]LogSlate: Took 0.008727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.04-10.47.52:546][  0]LogSlate: Took 0.007211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.04-10.47.52:566][  0]LogSlate: Took 0.013204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.04-10.47.52:943][  0]LogRenderer: Reallocating scene render targets to support 1276x576 Format 9 NumSamples 1 (Frame:1).
+[2019.04.04-10.47.53:219][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.04-10.47.53:219][  0]LogLoad: (Engine Initialization) Total time: 43.57 seconds
+[2019.04.04-10.47.53:219][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.04-10.47.53:270][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.04.04-10.47.53:342][  0]LogSlate: Took 0.007765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.04-10.47.53:594][  3]LogAssetRegistry: Asset discovery search completed in 21.6963 seconds
+[2019.04.04-10.47.53:598][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.04-10.47.53:599][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000186 seconds (updated 0 objects)
+[2019.04.04-10.47.54:583][  6]LogSlate: Took 0.000819 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.04-10.48.13:958][ 88]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.04-10.48.14:131][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-10.48.15:777][149]Candidate modules for hot reload:
+[2019.04.04-10.48.15:777][149]  ProcGenCity
+[2019.04.04-10.48.15:777][149]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2849 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-10.48.15:816][149]Warning: Starting HotReload took  0.1s.
+[2019.04.04-10.48.45:532][292]CompilerResultsLog: New page: Compilation - 4 Apr 2019 12:48:45
+[2019.04.04-10.48.45:533][292]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-10.48.45:533][292]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-10.48.45:533][292]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.04.04-10.48.45:533][292]CompilerResultsLog:   [1/6] Branch.gen.cpp
+[2019.04.04-10.48.45:533][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.48.45:533][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.48.45:533][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.48.45:533][292]CompilerResultsLog:   [2/6] Boundary.gen.cpp
+[2019.04.04-10.48.45:533][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:   [3/6] Branch.cpp
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:   [4/6] Boundary.cpp
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.48.45:534][292]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2849.dll
+[2019.04.04-10.48.45:534][292]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.04.04-10.48.45:535][292]CompilerResultsLog: Total build time: 28.29 seconds (Parallel executor: 0.00 seconds)
+[2019.04.04-10.48.45:535][292]LogMainFrame: MainFrame: Module compiling took 29.764 seconds
+[2019.04.04-10.48.45:535][292]Warning: HotReload failed, recompile failed
+[2019.04.04-10.49.19:255][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.49.28:751][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.49.28:924][447]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MyRoad.MyRoad
+[2019.04.04-10.49.29:504][447]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2019.04.04-10.49.30:322][447]LogActor: Warning: MyRoad_C /Engine/Transient.World_2:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.04-10.49.30:322][447]LogActor: Warning: MyRoad_C /Engine/Transient.World_1:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.04-10.49.34:020][864]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MyRoad.MyRoad
+[2019.04.04-10.49.34:364][864]LogActor: Warning: MyRoad_C /Engine/Transient.World_3:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.04-10.49.34:399][864]LogSlate: Took 0.032396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.04-10.49.35:286][946]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.04-10.49.37:331][175]LogRenderer: Reallocating scene render targets to support 1276x712 Format 9 NumSamples 1 (Frame:1).
+[2019.04.04-10.49.41:460][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.50.05:033][303]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.04-10.50.05:345][330]LogActor: Warning: MyRoad_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.MyRoad_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.04-10.50.08:953][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.50.23:789][254]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-10.50.23:819][254]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2019.04.04-10.50.36:054][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.50.36:315][480]Candidate modules for hot reload:
+[2019.04.04-10.50.36:315][480]  ProcGenCity
+[2019.04.04-10.50.36:316][480]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2141 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-10.50.36:320][480]Warning: Starting HotReload took  0.1s.
+[2019.04.04-10.51.04:092][342]CompilerResultsLog: New page: Compilation - 4 Apr 2019 12:51:04
+[2019.04.04-10.51.04:093][342]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-10.51.04:093][342]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-10.51.04:093][342]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:   [1/7] Boundary.gen.cpp
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:   [2/7] Branch.gen.cpp
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:   [3/7] Branch.cpp
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:   [4/7] Boundary.cpp
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2143: syntax error: missing ';' before '*'
+[2019.04.04-10.51.04:093][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.04-10.51.04:094][342]CompilerResultsLog:    c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h(43) : error C2238: unexpected token(s) preceding ';'
+[2019.04.04-10.51.04:094][342]CompilerResultsLog:   [5/7] Road.cpp
+[2019.04.04-10.51.04:094][342]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Binaries\Win64\UE4Editor-ProcGenCity-2141.dll
+[2019.04.04-10.51.04:094][342]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.04.04-10.51.04:094][342]CompilerResultsLog: Total build time: 27.39 seconds (Parallel executor: 0.00 seconds)
+[2019.04.04-10.51.04:094][342]LogMainFrame: MainFrame: Module compiling took 27.786 seconds
+[2019.04.04-10.51.04:094][342]Warning: HotReload failed, recompile failed
+[2019.04.04-10.51.10:749][ 83]LogVSAccessor: Warning: Couldn't goto line number '43' in 'c:\users\kevin\documents\github\honours-project\procgencity\source\procgencity\Manager.h'
+[2019.04.04-10.51.37:738][892]Candidate modules for hot reload:
+[2019.04.04-10.51.37:738][892]  ProcGenCity
+[2019.04.04-10.51.37:738][892]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,9362 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-10.51.37:744][892]Warning: Starting HotReload took  0.0s.
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: New page: Compilation - 4 Apr 2019 12:53:20
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h!
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.h!
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h!
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 17.4043214 seconds
+[2019.04.04-10.53.20:661][328]CompilerResultsLog: Building 17 actions with 8 processes...
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [1/17] Manager.gen.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [2/17] LRoad.gen.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [3/17] Boundary.gen.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [4/17] Road.gen.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [5/17] Branch.gen.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [6/17] Road.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [7/17] Checker.gen.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [8/17] LotCalculator.gen.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [9/17] Manager.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [10/17] LotDesigner.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [11/17] LRoad.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [12/17] LotCalculator.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [13/17] Branch.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [14/17] Boundary.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [15/17] Checker.cpp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [16/17] UE4Editor-ProcGenCity-9362.lib
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9362.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9362.exp
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:   [17/17] UE4Editor-ProcGenCity-9362.dll
+[2019.04.04-10.53.20:661][328]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9362.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9362.suppressed.exp
+[2019.04.04-10.53.20:662][328]CompilerResultsLog: Total build time: 102.30 seconds (Parallel executor: 81.31 seconds)
+[2019.04.04-10.53.20:662][328]LogMainFrame: MainFrame: Module compiling took 102.929 seconds
+[2019.04.04-10.53.20:728][328]LogClass: Could not find existing class Road in package /Script/ProcGenCity for HotReload, assuming new class
+[2019.04.04-10.53.20:739][328]LogHotReload: Re-instancing Road after hot-reload.
+[2019.04.04-10.53.20:934][328]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0004 seconds. Added 12 classes and 2 folders.
+[2019.04.04-10.53.20:937][328]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.04-10.53.21:339][328]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2585 classes and 607 folders.
+[2019.04.04-10.53.21:340][328]Display: HotReload took 103.6s.
+[2019.04.04-10.53.23:609][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.53.30:335][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.53.51:642][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.54.02:483][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.54.02:688][746]BlueprintLog: New page: Compile MyRoad
+[2019.04.04-10.54.04:607][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyRoad" FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/BP/MyRoad.uasset" SILENT=true
+[2019.04.04-10.54.04:659][939]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/MyRoadF0F49A454F6D84028B4B4992F21E899A.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/BP/MyRoad.uasset'
+[2019.04.04-10.54.07:628][264]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-10.54.07:666][264]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2019.04.04-10.54.11:990][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.54.13:907][918]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Mesh)
+[2019.04.04-10.54.26:664][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.56.52:298][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.56.52:551][205]Candidate modules for hot reload:
+[2019.04.04-10.56.52:551][205]  ProcGenCity
+[2019.04.04-10.56.52:552][205]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,870 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-10.56.52:557][205]Warning: Starting HotReload took  0.1s.
+[2019.04.04-10.56.55:055][451]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-10.56.55:092][451]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2019.04.04-10.57.09:269][823]CompilerResultsLog: New page: Compilation - 4 Apr 2019 12:57:09
+[2019.04.04-10.57.09:270][823]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-10.57.09:270][823]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-10.57.09:270][823]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.04-10.57.09:270][823]CompilerResultsLog:   [1/3] Road.cpp
+[2019.04.04-10.57.09:270][823]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-870.lib
+[2019.04.04-10.57.09:270][823]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-870.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-870.exp
+[2019.04.04-10.57.09:270][823]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-870.dll
+[2019.04.04-10.57.09:270][823]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-870.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-870.suppressed.exp
+[2019.04.04-10.57.09:270][823]CompilerResultsLog: Total build time: 16.18 seconds (Parallel executor: 13.31 seconds)
+[2019.04.04-10.57.09:270][823]LogMainFrame: MainFrame: Module compiling took 16.728 seconds
+[2019.04.04-10.57.09:352][823]LogHotReload: Re-instancing Road after hot-reload.
+[2019.04.04-10.57.09:591][823]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0005 seconds. Added 12 classes and 2 folders.
+[2019.04.04-10.57.09:594][823]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.04-10.57.09:916][823]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2585 classes and 607 folders.
+[2019.04.04-10.57.09:916][823]Display: HotReload took 17.4s.
+[2019.04.04-10.57.23:981][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.57.40:675][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.57.42:698][913]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Mesh)
+[2019.04.04-10.57.44:948][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.57.47:549][401]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Mesh)
+[2019.04.04-10.57.50:643][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.57.59:630][665]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Mesh)
+[2019.04.04-10.58.01:941][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.58.57:771][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-10.59.43:030][329]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto1B2954A6F43F77E937F8EBFA2135E4BFF.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.04.04-10.59.43:038][329]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.415
+[2019.04.04-10.59.43:038][329]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.415
+[2019.04.04-11.00.23:358][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.00.23:584][559]Candidate modules for hot reload:
+[2019.04.04-11.00.23:584][559]  ProcGenCity
+[2019.04.04-11.00.23:584][559]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2913 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-11.00.23:589][559]Warning: Starting HotReload took  0.0s.
+[2019.04.04-11.00.25:843][778]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.00.25:892][778]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2019.04.04-11.00.45:045][843]CompilerResultsLog: New page: Compilation - 4 Apr 2019 13:00:45
+[2019.04.04-11.00.45:045][843]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-11.00.45:045][843]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-11.00.45:045][843]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.04-11.00.45:045][843]CompilerResultsLog:   [1/3] Road.cpp
+[2019.04.04-11.00.45:045][843]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-2913.lib
+[2019.04.04-11.00.45:045][843]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2913.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2913.exp
+[2019.04.04-11.00.45:045][843]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-2913.dll
+[2019.04.04-11.00.45:045][843]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2913.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2913.suppressed.exp
+[2019.04.04-11.00.45:045][843]CompilerResultsLog: Total build time: 21.05 seconds (Parallel executor: 17.93 seconds)
+[2019.04.04-11.00.45:045][843]LogMainFrame: MainFrame: Module compiling took 21.468 seconds
+[2019.04.04-11.00.45:142][843]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0006 seconds. Added 12 classes and 2 folders.
+[2019.04.04-11.00.45:146][843]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.04-11.00.45:548][843]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2585 classes and 607 folders.
+[2019.04.04-11.00.45:548][843]Display: HotReload took 22.0s.
+[2019.04.04-11.00.57:363][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.01.06:951][138]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.01.07:020][138]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2019.04.04-11.01.32:878][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.01.33:101][ 31]Candidate modules for hot reload:
+[2019.04.04-11.01.33:101][ 31]  ProcGenCity
+[2019.04.04-11.01.33:101][ 31]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,2905 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-11.01.33:106][ 31]Warning: Starting HotReload took  0.0s.
+[2019.04.04-11.01.54:014][257]CompilerResultsLog: New page: Compilation - 4 Apr 2019 13:01:54
+[2019.04.04-11.01.54:014][257]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-11.01.54:014][257]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-11.01.54:014][257]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.04-11.01.54:014][257]CompilerResultsLog:   [1/3] Road.cpp
+[2019.04.04-11.01.54:014][257]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-2905.lib
+[2019.04.04-11.01.54:014][257]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2905.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2905.exp
+[2019.04.04-11.01.54:014][257]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-2905.dll
+[2019.04.04-11.01.54:014][257]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2905.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-2905.suppressed.exp
+[2019.04.04-11.01.54:014][257]CompilerResultsLog: Total build time: 20.51 seconds (Parallel executor: 17.55 seconds)
+[2019.04.04-11.01.54:014][257]LogMainFrame: MainFrame: Module compiling took 20.919 seconds
+[2019.04.04-11.01.54:120][257]LogHotReload: Re-instancing Road after hot-reload.
+[2019.04.04-11.01.54:409][257]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0005 seconds. Added 12 classes and 2 folders.
+[2019.04.04-11.01.54:413][257]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.04-11.01.54:778][257]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2585 classes and 607 folders.
+[2019.04.04-11.01.54:778][257]Display: HotReload took 21.7s.
+[2019.04.04-11.01.59:554][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.02.13:562][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.02.48:204][979]BlueprintLog: New page: Compile MyRoad
+[2019.04.04-11.03.16:291][264]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.04.04-11.03.16:291][264]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.04.04-11.03.16:291][264]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.04.04-11.06.18:377][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.06.18:574][787]BlueprintLog: New page: Compile MyRoad
+[2019.04.04-11.06.20:334][953]Candidate modules for hot reload:
+[2019.04.04-11.06.20:334][953]  ProcGenCity
+[2019.04.04-11.06.20:334][953]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,9642 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-11.06.20:339][953]Warning: Starting HotReload took  0.1s.
+[2019.04.04-11.06.22:269][141]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.06.22:307][141]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2019.04.04-11.06.46:343][756]CompilerResultsLog: New page: Compilation - 4 Apr 2019 13:06:46
+[2019.04.04-11.06.46:344][756]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-11.06.46:344][756]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-11.06.46:344][756]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.04-11.06.46:344][756]CompilerResultsLog:   [1/3] Road.cpp
+[2019.04.04-11.06.46:344][756]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-9642.lib
+[2019.04.04-11.06.46:344][756]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9642.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9642.exp
+[2019.04.04-11.06.46:345][756]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-9642.dll
+[2019.04.04-11.06.46:345][756]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9642.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-9642.suppressed.exp
+[2019.04.04-11.06.46:346][756]CompilerResultsLog: Total build time: 25.61 seconds (Parallel executor: 22.60 seconds)
+[2019.04.04-11.06.46:346][756]LogMainFrame: MainFrame: Module compiling took 26.019 seconds
+[2019.04.04-11.06.46:629][756]LogHotReload: Re-instancing Road after hot-reload.
+[2019.04.04-11.06.47:675][756]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0019 seconds. Added 12 classes and 2 folders.
+[2019.04.04-11.06.47:685][756]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.04-11.06.48:995][756]LogContentBrowser: Native class hierarchy populated in 0.0282 seconds. Added 2585 classes and 607 folders.
+[2019.04.04-11.06.48:995][756]Display: HotReload took 28.7s.
+[2019.04.04-11.06.50:974][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.06.54:602][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.07.12:376][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.07.18:791][287]BlueprintLog: New page: Compile MyRoad
+[2019.04.04-11.07.19:852][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyRoad" FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/BP/MyRoad.uasset" SILENT=true
+[2019.04.04-11.07.19:916][370]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/MyRoad7F664008444EA10D538A48B9860B4967.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/BP/MyRoad.uasset'
+[2019.04.04-11.07.22:896][669]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.07.22:942][669]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2019.04.04-11.07.28:153][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.07.50:057][735]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-11.07.55:598][862]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.04-11.08.33:939][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.08.38:452][348]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MyRoad.MyRoad
+[2019.04.04-11.08.41:409][628]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/MyRoad.MyRoad
+[2019.04.04-11.08.53:434][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.08.59:211][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.08.59:932][582]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.08.59:965][582]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2019.04.04-11.09.18:017][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.09.19:257][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.09.20:840][742]LogEditorViewport: Clicking on Actor (LMB): MyManager_C (MyManager)
+[2019.04.04-11.09.24:841][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.09.36:991][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.09.39:416][701]LogEditorActor: Deleted Actor: Boundary_C
+[2019.04.04-11.09.39:416][701]LogEditorActor: Actor CheckerObj is referenced by MyBranch.
+[2019.04.04-11.09.39:416][701]LogEditorActor: Actor CheckerObj is referenced by MyRoad3.
+[2019.04.04-11.09.41:581][701]LogSlate: Window 'Message' being destroyed
+[2019.04.04-11.09.41:590][701]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.09.41:591][701]LogEditorActor: Actor CheckerObj1 is referenced by MyBranch.
+[2019.04.04-11.09.41:591][701]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad4.
+[2019.04.04-11.09.41:591][701]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad5.
+[2019.04.04-11.09.41:591][701]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad6.
+[2019.04.04-11.09.41:591][701]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad7.
+[2019.04.04-11.09.41:591][701]LogEditorActor: Actor CheckerObj1 is referenced by MyRoad8.
+[2019.04.04-11.09.41:593][701]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.09.41:594][701]LogEditorActor: Actor CheckerObj2 is referenced by MyBranch.
+[2019.04.04-11.09.41:594][701]LogEditorActor: Actor CheckerObj2 is referenced by MyRoad9.
+[2019.04.04-11.09.41:594][701]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.09.41:595][701]LogEditorActor: Actor CheckerObj3 is referenced by MyBranch.
+[2019.04.04-11.09.41:595][701]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.09.41:596][701]LogEditorActor: Actor MyBranch is referenced by MyManager.
+[2019.04.04-11.09.41:596][701]LogEditorActor: Actor MyBranch is referenced by CheckerObj.
+[2019.04.04-11.09.41:596][701]LogEditorActor: Actor MyBranch is referenced by CheckerObj1.
+[2019.04.04-11.09.41:596][701]LogEditorActor: Actor MyBranch is referenced by CheckerObj2.
+[2019.04.04-11.09.41:596][701]LogEditorActor: Actor MyBranch is referenced by CheckerObj3.
+[2019.04.04-11.09.41:596][701]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.04.04-11.09.41:596][701]LogEditorActor: Actor MyManager is referenced by MyBranch.
+[2019.04.04-11.09.41:596][701]LogEditorActor: Deleted Actor: MyManager_C
+[2019.04.04-11.09.41:597][701]LogEditorActor: Actor MyRoad3 is referenced by CheckerObj.
+[2019.04.04-11.09.41:597][701]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.09.41:597][701]LogEditorActor: Actor MyRoad4 is referenced by CheckerObj1.
+[2019.04.04-11.09.41:597][701]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.09.41:597][701]LogEditorActor: Actor MyRoad5 is referenced by CheckerObj1.
+[2019.04.04-11.09.41:597][701]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.09.41:597][701]LogEditorActor: Actor MyRoad6 is referenced by CheckerObj1.
+[2019.04.04-11.09.41:597][701]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.09.41:598][701]LogEditorActor: Actor MyRoad7 is referenced by CheckerObj1.
+[2019.04.04-11.09.41:598][701]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.09.41:598][701]LogEditorActor: Actor MyRoad8 is referenced by CheckerObj1.
+[2019.04.04-11.09.41:598][701]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.09.41:598][701]LogEditorActor: Actor MyRoad9 is referenced by CheckerObj2.
+[2019.04.04-11.09.41:598][701]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.09.41:622][701]LogEditorActor: Deleted 14 Actors (2.235 secs)
+[2019.04.04-11.10.07:148][805]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto26F56AEBD43AF74EE3451C5BDD82463E4.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2019.04.04-11.10.07:155][805]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.266
+[2019.04.04-11.10.07:155][805]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.266
+[2019.04.04-11.12.56:088][362]Candidate modules for hot reload:
+[2019.04.04-11.12.56:088][362]  ProcGenCity
+[2019.04.04-11.12.56:088][362]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,8315 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-11.12.56:093][362]Warning: Starting HotReload took  0.1s.
+[2019.04.04-11.13.05:403][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.13.14:107][391]CompilerResultsLog: New page: Compilation - 4 Apr 2019 13:13:14
+[2019.04.04-11.13.14:107][391]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-11.13.14:107][391]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-11.13.14:107][391]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.04-11.13.14:107][391]CompilerResultsLog:   [1/3] Checker.cpp
+[2019.04.04-11.13.14:107][391]CompilerResultsLog:   [2/3] UE4Editor-ProcGenCity-8315.lib
+[2019.04.04-11.13.14:107][391]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8315.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8315.exp
+[2019.04.04-11.13.14:107][391]CompilerResultsLog:   [3/3] UE4Editor-ProcGenCity-8315.dll
+[2019.04.04-11.13.14:107][391]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8315.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-8315.suppressed.exp
+[2019.04.04-11.13.14:108][391]CompilerResultsLog: Total build time: 17.66 seconds (Parallel executor: 14.82 seconds)
+[2019.04.04-11.13.14:108][391]LogMainFrame: MainFrame: Module compiling took 18.027 seconds
+[2019.04.04-11.13.14:175][391]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0004 seconds. Added 12 classes and 2 folders.
+[2019.04.04-11.13.14:178][391]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.04-11.13.14:518][391]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2585 classes and 607 folders.
+[2019.04.04-11.13.14:518][391]Display: HotReload took 18.5s.
+[2019.04.04-11.13.19:402][643]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.04-11.13.24:615][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.13.26:140][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.13.28:584][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.13.31:419][352]Cmd: TRANSACTION UNDO
+[2019.04.04-11.13.31:420][352]LogEditorTransaction: Undo Edit Is Generating
+[2019.04.04-11.13.32:040][388]Cmd: TRANSACTION UNDO
+[2019.04.04-11.13.32:040][388]LogEditorTransaction: Undo Create Actors
+[2019.04.04-11.13.32:626][419]Cmd: TRANSACTION UNDO
+[2019.04.04-11.13.32:626][419]LogEditorTransaction: Undo Create Actors
+[2019.04.04-11.13.36:348][637]LogEditorActor: Actor CheckerObj4 is referenced by MyBranch1.
+[2019.04.04-11.13.36:348][637]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad10.
+[2019.04.04-11.13.36:348][637]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad11.
+[2019.04.04-11.13.36:348][637]LogEditorActor: Actor CheckerObj4 is referenced by MyRoad12.
+[2019.04.04-11.13.38:173][637]LogSlate: Window 'Message' being destroyed
+[2019.04.04-11.13.38:181][637]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.13.38:182][637]LogEditorActor: Actor CheckerObj5 is referenced by MyBranch1.
+[2019.04.04-11.13.38:182][637]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad13.
+[2019.04.04-11.13.38:182][637]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad14.
+[2019.04.04-11.13.38:182][637]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad15.
+[2019.04.04-11.13.38:182][637]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad16.
+[2019.04.04-11.13.38:182][637]LogEditorActor: Actor CheckerObj5 is referenced by MyRoad17.
+[2019.04.04-11.13.38:184][637]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.13.38:185][637]LogEditorActor: Actor CheckerObj6 is referenced by MyBranch1.
+[2019.04.04-11.13.38:185][637]LogEditorActor: Actor CheckerObj6 is referenced by MyRoad18.
+[2019.04.04-11.13.38:185][637]LogEditorActor: Actor CheckerObj6 is referenced by MyRoad19.
+[2019.04.04-11.13.38:186][637]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.13.38:187][637]LogEditorActor: Actor CheckerObj7 is referenced by MyBranch1.
+[2019.04.04-11.13.38:187][637]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.13.38:187][637]LogEditorActor: Actor MyBranch1 is referenced by CheckerObj4.
+[2019.04.04-11.13.38:188][637]LogEditorActor: Actor MyBranch1 is referenced by CheckerObj5.
+[2019.04.04-11.13.38:188][637]LogEditorActor: Actor MyBranch1 is referenced by CheckerObj6.
+[2019.04.04-11.13.38:188][637]LogEditorActor: Actor MyBranch1 is referenced by CheckerObj7.
+[2019.04.04-11.13.38:188][637]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.04.04-11.13.38:188][637]LogEditorActor: Actor MyRoad10 is referenced by CheckerObj4.
+[2019.04.04-11.13.38:188][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:188][637]LogEditorActor: Actor MyRoad11 is referenced by CheckerObj4.
+[2019.04.04-11.13.38:188][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:188][637]LogEditorActor: Actor MyRoad12 is referenced by CheckerObj4.
+[2019.04.04-11.13.38:189][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:189][637]LogEditorActor: Actor MyRoad13 is referenced by CheckerObj5.
+[2019.04.04-11.13.38:190][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:190][637]LogEditorActor: Actor MyRoad14 is referenced by CheckerObj5.
+[2019.04.04-11.13.38:190][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:191][637]LogEditorActor: Actor MyRoad15 is referenced by CheckerObj5.
+[2019.04.04-11.13.38:191][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:191][637]LogEditorActor: Actor MyRoad16 is referenced by CheckerObj5.
+[2019.04.04-11.13.38:191][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:192][637]LogEditorActor: Actor MyRoad17 is referenced by CheckerObj5.
+[2019.04.04-11.13.38:192][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:192][637]LogEditorActor: Actor MyRoad18 is referenced by CheckerObj6.
+[2019.04.04-11.13.38:192][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:192][637]LogEditorActor: Actor MyRoad19 is referenced by CheckerObj6.
+[2019.04.04-11.13.38:193][637]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.13.38:236][637]LogEditorActor: Deleted 15 Actors (1.915 secs)
+[2019.04.04-11.13.41:943][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.13.42:959][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.13.45:171][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.14.06:585][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-11.14.09:631][199]LogActor: Warning: LRoad /Engine/Transient.World_11:PersistentLevel.LRoad_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.04-11.14.09:651][200]LogActor: Warning: LotPlacement /Engine/Transient.World_12:PersistentLevel.LotPlacement_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.04-11.14.11:586][316]LogAssetEditorManager: Opening Asset editor for Class /Script/ProcGenCity.Manager
+[2019.04.04-11.14.11:728][316]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Source/ProcGenCity/Manager.cpp'
+[2019.04.04-11.15.17:938][817]LogAssetEditorManager: Opening Asset editor for Class /Script/ProcGenCity.Branch
+[2019.04.04-11.16.41:456][663]LogEditorActor: Deleted Actor: Boundary_C
+[2019.04.04-11.16.41:457][663]LogEditorActor: Actor CheckerObj8 is referenced by MyBranch2.
+[2019.04.04-11.16.41:457][663]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad20.
+[2019.04.04-11.16.41:457][663]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad21.
+[2019.04.04-11.16.41:457][663]LogEditorActor: Actor CheckerObj8 is referenced by MyRoad22.
+[2019.04.04-11.16.43:552][663]LogSlate: Window 'Message' being destroyed
+[2019.04.04-11.16.43:565][663]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.16.43:567][663]LogEditorActor: Actor CheckerObj9 is referenced by MyBranch2.
+[2019.04.04-11.16.43:567][663]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad23.
+[2019.04.04-11.16.43:567][663]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad24.
+[2019.04.04-11.16.43:567][663]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad25.
+[2019.04.04-11.16.43:567][663]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad26.
+[2019.04.04-11.16.43:567][663]LogEditorActor: Actor CheckerObj9 is referenced by MyRoad27.
+[2019.04.04-11.16.43:571][663]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.16.43:573][663]LogEditorActor: Actor CheckerObj10 is referenced by MyBranch2.
+[2019.04.04-11.16.43:573][663]LogEditorActor: Actor CheckerObj10 is referenced by MyRoad28.
+[2019.04.04-11.16.43:573][663]LogEditorActor: Actor CheckerObj10 is referenced by MyRoad29.
+[2019.04.04-11.16.43:574][663]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.16.43:575][663]LogEditorActor: Actor CheckerObj11 is referenced by MyBranch2.
+[2019.04.04-11.16.43:575][663]LogEditorActor: Deleted Actor: CheckerObj_C
+[2019.04.04-11.16.43:576][663]LogEditorActor: Actor MyBranch2 is referenced by MyManager.
+[2019.04.04-11.16.43:576][663]LogEditorActor: Actor MyBranch2 is referenced by CheckerObj8.
+[2019.04.04-11.16.43:576][663]LogEditorActor: Actor MyBranch2 is referenced by CheckerObj9.
+[2019.04.04-11.16.43:576][663]LogEditorActor: Actor MyBranch2 is referenced by CheckerObj10.
+[2019.04.04-11.16.43:576][663]LogEditorActor: Actor MyBranch2 is referenced by CheckerObj11.
+[2019.04.04-11.16.43:577][663]LogEditorActor: Deleted Actor: MyBranch_C
+[2019.04.04-11.16.43:577][663]LogEditorActor: Actor MyManager is referenced by MyBranch2.
+[2019.04.04-11.16.43:577][663]LogEditorActor: Deleted Actor: MyManager_C
+[2019.04.04-11.16.43:577][663]LogEditorActor: Actor MyRoad20 is referenced by CheckerObj8.
+[2019.04.04-11.16.43:578][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:578][663]LogEditorActor: Actor MyRoad21 is referenced by CheckerObj8.
+[2019.04.04-11.16.43:578][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:579][663]LogEditorActor: Actor MyRoad22 is referenced by CheckerObj8.
+[2019.04.04-11.16.43:579][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:579][663]LogEditorActor: Actor MyRoad23 is referenced by CheckerObj9.
+[2019.04.04-11.16.43:579][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:580][663]LogEditorActor: Actor MyRoad24 is referenced by CheckerObj9.
+[2019.04.04-11.16.43:580][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:581][663]LogEditorActor: Actor MyRoad25 is referenced by CheckerObj9.
+[2019.04.04-11.16.43:581][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:582][663]LogEditorActor: Actor MyRoad26 is referenced by CheckerObj9.
+[2019.04.04-11.16.43:582][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:582][663]LogEditorActor: Actor MyRoad27 is referenced by CheckerObj9.
+[2019.04.04-11.16.43:582][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:582][663]LogEditorActor: Actor MyRoad28 is referenced by CheckerObj10.
+[2019.04.04-11.16.43:583][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:583][663]LogEditorActor: Actor MyRoad29 is referenced by CheckerObj10.
+[2019.04.04-11.16.43:583][663]LogEditorActor: Deleted Actor: MyRoad_C
+[2019.04.04-11.16.43:619][663]LogEditorActor: Deleted 17 Actors (2.192 secs)
+[2019.04.04-11.19.42:681][558]Candidate modules for hot reload:
+[2019.04.04-11.19.42:681][558]  ProcGenCity
+[2019.04.04-11.19.42:681][558]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,3084 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.04-11.19.42:687][558]Warning: Starting HotReload took  0.1s.
+[2019.04.04-11.20.10:427][ 75]LogSavePackage: Moving '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Minimal_Default_Auto32F67396D4EC66536642479B7E4080FFF.tmp' to '../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2019.04.04-11.20.10:435][ 75]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 2.106
+[2019.04.04-11.20.10:435][ 75]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.106
+[2019.04.04-11.21.01:702][106]CompilerResultsLog: New page: Compilation - 4 Apr 2019 13:21:01
+[2019.04.04-11.21.01:702][106]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.04-11.21.01:702][106]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.04-11.21.01:702][106]CompilerResultsLog: Parsing headers for ProcGenCityEditor
+[2019.04.04-11.21.01:702][106]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\ProcGenCity.uproject" "C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\ProcGenCityEditor\Development\ProcGenCityEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.04-11.21.01:703][106]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h!
+[2019.04.04-11.21.01:703][106]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.04.04-11.21.01:703][106]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Branch.h!
+[2019.04.04-11.21.01:703][106]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Checker.h!
+[2019.04.04-11.21.01:703][106]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Source\ProcGenCity\Boundary.h!
+[2019.04.04-11.21.01:703][106]CompilerResultsLog: Reflection code generated for ProcGenCityEditor in 13.6789585 seconds
+[2019.04.04-11.21.01:703][106]CompilerResultsLog: Building 17 actions with 8 processes...
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [1/17] Road.gen.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [2/17] Branch.gen.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [3/17] Boundary.gen.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [4/17] LotCalculator.gen.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [5/17] Road.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [6/17] LRoad.gen.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [7/17] Manager.gen.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [8/17] Checker.gen.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [9/17] Manager.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [10/17] Checker.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [11/17] LotDesigner.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [12/17] LRoad.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [13/17] LotCalculator.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [14/17] Boundary.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [15/17] Branch.cpp
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:   [16/17] UE4Editor-ProcGenCity-3084.lib
+[2019.04.04-11.21.01:703][106]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3084.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3084.exp
+[2019.04.04-11.21.01:704][106]CompilerResultsLog:   [17/17] UE4Editor-ProcGenCity-3084.dll
+[2019.04.04-11.21.01:704][106]CompilerResultsLog:      Creating library C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3084.suppressed.lib and object C:\Users\kevin\Documents\GitHub\Honours-Project\ProcGenCity\Intermediate\Build\Win64\UE4Editor\Development\ProcGenCity\UE4Editor-ProcGenCity-3084.suppressed.exp
+[2019.04.04-11.21.01:704][106]CompilerResultsLog: Total build time: 78.64 seconds (Parallel executor: 61.90 seconds)
+[2019.04.04-11.21.01:704][106]LogMainFrame: MainFrame: Module compiling took 79.030 seconds
+[2019.04.04-11.21.01:798][106]LogContentBrowser: Native class hierarchy updated for 'ProcGenCity' in 0.0005 seconds. Added 12 classes and 2 folders.
+[2019.04.04-11.21.01:802][106]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.04-11.21.02:178][106]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2585 classes and 607 folders.
+[2019.04.04-11.21.02:178][106]Display: HotReload took 79.6s.
+[2019.04.04-11.21.10:946][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.21.17:342][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-11.21.17:543][ 18]LogWindows: Windows GetLastError: The operation completed successfully. (0)

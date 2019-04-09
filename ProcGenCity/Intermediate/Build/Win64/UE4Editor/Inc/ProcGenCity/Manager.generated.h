@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROCGENCITY_Manager_generated_h
 
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_RPC_WRAPPERS
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_INCLASS_NO_PURE_DECLS \
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_RPC_WRAPPERS
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAManager(); \
 	friend struct Z_Construct_UClass_AManager_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AManager)
 
 
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_INCLASS \
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAManager(); \
 	friend struct Z_Construct_UClass_AManager_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AManager)
 
 
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_STANDARD_CONSTRUCTORS \
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AManager(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AManager) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_ENHANCED_CONSTRUCTORS \
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AManager(AManager&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AManager); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AManager)
 
 
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_PRIVATE_PROPERTY_OFFSET
-#define ProcGenCity_Source_ProcGenCity_Manager_h_12_PROLOG
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_GENERATED_BODY_LEGACY \
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_PRIVATE_PROPERTY_OFFSET
+#define ProcGenCity_Source_ProcGenCity_Manager_h_13_PROLOG
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_PRIVATE_PROPERTY_OFFSET \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_RPC_WRAPPERS \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_INCLASS \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_STANDARD_CONSTRUCTORS \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_PRIVATE_PROPERTY_OFFSET \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_RPC_WRAPPERS \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_INCLASS \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ProcGenCity_Source_ProcGenCity_Manager_h_15_GENERATED_BODY \
+#define ProcGenCity_Source_ProcGenCity_Manager_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_PRIVATE_PROPERTY_OFFSET \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_INCLASS_NO_PURE_DECLS \
-	ProcGenCity_Source_ProcGenCity_Manager_h_15_ENHANCED_CONSTRUCTORS \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_PRIVATE_PROPERTY_OFFSET \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_INCLASS_NO_PURE_DECLS \
+	ProcGenCity_Source_ProcGenCity_Manager_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

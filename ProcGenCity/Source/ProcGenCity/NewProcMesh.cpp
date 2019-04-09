@@ -14,6 +14,7 @@ ANewProcMesh::ANewProcMesh()
 	procRoof = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Procedural Roof"));
 	procRoof->AttachToComponent(procMesh, FAttachmentTransformRules::KeepRelativeTransform);
 
+
 	setPlotCount = 0;
 	vertCounter = 1;
 }
@@ -22,13 +23,15 @@ void ANewProcMesh::CallTriangles()
 {
 	int evenCheck = 0;
 
-	for (int32 i = 0; i < (vertices.Num() + 1); i++)
+	for (int32 i = 0; i < (vertices.Num() + 1); ++i)
 	{
+		//if the current vertex is the 2nd last use the current point, the first point and the last point
 		if (i == (vertices.Num() - 2))
 		{
 			AddTriangles(i, 0, i + 1);
 		}
 
+		//if the current vertex is the last point use the last, first and second point
 		if(i == vertices.Num())
 		{
 			AddTriangles(i, 0, 1);
@@ -37,12 +40,14 @@ void ANewProcMesh::CallTriangles()
 		{
 			evenCheck = i % 2;
 
+			//if it is even then use the current, the next even and the roof vertex
 			if (evenCheck == 0)
 			{
 				AddTriangles(i, i + 2, i + 1);
 			}
 			else
 			{
+				//if it is off then use the current, the last odd and the last floor vertex
 				if (i != 1)
 				{
 					AddTriangles(i, i - 2, i - 1);
@@ -66,16 +71,20 @@ void ANewProcMesh::DrawMesh()
 	//set vertices
 	if (plotPoints.Num() != 0)
 	{
+		float height = FMath::RandRange(minHeight, maxHeight);
+
 		for (int i = 0; i < distances.Num(); ++i)
 		{
+
 			if (distances.Num() != 0)
 			{	
 				vertices.Add(distances[i]);
 				//add some height to the building
-				vertices.Add(distances[i] + FVector(0.0f, 0.0f, 500.0f));
+
+				vertices.Add(distances[i] + FVector(0.0f, 0.0f, height));
 
 				//use a seperate list to later implement ear clipping method for the roof of the building
-				roofVerts.Add(distances[i] + FVector(0.0f, 0.0f, 500.0f));
+				roofVerts.Add(distances[i] + FVector(0.0f, 0.0f, height));
 			}
 		}
 
@@ -91,7 +100,7 @@ void ANewProcMesh::DrawMesh()
 
 		ClearMeshData();
 
-
+		//generate the roof
 		CreateRoof();
 		DrawRoof();
 	}
@@ -99,12 +108,14 @@ void ANewProcMesh::DrawMesh()
 
 void ANewProcMesh::OnConstruction(const FTransform & Transform)
 {
+	//set the plot points then create the mesh
 	if (setPlotCount < 1)
 	{
 		SetPlotPoints();
 		DrawMesh();
 	}
 
+	//set the mesh's location to the same position as the initial plot point
 	if (plotPoints.Num() != 0)
 	{
 		this->SetActorLocation(plotPoints[0]->GetActorLocation());
@@ -114,7 +125,6 @@ void ANewProcMesh::OnConstruction(const FTransform & Transform)
 void ANewProcMesh::CreateRoof()
 {
 	Algo::Reverse(roofVerts); //reverses the elements in the array
-
 
 	ConvexEarMethod();
 

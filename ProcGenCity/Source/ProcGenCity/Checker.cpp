@@ -11,6 +11,7 @@ AChecker::AChecker()
 
 	timer = 0.0f;
 	maxTime = 5.0f;
+	overlapCount = 0;
 }
 
 void AChecker::OnConstruction(const FTransform & transform)
@@ -20,21 +21,38 @@ void AChecker::OnConstruction(const FTransform & transform)
 
 bool AChecker::OverlapCheck()
 {
+	ARoad* currRoad = NULL;
+	AChecker* checker = this;
 
-	//TArray<AActor*> actors;
-	this->GetOverlappingActors(overlappingActors, TSubclassOf<ARoad>());
+	FVector checkerPos = checker->GetActorLocation();
 
-	if (overlappingActors.Num() > 0)
+	for (TActorIterator<ARoad> actorItr(GetWorld()); actorItr; ++actorItr)
 	{
-		return true;	
-	}
-	else if (overlappingActors.Num() == 0)
-	{
-		return false;
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, "FALSE");
-	}
+		currRoad = *actorItr;
+		maxPoint.Empty();
+		currRoad->GetComponents(maxPoint);
 
-	return true;
+		FVector minRoadPos = currRoad->GetActorLocation();
+		FVector maxRoadPos;
+
+		if (maxPoint.Num() > 0)
+		{
+			maxRoadPos = maxPoint[1]->GetComponentLocation();
+			currRoadEdgePos = maxRoadPos;
+		}
+
+		if ((checkerPos.X >= minRoadPos.X && checkerPos.X <= maxRoadPos.X) &&
+			(checkerPos.Y >= minRoadPos.Y && checkerPos.Y <= maxRoadPos.Y))
+		{
+			//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, "TRUE");
+			overlapCount++;
+
+			return true;
+		}
+
+	}
+	//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Green, "FALSE");
+	return false;
 }
 
 class ABoundary* AChecker::FindBoundary()
@@ -77,6 +95,43 @@ bool AChecker::LocalRestraints()
 	return condition;
 }
 
+FVector AChecker::OffsetRoadLocation()
+{
+	switch (stateDirection)
+	{
+	case 0:
+	{
+		FVector currLoc = this->GetActorLocation();
+		FVector offsetVector = FVector(-200, -200, 0) + currLoc;
+		return offsetVector;
+		break;
+	}
+	case 1:
+	{
+		FVector currLoc = this->GetActorLocation();
+		FVector offsetVector = FVector(200 - roadLength, 200, 0) + currLoc;
+		return offsetVector;
+		break;
+	}
+	case 2:
+	{
+		FVector currLoc = this->GetActorLocation();
+		FVector offsetVector = FVector(200, -200, 0) + currLoc;
+		return offsetVector;
+		break;
+	}
+	case 3:
+	{
+		FVector currLoc = this->GetActorLocation();
+		FVector offsetVector = FVector(-200, 200 - roadLength, 0) + currLoc;
+		return offsetVector;
+		break;
+	}
+	}
+
+	return this->GetActorLocation();
+}
+
 bool AChecker::HeightBoundaryCheck(ABoundary* bound)
 {	 
 	return bound->GetBoundingHeight();
@@ -108,11 +163,14 @@ void AChecker::GlobalGoals()
 	{
 		if (!OverlapCheck())
 		{
-			roadList.Add(GetWorld()->SpawnActor<ARoad>(bpRoad, this->GetActorLocation(), FRotator(0.0f, 0.0f, 0.0f), spawnParams));
-			this->SetActorLocation(this->GetActorLocation() + offsetVector);
-			this->UpdateComponentTransforms();
-			this->UpdateOverlaps();
+			roadList.Add(GetWorld()->SpawnActor<ARoad>(bpRoad, OffsetRoadLocation(),
+				FRotator(0.0f, 0.0f, 0.0f), spawnParams));
 		}
+		else if (OverlapCheck() && overlapCount > 2)
+		{
+			Destroy(this);
+		}
+		this->SetActorLocation(this->GetActorLocation() + offsetVector);
 	}
 
 	isComplete = true;
@@ -131,6 +189,28 @@ bool AChecker::GetHeightBound()
 bool AChecker::GetWidthBound()
 {
 	return widthBound;
+}
+
+EBranchDirection AChecker::GetDirection()
+{
+	return branchDir;
+}
+
+TArray<class ARoad*> AChecker::GetRoadList()
+{
+	return roadList;
+}
+
+void AChecker::SetDirection(bool direction, int stateDir)
+{
+	dir = direction;
+	stateDirection = stateDir;
+}
+
+void AChecker::SetBranchDirection(EBranchDirection branchDirection)
+{
+	branchDir = branchDirection;
+
 }
 
 

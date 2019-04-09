@@ -7,6 +7,7 @@
 #include "Branch.h"
 #include "Checker.h"
 #include "Boundary.h"
+#include "Placement.h"
 #include "Manager.generated.h"
 
 UCLASS()
@@ -25,6 +26,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Object BP")
 		TSubclassOf<class ABranch> bpBranch;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Object BP")
+		TSubclassOf<class APlacement> bpPlacement;
+
 	UPROPERTY(VisibleAnywhere, Category = "Objects")
 		TArray<AChecker*> checkerObjs;
 
@@ -40,7 +44,7 @@ protected:
 
 
 	TArray<ABranch*> oldBranches;
-	ABoundary* bound;
+	class ABoundary* bound;
 	bool hasSpawned;
 public:	
 	virtual void OnConstruction(const FTransform& transform) override;

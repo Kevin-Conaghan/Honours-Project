@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Checker.h"
 #include "Engine.h"
+#include "Globals.h"
 #include "Branch.generated.h"
 
 UCLASS()
@@ -29,6 +30,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objects")
 		TArray<AChecker*> checkerObjs;
 
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		EBranchDirection branchDirection;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		float roadLength;
 
@@ -43,19 +47,25 @@ protected:
 	ABranch* branch;
 	class ABoundary* bound;
 
+	TArray<FVector> dirList;		//an array for each direction
+	TArray<FRotator> dirAngList;	//an array for each angle for the checker objects
+	TArray<EBranchDirection> branchDirs;
+
 	bool isHeightBound;
 	bool isWidthBound;
 
 	int oldNum;
-
-
 public:	
 
 	virtual void OnConstruction(const FTransform& transform) override;
 	
+	EBranchDirection GetDirection();
+
+
+	void SetDirection(EBranchDirection branchDir);
 
 	void InitCheckers(FActorSpawnParameters spawnParams);
-	void SpawnRoads(ABoundary* bound);
+	void SpawnRoads(class ABoundary* bound);
 	void SpawnBranch(FVector checkerLoc, FRotator checkerRot);
 
 };

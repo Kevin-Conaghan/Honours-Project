@@ -1,115 +1,124 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\ProcGenCity.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{6E6385E2-F73D-4468-8ADF-7E39EF79827C}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\ProcGenCity.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\ProcGenCityEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{B37B5B49-F072-4808-888B-03E4BBA0F4B4}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\ProcGenCity">
-      <UniqueIdentifier>{ACA7D44E-20AE-4E34-AA9D-A6444693EFD1}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\ProcGenCity\Boundary.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\Boundary.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\Branch.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\Branch.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\Checker.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\Checker.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\LotCalculator.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\LotCalculator.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\LotDesigner.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\LotDesigner.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\LotPlacement.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\LotPlacement.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\LRoad.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\LRoad.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\MyProcMesh.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\MyProcMesh.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\NewProcMesh.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\NewProcMesh.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\ProcGenCity\ProcGenCity.Build.cs">
-      <Filter>Source\ProcGenCity</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\ProcGenCity\ProcGenCity.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\ProcGenCity.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\Road.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\Road.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\ProcGenCity\SplineNetwork.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProcGenCity\SplineNetwork.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\ProcGenCity\Manager.h">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\ProcGenCity\Manager.cpp">
-      <Filter>Source\ProcGenCity</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\ProcGenCity.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{8524E177-937F-4D8D-9F57-24270D096850}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProcGenCity.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProcGenCityEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C8C000D3-525C-41D6-B748-B70C2D1F3C55}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProcGenCity">
+			<UniqueIdentifier>{EAEE96AC-5E48-4C6A-B8C5-3B209E8B824E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\ProcGenCity\Boundary.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\Boundary.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\Branch.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\Branch.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\Checker.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\Checker.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\Globals.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\Globals.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\LotCalculator.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\LotCalculator.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\LotDesigner.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\LotDesigner.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\LotPlacement.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\LotPlacement.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\LRoad.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\LRoad.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\Manager.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\Manager.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\MyProcMesh.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\MyProcMesh.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\NewProcMesh.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\NewProcMesh.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\Placement.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\Placement.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\ProcGenCity\ProcGenCity.Build.cs">
+			<Filter>Source\ProcGenCity</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProcGenCity\ProcGenCity.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\ProcGenCity.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\Road.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\Road.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProcGenCity\SplineNetwork.cpp">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProcGenCity\SplineNetwork.h">
+			<Filter>Source\ProcGenCity</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

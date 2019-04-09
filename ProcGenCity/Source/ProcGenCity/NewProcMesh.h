@@ -55,8 +55,11 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		float yVert;
 
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		float height;
+	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = "Values")
+		float minHeight;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		float maxHeight;
 
 	UPROPERTY(VisibleAnywhere, Category = "Plots")
 		TArray<ALotDesigner*> plotPoints;

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROCGENCITY_Checker_generated_h
 
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_RPC_WRAPPERS
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_INCLASS_NO_PURE_DECLS \
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_RPC_WRAPPERS
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAChecker(); \
 	friend struct Z_Construct_UClass_AChecker_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AChecker)
 
 
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_INCLASS \
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAChecker(); \
 	friend struct Z_Construct_UClass_AChecker_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AChecker)
 
 
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_STANDARD_CONSTRUCTORS \
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AChecker(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AChecker) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_ENHANCED_CONSTRUCTORS \
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AChecker(AChecker&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AChecker); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AChecker)
 
 
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_PRIVATE_PROPERTY_OFFSET
-#define ProcGenCity_Source_ProcGenCity_Checker_h_14_PROLOG
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_GENERATED_BODY_LEGACY \
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_PRIVATE_PROPERTY_OFFSET
+#define ProcGenCity_Source_ProcGenCity_Checker_h_15_PROLOG
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_PRIVATE_PROPERTY_OFFSET \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_RPC_WRAPPERS \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_INCLASS \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_STANDARD_CONSTRUCTORS \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_PRIVATE_PROPERTY_OFFSET \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_RPC_WRAPPERS \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_INCLASS \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ProcGenCity_Source_ProcGenCity_Checker_h_17_GENERATED_BODY \
+#define ProcGenCity_Source_ProcGenCity_Checker_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_PRIVATE_PROPERTY_OFFSET \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_INCLASS_NO_PURE_DECLS \
-	ProcGenCity_Source_ProcGenCity_Checker_h_17_ENHANCED_CONSTRUCTORS \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_PRIVATE_PROPERTY_OFFSET \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_INCLASS_NO_PURE_DECLS \
+	ProcGenCity_Source_ProcGenCity_Checker_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -17,9 +17,12 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 	PROCGENCITY_API UClass* Z_Construct_UClass_AChecker();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ProcGenCity();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	PROCGENCITY_API UClass* Z_Construct_UClass_ABranch_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	PROCGENCITY_API UClass* Z_Construct_UClass_ARoad_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	PROCGENCITY_API UEnum* Z_Construct_UEnum_ProcGenCity_EBranchDirection();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
@@ -37,6 +40,20 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dir_MetaData[];
+#endif
+		static void NewProp_dir_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_dir;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stateDirection_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_stateDirection;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxPoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_maxPoint;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_maxPoint_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_branch_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_branch;
@@ -51,10 +68,19 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_roadList;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_roadList_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currRoadEdgePos_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_currRoadEdgePos;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_condition_MetaData[];
 #endif
 		static void NewProp_condition_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_condition;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_branchDir_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_branchDir;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_branchDir_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_numOfRoads_MetaData[];
 #endif
@@ -90,6 +116,33 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_dir_MetaData[] = {
+		{ "Category", "Values" },
+		{ "ModuleRelativePath", "Checker.h" },
+	};
+#endif
+	void Z_Construct_UClass_AChecker_Statics::NewProp_dir_SetBit(void* Obj)
+	{
+		((AChecker*)Obj)->dir = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_dir = { UE4CodeGen_Private::EPropertyClass::Bool, "dir", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AChecker), &Z_Construct_UClass_AChecker_Statics::NewProp_dir_SetBit, METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_dir_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_dir_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_stateDirection_MetaData[] = {
+		{ "Category", "Values" },
+		{ "ModuleRelativePath", "Checker.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_stateDirection = { UE4CodeGen_Private::EPropertyClass::Int, "stateDirection", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AChecker, stateDirection), METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_stateDirection_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_stateDirection_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_maxPoint_MetaData[] = {
+		{ "Category", "Actors" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Checker.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_maxPoint = { UE4CodeGen_Private::EPropertyClass::Array, "maxPoint", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010008000020009, 1, nullptr, STRUCT_OFFSET(AChecker, maxPoint), METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_maxPoint_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_maxPoint_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_maxPoint_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "maxPoint", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00000000000a0008, 1, nullptr, 0, Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_branch_MetaData[] = {
 		{ "Category", "Actors" },
 		{ "ModuleRelativePath", "Checker.h" },
@@ -113,6 +166,13 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_roadList = { UE4CodeGen_Private::EPropertyClass::Array, "roadList", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AChecker, roadList), METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_roadList_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_roadList_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_roadList_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "roadList", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_ARoad_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_currRoadEdgePos_MetaData[] = {
+		{ "Category", "Values" },
+		{ "ModuleRelativePath", "Checker.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_currRoadEdgePos = { UE4CodeGen_Private::EPropertyClass::Struct, "currRoadEdgePos", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AChecker, currRoadEdgePos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_currRoadEdgePos_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_currRoadEdgePos_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_condition_MetaData[] = {
 		{ "Category", "Values" },
 		{ "ModuleRelativePath", "Checker.h" },
@@ -123,6 +183,14 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 		((AChecker*)Obj)->condition = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_condition = { UE4CodeGen_Private::EPropertyClass::Bool, "condition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AChecker), &Z_Construct_UClass_AChecker_Statics::NewProp_condition_SetBit, METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_condition_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_condition_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_branchDir_MetaData[] = {
+		{ "Category", "Values" },
+		{ "ModuleRelativePath", "Checker.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_branchDir = { UE4CodeGen_Private::EPropertyClass::Enum, "branchDir", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AChecker, branchDir), Z_Construct_UEnum_ProcGenCity_EBranchDirection, METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_branchDir_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_branchDir_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_branchDir_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChecker_Statics::NewProp_numOfRoads_MetaData[] = {
 		{ "Category", "Values" },
@@ -160,12 +228,19 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AChecker_Statics::NewProp_mesh = { UE4CodeGen_Private::EPropertyClass::Object, "mesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AChecker, mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AChecker_Statics::NewProp_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AChecker_Statics::NewProp_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AChecker_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_dir,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_stateDirection,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_maxPoint,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_maxPoint_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_branch,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_overlappingActors_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_roadList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_roadList_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_currRoadEdgePos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_condition,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_branchDir,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_branchDir_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_numOfRoads,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_roadLength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChecker_Statics::NewProp_bpRoad,
@@ -195,7 +270,7 @@ void EmptyLinkFunctionForGeneratedCodeChecker() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChecker, 1974075809);
+	IMPLEMENT_CLASS(AChecker, 1952662257);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AChecker(Z_Construct_UClass_AChecker, &AChecker::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("AChecker"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AChecker);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
