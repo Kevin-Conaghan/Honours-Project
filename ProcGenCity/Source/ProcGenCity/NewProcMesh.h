@@ -7,6 +7,7 @@
 #include "ProceduralMeshComponent.h"
 #include "LotDesigner.h"
 #include "EngineUtils.h"
+#include "Manager.h"
 #include "Algo/Reverse.h"
 #include "NewProcMesh.generated.h"
 
@@ -61,6 +62,25 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		float maxHeight;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		float streetLength;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		float percentageFallOff;
+
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		float area;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		float length;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		float breadth;
+
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		float height;
+
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		FVector distanceFromNode;
+
 	UPROPERTY(VisibleAnywhere, Category = "Plots")
 		TArray<ALotDesigner*> plotPoints;
 
@@ -83,11 +103,19 @@ public:
 	void ConvexEarMethod();
 	void ConcaveEarMethod();
 	void DrawRoof();
+	FVector FindCentreNode();
+	void CalculateHeight(FVector centrePos, FVector currLocation);
 
 	void SetPlotPoints();
+	void SetArea(float newArea);
+	void SetLengthBreadth(float newLength, float newBreadth);
+	void SetXYVert(float xV, float yV);
+
+	float GetLength();
+	float GetBreadth();
+
 
 	void CalcPointDist();
-	void SetXYVert(float xV, float yV);
 	
 	void EmptyPlots();
 

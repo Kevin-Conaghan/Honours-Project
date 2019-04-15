@@ -26,12 +26,21 @@ public:
 protected:
 	virtual void OnConstruction(const FTransform& transform) override;
 
+	float currLength;
+	float currBreadth;
+
 public:	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objects")
 		TSubclassOf<ALotDesigner> bpLotDesigner;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objects")
-		TSubclassOf<ANewProcMesh> bpNewProcMesh;
+		TSubclassOf<class ANewProcMesh> bpNewProcMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		float maxArea;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		float minArea;
 
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		TArray<class AChecker*> upCheckers;
@@ -45,12 +54,23 @@ public:
 		TArray<class ALotDesigner*> plotPoints;
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		FVector point;
+	UPROPERTY(VisibleAnywhere, Category = "Values")
+		TArray<FVector> lotPoints;
+
+	TArray<float> buildingAreas;
 
 	void GetCurrentCheckers();
 
 	void AllocatePoint(TArray<class AChecker*> currCheckers);
 	void DivideLots(EBranchDirection checkerDir, TArray<ARoad*> roadList, float roadLength);
 	void SpawnPoints(FVector location, int pointNumber, FActorSpawnParameters spawnParams);
+	float CalcPoints(TArray<FVector> boundPoints);
+	FVector GenerateRandPointX(float min, float max, FVector basePoint);
+	FVector GenerateRandPointY(float min, float max, FVector basePoint);
+	float CalculateArea(float length, float breadth);
+	void InitialisePointData(TArray<FVector> boundPoints, float length, float breadth);
+	void GenerateBuilding(TArray<FVector> subLot, FActorSpawnParameters spawnParams);
+	bool BuildingOverlapCheck(FVector lotPoint);
 	
 	void DestroyPoints();
 };

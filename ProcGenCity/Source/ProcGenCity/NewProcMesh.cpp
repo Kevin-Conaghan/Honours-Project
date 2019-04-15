@@ -71,7 +71,8 @@ void ANewProcMesh::DrawMesh()
 	//set vertices
 	if (plotPoints.Num() != 0)
 	{
-		float height = FMath::RandRange(minHeight, maxHeight);
+		CalculateHeight(FindCentreNode(), this->GetActorLocation());
+		height = FMath::RandRange(minHeight, maxHeight);
 
 		for (int i = 0; i < distances.Num(); ++i)
 		{
@@ -189,6 +190,72 @@ void ANewProcMesh::DrawRoof()
 
 }
 
+FVector ANewProcMesh::FindCentreNode()
+{
+	FVector location;
+
+
+	for (TActorIterator<class AManager> actorItr(GetWorld()); actorItr; ++actorItr)
+	{
+		class AManager* currManager = *actorItr;
+
+		if (currManager != NULL)
+		{
+			location = currManager->GetActorLocation();
+			GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, "Hit");
+		}
+	}
+
+	return location;
+}
+
+void ANewProcMesh::CalculateHeight(FVector centrePos, FVector currLocation)
+{
+	distanceFromNode = currLocation - centrePos;
+
+	if (distanceFromNode.X < 0)
+	{
+		distanceFromNode.X *= -1;
+	}
+	if (distanceFromNode.Y < 0)
+	{
+		distanceFromNode.Y *= -1;
+	}
+
+	FVector division = distanceFromNode / streetLength;
+
+	if (division.X > 0)
+	{
+		float newMax = maxHeight * percentageFallOff;
+		newMax = newMax / 100;
+		float newMin = minHeight * percentageFallOff;
+		newMin = newMin / 100;
+
+		int num = (int)division.X;
+
+		for (int i = 0; i < num; ++i)
+		{
+			maxHeight -= newMax;
+			minHeight -= newMin;
+		}
+	}
+	if (division.Y > 0)
+	{
+		float newMax = maxHeight * percentageFallOff;
+		newMax = newMax / 100;
+		float newMin = minHeight * percentageFallOff;
+		newMin = newMin / 100;
+
+		int num = (int)division.Y;
+
+		for (int i = 0; i < num; ++i)
+		{
+			maxHeight -= newMax;
+			minHeight -= newMin;
+		}
+	}
+}
+
 void ANewProcMesh::SetPlotPoints()
 {
 	//get the world variable and store it to reference
@@ -220,6 +287,18 @@ void ANewProcMesh::SetPlotPoints()
 	setPlotCount++;
 }
 
+void ANewProcMesh::SetArea(float newArea)
+{
+	area = newArea;
+}
+
+void ANewProcMesh::SetLengthBreadth(float newLength, float newBreadth)
+{
+	length = newLength;
+	breadth = newBreadth;
+
+}
+
 void ANewProcMesh::CalcPointDist()
 {
 	if (plotPoints.Num() != 0)
@@ -238,6 +317,16 @@ void ANewProcMesh::CalcPointDist()
 
 void ANewProcMesh::SetXYVert(float xV, float yV)
 {
+}
+
+float ANewProcMesh::GetLength()
+{
+	return length;
+}
+
+float ANewProcMesh::GetBreadth()
+{
+	return breadth;
 }
 
 void ANewProcMesh::EmptyPlots()

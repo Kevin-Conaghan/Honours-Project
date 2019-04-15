@@ -37,6 +37,11 @@ void EmptyLinkFunctionForGeneratedCodePlacement() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lotPoints_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_lotPoints;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_lotPoints_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_point_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_point;
@@ -66,6 +71,14 @@ void EmptyLinkFunctionForGeneratedCodePlacement() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_upCheckers;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_upCheckers_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_minArea_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_minArea;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxArea_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxArea;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpNewProcMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_bpNewProcMesh;
@@ -87,6 +100,14 @@ void EmptyLinkFunctionForGeneratedCodePlacement() {}
 		{ "ModuleRelativePath", "Placement.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlacement_Statics::NewProp_lotPoints_MetaData[] = {
+		{ "Category", "Values" },
+		{ "ModuleRelativePath", "Placement.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlacement_Statics::NewProp_lotPoints = { UE4CodeGen_Private::EPropertyClass::Array, "lotPoints", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(APlacement, lotPoints), METADATA_PARAMS(Z_Construct_UClass_APlacement_Statics::NewProp_lotPoints_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlacement_Statics::NewProp_lotPoints_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlacement_Statics::NewProp_lotPoints_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "lotPoints", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlacement_Statics::NewProp_point_MetaData[] = {
 		{ "Category", "Values" },
@@ -135,6 +156,20 @@ void EmptyLinkFunctionForGeneratedCodePlacement() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlacement_Statics::NewProp_upCheckers = { UE4CodeGen_Private::EPropertyClass::Array, "upCheckers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(APlacement, upCheckers), METADATA_PARAMS(Z_Construct_UClass_APlacement_Statics::NewProp_upCheckers_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlacement_Statics::NewProp_upCheckers_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlacement_Statics::NewProp_upCheckers_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "upCheckers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_AChecker_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlacement_Statics::NewProp_minArea_MetaData[] = {
+		{ "Category", "Values" },
+		{ "ModuleRelativePath", "Placement.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlacement_Statics::NewProp_minArea = { UE4CodeGen_Private::EPropertyClass::Float, "minArea", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlacement, minArea), METADATA_PARAMS(Z_Construct_UClass_APlacement_Statics::NewProp_minArea_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlacement_Statics::NewProp_minArea_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlacement_Statics::NewProp_maxArea_MetaData[] = {
+		{ "Category", "Values" },
+		{ "ModuleRelativePath", "Placement.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlacement_Statics::NewProp_maxArea = { UE4CodeGen_Private::EPropertyClass::Float, "maxArea", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlacement, maxArea), METADATA_PARAMS(Z_Construct_UClass_APlacement_Statics::NewProp_maxArea_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlacement_Statics::NewProp_maxArea_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlacement_Statics::NewProp_bpNewProcMesh_MetaData[] = {
 		{ "Category", "Objects" },
 		{ "ModuleRelativePath", "Placement.h" },
@@ -149,6 +184,8 @@ void EmptyLinkFunctionForGeneratedCodePlacement() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlacement_Statics::NewProp_bpLotDesigner = { UE4CodeGen_Private::EPropertyClass::Class, "bpLotDesigner", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(APlacement, bpLotDesigner), Z_Construct_UClass_ALotDesigner_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlacement_Statics::NewProp_bpLotDesigner_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlacement_Statics::NewProp_bpLotDesigner_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlacement_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_lotPoints,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_lotPoints_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_point,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_plotPoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_plotPoints_Inner,
@@ -160,6 +197,8 @@ void EmptyLinkFunctionForGeneratedCodePlacement() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_downCheckers_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_upCheckers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_upCheckers_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_minArea,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_maxArea,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_bpNewProcMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlacement_Statics::NewProp_bpLotDesigner,
 	};
@@ -186,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodePlacement() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlacement, 2009205005);
+	IMPLEMENT_CLASS(APlacement, 1122845794);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlacement(Z_Construct_UClass_APlacement, &APlacement::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("APlacement"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlacement);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
