@@ -33,7 +33,7 @@ void AManager::OnConstruction(const FTransform & transform)
 		bound->CalcBoundary();
 
 		//get the max amount of branches the user wants
-		int max = (bound->maxHeight + bound->maxWidth);
+		int max = bound->maxBranches;
 
 		//spawn the road network from the initial branches
 		for (int i = 0; i < max; i++)
@@ -44,7 +44,10 @@ void AManager::OnConstruction(const FTransform & transform)
 		APlacement* placer = GetWorld()->SpawnActor<APlacement>(bpPlacement, this->GetActorLocation(), this->GetActorRotation(), spawnParams);
 
 		placer->GetCurrentCheckers();
+		DestroyAddOnObjects();
 	}
+
+
 }
 
 void AManager::FindBranches()
@@ -134,4 +137,22 @@ class ABoundary* AManager::FindBoundary()
 	}
 
 	return currBoundary;
+}
+
+void AManager::DestroyAddOnObjects()
+{
+	for (TActorIterator<ABranch> actorItr(GetWorld()); actorItr; ++actorItr)
+	{
+		actorItr->Destroy();
+	}
+	for (TActorIterator<AChecker> actorItr(GetWorld()); actorItr; ++actorItr)
+	{
+		actorItr->Destroy();
+	}
+	for (TActorIterator<class APlacement> actorItr(GetWorld()); actorItr; ++actorItr)
+	{
+		actorItr->Destroy();
+	}
+	Destroy(this);
+
 }

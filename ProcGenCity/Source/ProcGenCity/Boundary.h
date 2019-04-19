@@ -24,12 +24,16 @@ public:
 	// Sets default values for this actor's properties
 	ABoundary();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
-		int maxWidth;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
-		int maxHeight;
+		int maxBranches;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
+		bool isDestroy;
+
+	int currBranches;
+	int maxWidth;
+	int maxHeight;
 
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		bool isBoundingWidth;
@@ -50,6 +54,8 @@ protected:
 public:	
 	virtual void OnConstruction(const FTransform& Transform) override;
 	
+	void DestroyAllActors();
+
 	int GetMaxHeight();
 	int GetMaxWidth();
 

@@ -22,8 +22,8 @@ class PROCGENCITY_API ANewProcMesh : public AActor
 	UPROPERTY(VisibleAnywhere, Category = "ProcMesh")
 		UProceduralMeshComponent* procRoof;
 
-	void CallTriangles();
-	void LotSort();
+	void CallTriangles(TArray<FVector> currVertices);
+	TArray<class ALotDesigner*> LotSort();
 
 public:	
 	// Sets default values for this actor's properties
@@ -35,6 +35,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		TArray<FVector> vertices;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Material")
+		UMaterial* mat;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Material")
+		class UMaterial* roofMat;
 
 	UPROPERTY()
 		TArray<FVector> normals;
@@ -62,8 +68,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		float maxHeight;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		float streetLength;
+
+		UPROPERTY(VisibleAnywhere, Category = "Values")
+			int currVertNum;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		float percentageFallOff;
@@ -84,6 +92,9 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Plots")
 		TArray<ALotDesigner*> plotPoints;
 
+	UPROPERTY(VisibleAnywhere, Category = "Plots")
+		TArray<int32> plots;
+
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		TArray<int> vertCount;
 
@@ -95,13 +106,15 @@ public:
 
 	bool hasCalculated;
 
+	FVector initialPos;
 	bool isConvex;
 
 	virtual void OnConstruction(const FTransform& Transform) override;
 
 	void CreateRoof();
-	void ConvexEarMethod();
+	void ConvexEarMethod(TArray<FVector> currVerts);
 	void ConcaveEarMethod();
+	void SetMeshData(TArray<FVector> vertices);
 	void DrawRoof();
 	FVector FindCentreNode();
 	void CalculateHeight(FVector centrePos, FVector currLocation);

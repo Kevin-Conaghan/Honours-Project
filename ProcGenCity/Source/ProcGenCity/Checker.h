@@ -63,6 +63,9 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Values")
 		bool dir;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<class UMaterial*> roadMats;
+
 protected:
 	float timer;
 	float maxTime;

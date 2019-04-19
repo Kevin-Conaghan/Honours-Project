@@ -5,7 +5,6 @@
 #include "Engine.h"
 #include "EngineUtils.h"
 
-
 // Sets default values
 ARoad::ARoad()
 {
@@ -14,32 +13,32 @@ ARoad::ARoad()
 
 	//initialise the mesh and set it to a road mesh
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	const ConstructorHelpers::FObjectFinder<UStaticMesh> meshObj(TEXT("/Game/StarterContent/Architecture/Floor_400x400"));
-	mesh->SetStaticMesh(meshObj.Object);
 	
 	onMaterial = CreateDefaultSubobject<UMaterial>(TEXT("Material"));
-	mesh->SetMaterial(0, onMaterial);
-
 
 	RootComponent = mesh;
 
 	maxPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Point"));
 	maxPoint->SetupAttachment(mesh);
 
-	maxPoint->SetWorldLocation(this->GetActorLocation() + FVector(400.0f, 400.0f, 0.0f));
+	maxPoint->SetWorldLocation(this->GetActorLocation() + FVector(roadLength, roadLength, 0.0f));
 }
 
 
-void ARoad::SetDirection(bool direction, int stateDirection)
+void ARoad::OnConstruction(const FTransform & transform)
 {
-	dir = direction;
-	stateDir = stateDirection;
+	if (onMaterial != NULL)
+	{
+		mesh->SetMaterial(0, onMaterial);
+	}
 }
 
-bool ARoad::GetDirection()
+void ARoad::SetMaterial(UMaterial* mat)
 {
-	return dir;
+	onMaterial = mat;
+	mesh->SetMaterial(0, onMaterial);
 }
+
 
 float ARoad::GetRoadLength()
 {

@@ -56,4 +56,5 @@ public:
 	void SpawnIntersections();
 
 	class ABoundary* FindBoundary();
+	void DestroyAddOnObjects();
 };

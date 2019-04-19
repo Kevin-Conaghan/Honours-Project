@@ -84,7 +84,7 @@ void APlacement::DivideLots(EBranchDirection checkerDir, TArray<ARoad*> roadList
 
 		//add each position for all lots in the up direction
 		boundPoints.Add(initialRoadLoc + FVector(0.0f, roadLength, 0.0f));											//BOTTOM LEFT
-		boundPoints.Add(initialRoadLoc + FVector(-roadLength * maxRoadLength, 400.0f, 0.0f));						//BOTTOM RIGHT
+		boundPoints.Add(initialRoadLoc + FVector(-roadLength * maxRoadLength, roadLength, 0.0f));						//BOTTOM RIGHT
 		boundPoints.Add(initialRoadLoc + FVector(-roadLength * maxRoadLength, roadLength * maxRoadHeight, 0.0f));	//TOP RIGHT
 		boundPoints.Add(initialRoadLoc + FVector(0.0f, roadLength * maxRoadHeight, 0.0f));							//TOP LEFT
 

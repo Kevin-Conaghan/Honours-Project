@@ -51,6 +51,7 @@ void ABranch::InitCheckers(FActorSpawnParameters spawnParams)
 			//spawn four checkers a roads with away in all four directions
 			AChecker* check1 = GetWorld()->SpawnActor<AChecker>(bpChecker, this->GetActorLocation(), dirAngList[i], spawnParams);
 			check1->SetBranchDirection(branchDirs[i]);
+
 			if (check1->LocalRestraints() == true)
 			{
 				checkerObjs.Add(check1);
@@ -65,6 +66,7 @@ void ABranch::InitCheckers(FActorSpawnParameters spawnParams)
 
 void ABranch::SpawnRoads(ABoundary* bound)
 {
+
 	//for the number of checker objects in the scene currently invoke the global goals method which will spawn the roads
 	for (int i = 0; i < checkerObjs.Num(); ++i)
 	{

@@ -163,8 +163,31 @@ void AChecker::GlobalGoals()
 	{
 		if (!OverlapCheck())
 		{
-			roadList.Add(GetWorld()->SpawnActor<ARoad>(bpRoad, OffsetRoadLocation(),
-				FRotator(0.0f, 0.0f, 0.0f), spawnParams));
+
+			ARoad* road = GetWorld()->SpawnActor<ARoad>(bpRoad, OffsetRoadLocation(),
+				FRotator(0.0f, 0.0f, 0.0f), spawnParams);
+
+
+
+
+			if (branchDir == EBranchDirection::EB_UP || branchDir == EBranchDirection::EB_DOWN)
+			{
+				if (i == 0)
+				{
+					road->SetMaterial(roadMats[2]);
+				}
+				else
+				{
+					road->SetMaterial(roadMats[0]);
+				}
+			}
+			else
+			{
+				road->SetMaterial(roadMats[1]);
+			}
+
+
+			roadList.Add(road);
 		}
 		else if (OverlapCheck() && overlapCount > 2)
 		{

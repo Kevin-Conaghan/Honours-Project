@@ -36,26 +36,16 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objects")
 		TSubclassOf<class ANewProcMesh> bpNewProcMesh;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
-		float maxArea;
+	float maxArea;
+	float minArea;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
-		float minArea;
-
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		TArray<class AChecker*> upCheckers;
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		TArray<class AChecker*> downCheckers;
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		TArray<class AChecker*> leftCheckers;
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		TArray<class AChecker*> rightCheckers;
-	UPROPERTY(VisibleAnywhere, Category = " Values")
-		TArray<class ALotDesigner*> plotPoints;
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		FVector point;
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		TArray<FVector> lotPoints;
+	TArray<class AChecker*> upCheckers;
+	TArray<class AChecker*> downCheckers;
+	TArray<class AChecker*> leftCheckers;
+	TArray<class AChecker*> rightCheckers;
+	TArray<class ALotDesigner*> plotPoints;
+	FVector point;
+	TArray<FVector> lotPoints;
 
 	TArray<float> buildingAreas;
 

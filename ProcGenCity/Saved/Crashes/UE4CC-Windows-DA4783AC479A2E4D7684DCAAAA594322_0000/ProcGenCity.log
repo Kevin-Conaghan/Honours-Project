@@ -1,0 +1,534 @@
+﻿Log file open, 04/18/19 16:08:03
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProcGenCity
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.296394
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.138s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.015s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.18-15.08.04:629][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.18-15.08.04:629][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.18-15.08.04:640][  0]LogHAL: Display: Platform has ~ 16 GB [17058729984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.18-15.08.04:640][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.18-15.08.04:640][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.18-15.08.04:641][  0]LogInit: Computer: LAPTOP-TLBN2SQS
+[2019.04.18-15.08.04:641][  0]LogInit: User: kevin
+[2019.04.18-15.08.04:641][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.18-15.08.04:641][  0]LogInit: High frequency timer resolution =1.945312 MHz
+[2019.04.18-15.08.04:642][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.18-15.08.04:642][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.18-15.08.04:642][  0]LogMemory: Process Physical Memory: 102.71 MB used, 102.71 MB peak
+[2019.04.18-15.08.04:642][  0]LogMemory: Process Virtual Memory: 92.46 MB used, 92.46 MB peak
+[2019.04.18-15.08.04:642][  0]LogMemory: Physical Memory: 6177.90 MB used,  10090.57 MB free, 16268.47 MB total
+[2019.04.18-15.08.04:642][  0]LogMemory: Virtual Memory: 4653.75 MB used,  10090.57 MB free, 134217728.00 MB total
+[2019.04.18-15.08.04:663][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.18-15.08.04:663][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.18-15.08.04:664][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.18-15.08.05:047][  0]LogStreaming: Display: Took  0.383s to InitEngineTextLocalization.
+[2019.04.18-15.08.05:047][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.18-15.08.05:107][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.18-15.08.05:107][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.18-15.08.05:358][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.18-15.08.05:358][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.18-15.08.06:113][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.04.18-15.08.06:113][  0]LogD3D11RHI:       4027/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.18-15.08.06:132][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.04.18-15.08.06:132][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.18-15.08.06:134][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.18-15.08.06:134][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.18-15.08.06:134][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.18-15.08.06:164][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.18-15.08.06:165][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.18-15.08.06:165][  0]LogWindows: EnumDisplayDevices:
+[2019.04.18-15.08.06:165][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.04.18-15.08.06:165][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.18-15.08.06:165][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.18-15.08.06:165][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.18-15.08.06:165][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.04.18-15.08.06:165][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.18-15.08.06:165][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.18-15.08.06:165][  0]LogRHI: Texture pool is 2819 MB (70% of 4027 MB)
+[2019.04.18-15.08.06:213][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.18-15.08.06:234][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.18-15.08.06:235][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Intermediate/Shaders/WorkingDirectory/14976/).
+[2019.04.18-15.08.06:235][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/FDDF240747C4610F0CD84AA1B232C62F/'.
+[2019.04.18-15.08.06:575][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.18-15.08.06:589][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.18-15.08.06:609][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.18-15.08.06:625][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.18-15.08.06:638][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.18-15.08.06:654][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.18-15.08.06:668][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.18-15.08.06:684][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.18-15.08.06:691][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:772][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-15.08.06:773][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.18-15.08.06:852][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.18-15.08.06:852][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.18-15.08.06:878][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.18-15.08.06:878][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.18-15.08.06:890][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.18-15.08.06:903][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.18-15.08.06:917][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.18-15.08.06:930][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.18-15.08.06:939][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.18-15.08.06:939][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.18-15.08.07:012][  0]LogXGEController: Cleaning working directory: C:/Users/kevin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.18-15.08.07:012][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.18-15.08.07:012][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.18-15.08.07:012][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.18-15.08.07:806][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.18-15.08.07:860][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.18-15.08.07:861][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.18-15.08.07:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.18-15.08.07:861][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.18-15.08.07:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.18-15.08.07:861][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.18-15.08.07:875][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.18-15.08.07:888][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.18-15.08.07:888][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.18-15.08.07:888][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.18-15.08.07:906][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.18-15.08.07:908][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.18-15.08.07:908][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.18-15.08.07:985][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2019.04.18-15.08.08:379][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.18-15.08.08:529][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.18-15.08.08:534][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.18-15.08.08:534][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.18-15.08.08:534][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.18-15.08.08:534][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.18-15.08.08:552][  0]LogNetVersion: ProcGenCity 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2895139612)
+[2019.04.18-15.08.09:193][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.133182 seconds
+[2019.04.18-15.08.09:203][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.18-15.08.09:203][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.18-15.08.09:203][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.18-15.08.10:172][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.18-15.08.10:188][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.18-15.08.10:371][  0]SourceControl: Source control is disabled
+[2019.04.18-15.08.10:371][  0]SourceControl: Source control is disabled
+[2019.04.18-15.08.10:373][  0]SourceControl: Source control is disabled
+[2019.04.18-15.08.10:374][  0]SourceControl: Source control is disabled
+[2019.04.18-15.08.10:553][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.18-15.08.10:616][  0]LogOcInput: OculusInput pre-init called
+[2019.04.18-15.08.10:685][  0]LogEngine: Initializing Engine...
+[2019.04.18-15.08.10:686][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.18-15.08.10:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.18-15.08.10:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.18-15.08.10:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.18-15.08.10:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.18-15.08.10:939][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.18-15.08.10:957][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.18-15.08.10:965][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-15.08.11:740][  0]LogInit: FAudioDevice initialized.
+[2019.04.18-15.08.11:740][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.18-15.08.12:080][  0]LogDerivedDataCache: Saved boot cache 0.34s 71MB C:/Users/kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.18-15.08.12:103][  0]LogInit: Texture streaming: Enabled
+[2019.04.18-15.08.12:123][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.18-15.08.12:139][  0]LogInit: Transaction tracking system initialized
+[2019.04.18-15.08.12:173][  0]BlueprintLog: New page: Editor Load
+[2019.04.18-15.08.12:267][  0]LocalizationService: Localization service is disabled
+[2019.04.18-15.08.12:535][  0]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.04.18-15.08.12:771][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.18-15.08.12:771][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.18-15.08.12:771][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.18-15.08.13:007][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.18-15.08.13:007][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.18-15.08.13:007][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.18-15.08.13:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.18-15.08.13:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.18-15.08.13:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.18-15.08.13:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.18-15.08.13:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/' took 0.02s
+[2019.04.18-15.08.13:200][  0]SourceControl: Source control is disabled
+[2019.04.18-15.08.13:200][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.18-15.08.13:200][  0]LightingResults: New page: Lighting Build
+[2019.04.18-15.08.13:206][  0]MapCheck: New page: Map Check
+[2019.04.18-15.08.13:206][  0]LightingResults: New page: Lighting Build
+[2019.04.18-15.08.13:515][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.18-15.08.13:521][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.18-15.08.13:545][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.18-15.08.13:634][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88.621ms to complete.
+[2019.04.18-15.08.13:634][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.435
+[2019.04.18-15.08.13:752][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-15.08.13:763][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-15.08.13:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-15.08.13:785][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-15.08.13:794][  0]LogCollectionManager: Loaded 0 collections in 0.002467 seconds
+[2019.04.18-15.08.13:838][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Saved/Collections/' took 0.01s
+[2019.04.18-15.08.13:838][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Developers/kevin/Collections/' took 0.01s
+[2019.04.18-15.08.13:838][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/Content/Collections/' took 0.01s
+[2019.04.18-15.08.13:838][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.18-15.08.13:850][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2585 classes and 605 folders.
+[2019.04.18-15.08.13:858][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.18-15.08.13:925][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.04.18-15.08.13:932][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.18-15.08.13:949][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.18-15.08.13:958][  0]LogSlate: Took 0.000827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.18-15.08.13:965][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.18-15.08.14:077][  0]LogRenderer: Reallocating scene render targets to support 1348x644 Format 9 NumSamples 1 (Frame:1).
+[2019.04.18-15.08.14:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.04.18-15.08.14:306][  0]LogLoad: (Engine Initialization) Total time: 12.43 seconds
+[2019.04.18-15.08.14:306][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.18-15.08.14:325][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.18-15.08.14:346][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.04.18-15.08.14:377][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.18-15.08.14:397][  1]LogAssetRegistry: Asset discovery search completed in 6.4341 seconds
+[2019.04.18-15.08.14:399][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.18-15.08.14:399][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2019.04.18-15.14.56:977][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-15.14.57:474][819]Candidate modules for hot reload:
+[2019.04.18-15.14.57:474][819]  ProcGenCity
+[2019.04.18-15.14.57:474][819]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProcGenCity,3078 Win64 Development -TargetType=Editor -Project="../../../../../../Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" -canskiplink "C:/Users/kevin/Documents/GitHub/Honours-Project/ProcGenCity/ProcGenCity.uproject" ]
+[2019.04.18-15.14.57:479][819]Warning: Starting HotReload took  0.3s.
+[2019.04.18-15.15.19:233][369]CompilerResultsLog: New page: Compilation - 18 Apr 2019 17:15:19
+[2019.04.18-15.15.19:233][369]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.18-15.15.19:233][369]CompilerResultsLog: Creating makefile for hot reloading ProcGenCityEditor (no existing makefile)
+[2019.04.18-15.15.19:233][369]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.18-15.15.19:233][369]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.18-15.15.19:233][369]CompilerResultsLog: Target is up to date
+[2019.04.18-15.15.19:233][369]CompilerResultsLog: Total build time: 21.04 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2019.04.18-15.15.19:233][369]LogMainFrame: MainFrame: Module compiling took 21.767 seconds
+[2019.04.18-15.15.19:306][369]LogContentBrowser: Native class hierarchy populated in 0.0221 seconds. Added 2586 classes and 607 folders.
+[2019.04.18-15.15.19:306][369]Display: HotReload took 22.1s.
+[2019.04.18-15.16.48:881][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-15.16.50:176][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-15.16.53:749][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-15.16.54:404][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:411][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:420][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:427][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:437][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:444][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:450][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:458][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:464][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:472][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:480][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:489][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:497][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:506][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:515][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:526][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:532][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:537][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:543][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:550][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:556][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:562][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:570][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:579][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:587][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:595][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:603][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:610][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:618][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:625][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:632][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:640][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:649][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:656][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:665][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:671][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:678][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:684][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:691][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:697][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:706][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:715][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:721][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:731][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:736][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:742][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:750][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:758][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:766][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:773][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:780][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:787][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:793][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:799][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:805][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:810][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:815][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:821][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:828][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:834][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:841][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:849][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:856][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:863][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:871][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:878][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:885][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:892][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:898][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:904][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:910][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:917][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:924][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:930][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:938][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:944][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:949][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:956][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:964][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:972][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:978][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:983][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:988][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.54:995][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:003][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:010][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:016][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:026][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:031][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:038][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:045][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:054][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:061][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:068][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:076][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:084][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:091][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:099][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:106][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:115][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:121][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_100 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:129][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_101 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:137][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_102 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:146][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_103 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:155][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_104 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:162][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_105 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:169][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_106 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:176][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_107 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:186][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_108 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:195][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_109 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:201][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_110 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:210][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_111 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:219][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:227][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:236][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:244][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_115 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:252][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:260][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_117 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:268][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:276][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_119 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:284][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:294][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_121 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:301][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:308][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_123 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:314][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:321][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_125 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:328][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:337][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_127 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:347][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:354][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_129 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:361][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:367][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:374][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:387][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_133 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:398][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:408][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_135 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:421][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:431][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_137 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:440][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:450][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_139 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:460][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:469][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_141 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:478][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:487][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_143 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:494][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:499][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_145 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:506][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:512][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_147 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:519][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:524][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_149 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:530][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:537][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_151 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:545][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:553][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_153 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:561][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:571][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_155 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:579][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:585][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:592][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:599][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:606][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:612][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_161 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:619][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:626][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_163 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:633][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:642][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_165 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:650][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.16.55:657][ 66]LogActor: Warning: NewProcMesh_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.NewProcMesh_C_167 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.17.14:358][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-15.17.14:854][ 15]LogSlate: Took 0.000515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.18-15.17.16:387][ 84]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Boundary_2.Collider) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.04.18-15.17.18:517][208]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.18-15.17.18:530][208]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/NewProcMesh.NewProcMesh
+[2019.04.18-15.17.19:885][208]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2019.04.18-15.17.21:745][208]LogActor: Warning: NewProcMesh_C /Engine/Transient.World_4:PersistentLevel.NewProcMesh_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.18-15.17.21:746][208]LogWindows: Windows GetLastError: The operation completed successfully. (0)

@@ -55,13 +55,14 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 		static void NewProp_isBoundingWidth_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isBoundingWidth;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxHeight_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isDestroy_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_maxHeight;
+		static void NewProp_isDestroy_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isDestroy;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxWidth_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxBranches_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_maxWidth;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_maxBranches;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_boundaryBox_MetaData[];
 #endif
@@ -119,19 +120,23 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth = { UE4CodeGen_Private::EPropertyClass::Bool, "isBoundingWidth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABoundary), &Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_maxHeight_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_isDestroy_MetaData[] = {
 		{ "Category", "Values" },
 		{ "ModuleRelativePath", "Boundary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_maxHeight = { UE4CodeGen_Private::EPropertyClass::Int, "maxHeight", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABoundary, maxHeight), METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_maxHeight_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_maxHeight_MetaData)) };
+	void Z_Construct_UClass_ABoundary_Statics::NewProp_isDestroy_SetBit(void* Obj)
+	{
+		((ABoundary*)Obj)->isDestroy = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_isDestroy = { UE4CodeGen_Private::EPropertyClass::Bool, "isDestroy", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABoundary), &Z_Construct_UClass_ABoundary_Statics::NewProp_isDestroy_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_isDestroy_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_isDestroy_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_maxWidth_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_maxBranches_MetaData[] = {
 		{ "Category", "Values" },
 		{ "ModuleRelativePath", "Boundary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_maxWidth = { UE4CodeGen_Private::EPropertyClass::Int, "maxWidth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABoundary, maxWidth), METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_maxWidth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_maxWidth_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABoundary_Statics::NewProp_maxBranches = { UE4CodeGen_Private::EPropertyClass::Int, "maxBranches", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABoundary, maxBranches), METADATA_PARAMS(Z_Construct_UClass_ABoundary_Statics::NewProp_maxBranches_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundary_Statics::NewProp_maxBranches_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoundary_Statics::NewProp_boundaryBox_MetaData[] = {
 		{ "Category", "Collider" },
@@ -147,8 +152,8 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_branches_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_isBoundingWidth,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_maxHeight,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_maxWidth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_isDestroy,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_maxBranches,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundary_Statics::NewProp_boundaryBox,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABoundary_Statics::StaticCppClassTypeInfo = {
@@ -174,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeBoundary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABoundary, 2733585516);
+	IMPLEMENT_CLASS(ABoundary, 998784353);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABoundary(Z_Construct_UClass_ABoundary, &ABoundary::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ABoundary"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABoundary);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

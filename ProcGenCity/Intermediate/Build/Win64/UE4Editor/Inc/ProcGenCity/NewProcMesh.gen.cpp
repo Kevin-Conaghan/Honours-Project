@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 	PROCEDURALMESHCOMPONENT_API UScriptStruct* Z_Construct_UScriptStruct_FProcMeshTangent();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
+	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 	PROCEDURALMESHCOMPONENT_API UClass* Z_Construct_UClass_UProceduralMeshComponent_NoRegister();
 // End Cross Module References
 	void ANewProcMesh::StaticRegisterNativesANewProcMesh()
@@ -42,6 +43,11 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_vertCount;
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_vertCount_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_plots_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_plots;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_plots_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_plotPoints_MetaData[];
 #endif
@@ -72,9 +78,9 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_percentageFallOff;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_streetLength_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currVertNum_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_streetLength;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_currVertNum;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxHeight_MetaData[];
 #endif
@@ -122,6 +128,14 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_normals;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_normals_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_roofMat_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_roofMat;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mat_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_mat;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_vertices_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_vertices;
@@ -161,6 +175,14 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertCount = { UE4CodeGen_Private::EPropertyClass::Array, "vertCount", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, vertCount), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertCount_MetaData)) };
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertCount_Inner = { UE4CodeGen_Private::EPropertyClass::Int, "vertCount", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plots_MetaData[] = {
+		{ "Category", "Plots" },
+		{ "ModuleRelativePath", "NewProcMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plots = { UE4CodeGen_Private::EPropertyClass::Array, "plots", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, plots), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plots_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plots_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plots_Inner = { UE4CodeGen_Private::EPropertyClass::Int, "plots", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000020000, 1, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plotPoints_MetaData[] = {
 		{ "Category", "Plots" },
@@ -212,12 +234,12 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_percentageFallOff = { UE4CodeGen_Private::EPropertyClass::Float, "percentageFallOff", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, percentageFallOff), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_percentageFallOff_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_percentageFallOff_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_streetLength_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_currVertNum_MetaData[] = {
 		{ "Category", "Values" },
 		{ "ModuleRelativePath", "NewProcMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_streetLength = { UE4CodeGen_Private::EPropertyClass::Float, "streetLength", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, streetLength), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_streetLength_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_streetLength_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_currVertNum = { UE4CodeGen_Private::EPropertyClass::Int, "currVertNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, currVertNum), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_currVertNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_currVertNum_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_maxHeight_MetaData[] = {
 		{ "Category", "Values" },
@@ -290,6 +312,20 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_normals = { UE4CodeGen_Private::EPropertyClass::Array, "normals", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000000, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, normals), METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_normals_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_normals_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_normals_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "normals", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofMat_MetaData[] = {
+		{ "Category", "Material" },
+		{ "ModuleRelativePath", "NewProcMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofMat = { UE4CodeGen_Private::EPropertyClass::Object, "roofMat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, roofMat), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofMat_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofMat_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_mat_MetaData[] = {
+		{ "Category", "Material" },
+		{ "ModuleRelativePath", "NewProcMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANewProcMesh_Statics::NewProp_mat = { UE4CodeGen_Private::EPropertyClass::Object, "mat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANewProcMesh, mat), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_mat_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANewProcMesh_Statics::NewProp_mat_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices_MetaData[] = {
 		{ "Category", "Values" },
 		{ "ModuleRelativePath", "NewProcMesh.h" },
@@ -324,6 +360,8 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANewProcMesh_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertCount_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plots,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plots_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plotPoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_plotPoints_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_distanceFromNode,
@@ -332,7 +370,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_length,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_area,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_percentageFallOff,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_streetLength,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_currVertNum,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_maxHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_minHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_yVert,
@@ -349,6 +387,8 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_triangles_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_normals,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_normals_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofMat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_mat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_vertices_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewProcMesh_Statics::NewProp_roofVerts,
@@ -379,7 +419,7 @@ void EmptyLinkFunctionForGeneratedCodeNewProcMesh() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANewProcMesh, 3050388941);
+	IMPLEMENT_CLASS(ANewProcMesh, 1613489621);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANewProcMesh(Z_Construct_UClass_ANewProcMesh, &ANewProcMesh::StaticClass, TEXT("/Script/ProcGenCity"), TEXT("ANewProcMesh"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANewProcMesh);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

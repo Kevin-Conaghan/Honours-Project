@@ -18,33 +18,26 @@ public:
 	// Sets default values for this actor's properties
 	ARoad();
 
+	virtual void OnConstruction(const FTransform& transform) override;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class UStaticMeshComponent* mesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class UMaterial* onMaterial;
 
-	UPROPERTY(VisibleAnywhere, Category = "Point")
-		class USceneComponent* maxPoint;
-
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		bool dir;
-
-	UPROPERTY(VisibleAnywhere, Category = "Values")
-		int stateDir;
-
-	UPROPERTY(EditAnywhere, Category = "Values")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Values")
 		float roadLength;
 
-
+	UPROPERTY(VisibleAnywhere, Category = "Point")
+		class USceneComponent* maxPoint;
 
 protected:
 
 
 public:
 
-	void SetDirection(bool direction, int stateDirection);
-	bool GetDirection();
+	void SetMaterial(UMaterial* mat);
 	float GetRoadLength();
 };
 

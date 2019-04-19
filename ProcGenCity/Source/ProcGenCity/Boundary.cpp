@@ -12,7 +12,10 @@ ABoundary::ABoundary()
 
 void ABoundary::OnConstruction(const FTransform & Transform)
 {
-
+	if (isDestroy)
+	{
+		DestroyAllActors();
+	}
 }
 
 int ABoundary::GetMaxHeight()
@@ -41,22 +44,15 @@ void ABoundary::CalcBoundary()
 	FindNumBranches();
 
 	//the condition will return true and this method will stop the road network from spawning more
-	if (branches.Num() < maxWidth)
+	if (branches.Num() < maxBranches)
 	{
 		isBoundingWidth = false;
-	}
-	else
-	{
-		isBoundingWidth = true;
-	}
-
-	if (branches.Num() < maxHeight)
-	{
 		isBoundingHeight = false;
 	}
 	else
 	{
 		isBoundingHeight = true;
+		isBoundingWidth = true;
 	}	
 }
 
@@ -78,6 +74,27 @@ void ABoundary::FindNumBranches()
 		}
 		oldBranch = currBranch;
 	}
+}
+
+void ABoundary::DestroyAllActors()
+{
+	if (isDestroy)
+	{
+		for (TActorIterator<ARoad> actorItr(GetWorld()); actorItr; ++actorItr)
+		{
+			actorItr->Destroy();
+		}
+		for (TActorIterator<ANewProcMesh> actorItr(GetWorld()); actorItr; ++actorItr)
+		{
+			actorItr->Destroy();
+		}
+		for (TActorIterator<class AManager> actorItr(GetWorld()); actorItr; ++actorItr)
+		{
+			actorItr->Destroy();
+		}
+		Destroy(this);
+	}
+
 }
 
 
